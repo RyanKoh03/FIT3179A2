@@ -1,1611 +1,1520 @@
-"","Country","Year","Coal"
-"1","Afghanistan",2015,2.843264
-"2","Afghanistan",2016,2.878736
-"3","Afghanistan",2017,3.447824
-"4","Afghanistan",2018,3.8472
-"5","Afghanistan",2019,3.954767
-"6","Afghanistan",2020,4.150072
-"7","Afghanistan",2021,4.203536
-"8","Albania",2015,0.322432
-"9","Albania",2016,0.190528
-"10","Albania",2017,0.274609
-"11","Albania",2018,0.472656
-"12","Albania",2019,0.322432
-"13","Albania",2020,0.331439
-"14","Albania",2021,0.174413
-"15","Algeria",2015,0.501968
-"16","Algeria",2016,0
-"17","Algeria",2017,0.795088
-"18","Algeria",2018,1.330002
-"19","Algeria",2019,1.095512
-"20","Algeria",2020,1.098537
-"21","Algeria",2021,1.095536
-"22","Andorra",2015,0
-"23","Andorra",2016,0
-"24","Andorra",2017,0
-"25","Andorra",2018,0
-"26","Andorra",2019,0
-"27","Andorra",2020,0
-"28","Andorra",2021,0
-"29","Angola",2015,0
-"30","Angola",2016,0
-"31","Angola",2017,0
-"32","Angola",2018,0
-"33","Angola",2019,0
-"34","Angola",2020,0
-"35","Angola",2021,0
-"36","Anguilla",2015,0
-"37","Anguilla",2016,0
-"38","Anguilla",2017,0
-"39","Anguilla",2018,0
-"40","Anguilla",2019,0
-"41","Anguilla",2020,0
-"42","Anguilla",2021,0
-"43","Antarctica",2015,NA
-"44","Antarctica",2016,NA
-"45","Antarctica",2017,NA
-"46","Antarctica",2018,NA
-"47","Antarctica",2019,NA
-"48","Antarctica",2020,NA
-"49","Antarctica",2021,NA
-"50","Antigua and Barbuda",2015,0
-"51","Antigua and Barbuda",2016,0
-"52","Antigua and Barbuda",2017,0
-"53","Antigua and Barbuda",2018,0
-"54","Antigua and Barbuda",2019,0
-"55","Antigua and Barbuda",2020,0
-"56","Antigua and Barbuda",2021,0
-"57","Argentina",2015,5.466688
-"58","Argentina",2016,4.191696
-"59","Argentina",2017,4.279469
-"60","Argentina",2018,4.356408
-"61","Argentina",2019,2.14344
-"62","Argentina",2020,2.64246
-"63","Argentina",2021,4.816141
-"64","Armenia",2015,0.003662
-"65","Armenia",2016,0.003667
-"66","Armenia",2017,0.003666
-"67","Armenia",2018,0.003664
-"68","Armenia",2019,0.010992
-"69","Armenia",2020,0.010839
-"70","Armenia",2021,0.012484
-"71","Aruba",2015,0
-"72","Aruba",2016,0
-"73","Aruba",2017,0
-"74","Aruba",2018,0
-"75","Aruba",2019,0
-"76","Aruba",2020,0
-"77","Aruba",2021,0
-"78","Australia",2015,174.188664
-"79","Australia",2016,179.549565
-"80","Australia",2017,176.906195
-"81","Australia",2018,169.370489
-"82","Australia",2019,164.471156
-"83","Australia",2020,156.143134
-"84","Australia",2021,150.958384
-"85","Austria",2015,14.372978
-"86","Austria",2016,13.334845
-"87","Austria",2017,14.023157
-"88","Austria",2018,12.295195
-"89","Austria",2019,13.005251
-"90","Austria",2020,11.393343
-"91","Austria",2021,12.269229
-"92","Azerbaijan",2015,0.010993
-"93","Azerbaijan",2016,0.003664
-"94","Azerbaijan",2017,0.003664
-"95","Azerbaijan",2018,0.003664
-"96","Azerbaijan",2019,0.003664
-"97","Azerbaijan",2020,0.003674
-"98","Azerbaijan",2021,0.003664
-"99","Bahamas",2015,0.003664
-"100","Bahamas",2016,0.003671
-"101","Bahamas",2017,0.00367
-"102","Bahamas",2018,0.003664
-"103","Bahamas",2019,0.003664
-"104","Bahamas",2020,0.004997
-"105","Bahamas",2021,0.005078
-"106","Bahrain",2015,0
-"107","Bahrain",2016,0
-"108","Bahrain",2017,0
-"109","Bahrain",2018,0
-"110","Bahrain",2019,0
-"111","Bahrain",2020,0
-"112","Bahrain",2021,0
-"113","Bangladesh",2015,8.606736
-"114","Bangladesh",2016,6.074912
-"115","Bangladesh",2017,7.151838
-"116","Bangladesh",2018,8.17837
-"117","Bangladesh",2019,15.003548
-"118","Bangladesh",2020,16.948182
-"119","Bangladesh",2021,14.852834
-"120","Barbados",2015,0
-"121","Barbados",2016,0
-"122","Barbados",2017,0
-"123","Barbados",2018,0
-"124","Barbados",2019,0
-"125","Barbados",2020,0
-"126","Barbados",2021,0
-"127","Belarus",2015,4.094111
-"128","Belarus",2016,3.691613
-"129","Belarus",2017,3.882261
-"130","Belarus",2018,3.962831
-"131","Belarus",2019,4.099648
-"132","Belarus",2020,3.777468
-"133","Belarus",2021,3.281815
-"134","Belgium",2015,14.438079
-"135","Belgium",2016,13.543486
-"136","Belgium",2017,13.308096
-"137","Belgium",2018,13.366943
-"138","Belgium",2019,13.192232
-"139","Belgium",2020,10.651276
-"140","Belgium",2021,11.015942
-"141","Belize",2015,0
-"142","Belize",2016,0
-"143","Belize",2017,0
-"144","Belize",2018,0
-"145","Belize",2019,0
-"146","Belize",2020,0
-"147","Belize",2021,0
-"148","Benin",2015,0.109991
-"149","Benin",2016,0.212512
-"150","Benin",2017,0.201624
-"151","Benin",2018,0
-"152","Benin",2019,0.271136
-"153","Benin",2020,0.245894
-"154","Benin",2021,0.28435
-"155","Bermuda",2015,0
-"156","Bermuda",2016,0
-"157","Bermuda",2017,0
-"158","Bermuda",2018,0
-"159","Bermuda",2019,0
-"160","Bermuda",2020,0
-"161","Bermuda",2021,0
-"162","Bhutan",2015,0.212512
-"163","Bhutan",2016,0.312419
-"164","Bhutan",2017,0.381056
-"165","Bhutan",2018,0.423885
-"166","Bhutan",2019,0.42136
-"167","Bhutan",2020,0.442315
-"168","Bhutan",2021,0.448014
-"169","Bonaire, Saint Eustatius and Saba",2015,0
-"170","Bonaire, Saint Eustatius and Saba",2016,0
-"171","Bonaire, Saint Eustatius and Saba",2017,0
-"172","Bonaire, Saint Eustatius and Saba",2018,0
-"173","Bonaire, Saint Eustatius and Saba",2019,0
-"174","Bonaire, Saint Eustatius and Saba",2020,0
-"175","Bonaire, Saint Eustatius and Saba",2021,0
-"176","Bosnia and Herzegovina",2015,13.490848
-"177","Bosnia and Herzegovina",2016,16.150912
-"178","Bosnia and Herzegovina",2017,16.458688
-"179","Bosnia and Herzegovina",2018,16.600674
-"180","Bosnia and Herzegovina",2019,15.33384
-"181","Bosnia and Herzegovina",2020,15.762171
-"182","Bosnia and Herzegovina",2021,8.294507
-"183","Botswana",2015,2.896267
-"184","Botswana",2016,3.57034
-"185","Botswana",2017,4.253904
-"186","Botswana",2018,4.623968
-"187","Botswana",2019,3.860278
-"188","Botswana",2020,3.467812
-"189","Botswana",2021,3.653634
-"190","Brazil",2015,69.451663
-"191","Brazil",2016,63.831218
-"192","Brazil",2017,67.321878
-"193","Brazil",2018,65.840737
-"194","Brazil",2019,61.887745
-"195","Brazil",2020,56.240806
-"196","Brazil",2021,68.229888
-"197","British Virgin Islands",2015,0
-"198","British Virgin Islands",2016,0
-"199","British Virgin Islands",2017,0
-"200","British Virgin Islands",2018,0
-"201","British Virgin Islands",2019,0
-"202","British Virgin Islands",2020,0
-"203","British Virgin Islands",2021,0
-"204","Brunei Darussalam",2015,0
-"205","Brunei Darussalam",2016,0
-"206","Brunei Darussalam",2017,0
-"207","Brunei Darussalam",2018,0
-"208","Brunei Darussalam",2019,0.362736
-"209","Brunei Darussalam",2020,0.380776
-"210","Brunei Darussalam",2021,0.385681
-"211","Bulgaria",2015,27.680239
-"212","Bulgaria",2016,24.1565
-"213","Bulgaria",2017,25.793896
-"214","Bulgaria",2018,22.089263
-"215","Bulgaria",2019,20.767134
-"216","Bulgaria",2020,16.597579
-"217","Bulgaria",2021,20.853566
-"218","Burkina Faso",2015,0
-"219","Burkina Faso",2016,0
-"220","Burkina Faso",2017,0
-"221","Burkina Faso",2018,0
-"222","Burkina Faso",2019,0
-"223","Burkina Faso",2020,0
-"224","Burkina Faso",2021,0
-"225","Burundi",2015,0.007328
-"226","Burundi",2016,0.040304
-"227","Burundi",2017,0.021984
-"228","Burundi",2018,0.018223
-"229","Burundi",2019,0.047632
-"230","Burundi",2020,0.046479
-"231","Burundi",2021,0.049964
-"232","Cambodia",2015,2.205728
-"233","Cambodia",2016,3.055776
-"234","Cambodia",2017,3.612704
-"235","Cambodia",2018,3.839872
-"236","Cambodia",2019,4.418784
-"237","Cambodia",2020,4.638542
-"238","Cambodia",2021,4.698298
-"239","Canada",2015,78.098819
-"240","Canada",2016,73.497136
-"241","Canada",2017,72.688193
-"242","Canada",2018,60.795568
-"243","Canada",2019,58.325705
-"244","Canada",2020,48.034995
-"245","Canada",2021,43.86208
-"246","Cape Verde",2015,0
-"247","Cape Verde",2016,0
-"248","Cape Verde",2017,0
-"249","Cape Verde",2018,0
-"250","Cape Verde",2019,0
-"251","Cape Verde",2020,0
-"252","Cape Verde",2021,0
-"253","Central African Republic",2015,0
-"254","Central African Republic",2016,0
-"255","Central African Republic",2017,0
-"256","Central African Republic",2018,0
-"257","Central African Republic",2019,0
-"258","Central African Republic",2020,0
-"259","Central African Republic",2021,0
-"260","Chad",2015,0
-"261","Chad",2016,0
-"262","Chad",2017,0
-"263","Chad",2018,0
-"264","Chad",2019,0
-"265","Chad",2020,0
-"266","Chad",2021,0
-"267","Chile",2015,27.16856
-"268","Chile",2016,27.007344
-"269","Chile",2017,27.738944
-"270","Chile",2018,27.048812
-"271","Chile",2019,31.016986
-"272","Chile",2020,26.051363
-"273","Chile",2021,26.184921
-"274","China",2015,7266.978828
-"275","China",2016,7071.403711
-"276","China",2017,7163.317856
-"277","China",2018,7316.399776
-"278","China",2019,7543.157408
-"279","China",2020,7605.716883
-"280","China",2021,7955.985419
-"281","Christmas Island",2015,NA
-"282","Christmas Island",2016,NA
-"283","Christmas Island",2017,NA
-"284","Christmas Island",2018,NA
-"285","Christmas Island",2019,NA
-"286","Christmas Island",2020,NA
-"287","Christmas Island",2021,NA
-"288","Colombia",2015,19.1444
-"289","Colombia",2016,19.422276
-"290","Colombia",2017,14.685855
-"291","Colombia",2018,13.714352
-"292","Colombia",2019,18.425648
-"293","Colombia",2020,15.474417
-"294","Colombia",2021,12.015417
-"295","Comoros",2015,0
-"296","Comoros",2016,0
-"297","Comoros",2017,0
-"298","Comoros",2018,0
-"299","Comoros",2019,0
-"300","Comoros",2020,0
-"301","Comoros",2021,0
-"302","Congo",2015,0
-"303","Congo",2016,0
-"304","Congo",2017,0
-"305","Congo",2018,0
-"306","Congo",2019,0
-"307","Congo",2020,0
-"308","Congo",2021,0
-"309","Cook Islands",2015,0
-"310","Cook Islands",2016,0
-"311","Cook Islands",2017,0
-"312","Cook Islands",2018,0
-"313","Cook Islands",2019,0
-"314","Cook Islands",2020,0
-"315","Cook Islands",2021,0
-"316","Costa Rica",2015,0.003664
-"317","Costa Rica",2016,0.003664
-"318","Costa Rica",2017,0.01832
-"319","Costa Rica",2018,0
-"320","Costa Rica",2019,0
-"321","Costa Rica",2020,0
-"322","Costa Rica",2021,0
-"323","Côte d'Ivoire",2015,0
-"324","Côte d'Ivoire",2016,0
-"325","Côte d'Ivoire",2017,0
-"326","Côte d'Ivoire",2018,0
-"327","Côte d'Ivoire",2019,0
-"328","Côte d'Ivoire",2020,0
-"329","Côte d'Ivoire",2021,0
-"330","Croatia",2015,2.376274
-"331","Croatia",2016,2.561225
-"332","Croatia",2017,1.551263
-"333","Croatia",2018,1.448575
-"334","Croatia",2019,1.677532
-"335","Croatia",2020,1.423842
-"336","Croatia",2021,1.685619
-"337","Cuba",2015,0.021987
-"338","Cuba",2016,0.007328
-"339","Cuba",2017,0.014656
-"340","Cuba",2018,0.014654
-"341","Cuba",2019,0.003665
-"342","Cuba",2020,0.004997
-"343","Cuba",2021,0.005078
-"344","Curaçao",2015,0
-"345","Curaçao",2016,0
-"346","Curaçao",2017,0
-"347","Curaçao",2018,0
-"348","Curaçao",2019,0
-"349","Curaçao",2020,0
-"350","Curaçao",2021,0
-"351","Cyprus",2015,0.014687
-"352","Cyprus",2016,0.001951
-"353","Cyprus",2017,0.011694
-"354","Cyprus",2018,0.05385
-"355","Cyprus",2019,0.068051
-"356","Cyprus",2020,0.068052
-"357","Cyprus",2021,0.201473
-"358","Czech Republic",2015,64.295744
-"359","Czech Republic",2016,64.708775
-"360","Czech Republic",2017,64.285837
-"361","Czech Republic",2018,63.553489
-"362","Czech Republic",2019,57.447407
-"363","Czech Republic",2020,49.846815
-"364","Czech Republic",2021,51.777952
-"365","North Korea",2015,19.081272
-"366","North Korea",2016,21.67256
-"367","North Korea",2017,46.195313
-"368","North Korea",2018,42.495072
-"369","North Korea",2019,47.449195
-"370","North Korea",2020,49.8124
-"371","North Korea",2021,50.454114
-"372","Democratic Republic of the Congo",2015,0
-"373","Democratic Republic of the Congo",2016,0
-"374","Democratic Republic of the Congo",2017,0
-"375","Democratic Republic of the Congo",2018,0
-"376","Democratic Republic of the Congo",2019,0
-"377","Democratic Republic of the Congo",2020,0
-"378","Democratic Republic of the Congo",2021,0
-"379","Denmark",2015,7.242452
-"380","Denmark",2016,8.413077
-"381","Denmark",2017,6.252826
-"382","Denmark",2018,6.361589
-"383","Denmark",2019,3.588381
-"384","Denmark",2020,3.142834
-"385","Denmark",2021,4.376753
-"386","Djibouti",2015,0
-"387","Djibouti",2016,0
-"388","Djibouti",2017,0
-"389","Djibouti",2018,0
-"390","Djibouti",2019,0
-"391","Djibouti",2020,0
-"392","Djibouti",2021,0
-"393","Dominica",2015,0
-"394","Dominica",2016,0
-"395","Dominica",2017,0
-"396","Dominica",2018,0
-"397","Dominica",2019,0
-"398","Dominica",2020,0
-"399","Dominica",2021,0
-"400","Dominican Republic",2015,2.890444
-"401","Dominican Republic",2016,2.872576
-"402","Dominican Republic",2017,3.342079
-"403","Dominican Republic",2018,3.286608
-"404","Dominican Republic",2019,3.264624
-"405","Dominican Republic",2020,4.452132
-"406","Dominican Republic",2021,4.524063
-"407","Ecuador",2015,0
-"408","Ecuador",2016,0
-"409","Ecuador",2017,0
-"410","Ecuador",2018,0
-"411","Ecuador",2019,0
-"412","Ecuador",2020,0
-"413","Ecuador",2021,0
-"414","Egypt",2015,1.344688
-"415","Egypt",2016,1.608496
-"416","Egypt",2017,6.507264
-"417","Egypt",2018,13.0072
-"418","Egypt",2019,10.123632
-"419","Egypt",2020,3.853963
-"420","Egypt",2021,6.228362
-"421","El Salvador",2015,0.003662
-"422","El Salvador",2016,0.003662
-"423","El Salvador",2017,0.003662
-"424","El Salvador",2018,0.003664
-"425","El Salvador",2019,0.003662
-"426","El Salvador",2020,0.003391
-"427","El Salvador",2021,0.004499
-"428","Equatorial Guinea",2015,0
-"429","Equatorial Guinea",2016,0
-"430","Equatorial Guinea",2017,0
-"431","Equatorial Guinea",2018,0
-"432","Equatorial Guinea",2019,0
-"433","Equatorial Guinea",2020,0
-"434","Equatorial Guinea",2021,0
-"435","Eritrea",2015,0
-"436","Eritrea",2016,0
-"437","Eritrea",2017,0
-"438","Eritrea",2018,0
-"439","Eritrea",2019,0
-"440","Eritrea",2020,0
-"441","Eritrea",2021,0
-"442","Estonia",2015,11.263031
-"443","Estonia",2016,12.752646
-"444","Estonia",2017,13.87706
-"445","Estonia",2018,13.06273
-"446","Estonia",2019,7.775731
-"447","Estonia",2020,5.335555
-"448","Estonia",2021,6.221633
-"449","Ethiopia",2015,1.091872
-"450","Ethiopia",2016,1.399648
-"451","Ethiopia",2017,1.542544
-"452","Ethiopia",2018,1.114115
-"453","Ethiopia",2019,1.205698
-"454","Ethiopia",2020,1.176275
-"455","Ethiopia",2021,1.264484
-"456","Faeroe Islands",2015,0
-"457","Faeroe Islands",2016,0
-"458","Faeroe Islands",2017,0
-"459","Faeroe Islands",2018,0
-"460","Faeroe Islands",2019,0
-"461","Faeroe Islands",2020,0
-"462","Faeroe Islands",2021,0
-"463","Micronesia (Federated States of)",2015,0
-"464","Micronesia (Federated States of)",2016,0
-"465","Micronesia (Federated States of)",2017,0
-"466","Micronesia (Federated States of)",2018,0
-"467","Micronesia (Federated States of)",2019,0
-"468","Micronesia (Federated States of)",2020,0
-"469","Micronesia (Federated States of)",2021,0
-"470","Fiji",2015,0
-"471","Fiji",2016,0
-"472","Fiji",2017,0
-"473","Fiji",2018,0
-"474","Fiji",2019,0
-"475","Fiji",2020,0
-"476","Fiji",2021,0
-"477","Finland",2015,16.840545
-"478","Finland",2016,18.658283
-"479","Finland",2017,17.087034
-"480","Finland",2018,17.922401
-"481","Finland",2019,15.255686
-"482","Finland",2020,11.871713
-"483","Finland",2021,12.291231
-"484","Panama Canal Zone",2015,NA
-"485","Panama Canal Zone",2016,NA
-"486","Panama Canal Zone",2017,NA
-"487","Panama Canal Zone",2018,NA
-"488","Panama Canal Zone",2019,NA
-"489","Panama Canal Zone",2020,NA
-"490","Panama Canal Zone",2021,NA
-"491","France",2015,37.740819
-"492","France",2016,35.794215
-"493","France",2017,39.789541
-"494","France",2018,34.96638
-"495","France",2019,29.29436
-"496","France",2020,23.826985
-"497","France",2021,28.877789
-"498","French Equatorial Africa",2015,NA
-"499","French Equatorial Africa",2016,NA
-"500","French Equatorial Africa",2017,NA
-"501","French Equatorial Africa",2018,NA
-"502","French Equatorial Africa",2019,NA
-"503","French Equatorial Africa",2020,NA
-"504","French Equatorial Africa",2021,NA
-"505","French Guiana",2015,0
-"506","French Guiana",2016,0
-"507","French Guiana",2017,0
-"508","French Guiana",2018,0
-"509","French Guiana",2019,0
-"510","French Guiana",2020,0
-"511","French Guiana",2021,0
-"512","French Polynesia",2015,0
-"513","French Polynesia",2016,0
-"514","French Polynesia",2017,0
-"515","French Polynesia",2018,0
-"516","French Polynesia",2019,0
-"517","French Polynesia",2020,0
-"518","French Polynesia",2021,0
-"519","French West Africa",2015,NA
-"520","French West Africa",2016,NA
-"521","French West Africa",2017,NA
-"522","French West Africa",2018,NA
-"523","French West Africa",2019,NA
-"524","French West Africa",2020,NA
-"525","French West Africa",2021,NA
-"526","Gabon",2015,0
-"527","Gabon",2016,0
-"528","Gabon",2017,0
-"529","Gabon",2018,0
-"530","Gabon",2019,0
-"531","Gabon",2020,0
-"532","Gabon",2021,0
-"533","Gambia",2015,0
-"534","Gambia",2016,0
-"535","Gambia",2017,0
-"536","Gambia",2018,0
-"537","Gambia",2019,0
-"538","Gambia",2020,0
-"539","Gambia",2021,0
-"540","Georgia",2015,1.110606
-"541","Georgia",2016,1.033248
-"542","Georgia",2017,1.157824
-"543","Georgia",2018,1.20912
-"544","Georgia",2019,0.974624
-"545","Georgia",2020,1.001849
-"546","Georgia",2021,0.527202
-"547","Germany",2015,341.018336
-"548","Germany",2016,329.445089
-"549","Germany",2017,310.763015
-"550","Germany",2018,295.67355
-"551","Germany",2019,240.086494
-"552","Germany",2020,197.357678
-"553","Germany",2021,230.221049
-"554","Ghana",2015,0
-"555","Ghana",2016,0
-"556","Ghana",2017,0
-"557","Ghana",2018,0
-"558","Ghana",2019,0
-"559","Ghana",2020,0
-"560","Ghana",2021,0
-"561","Greece",2015,29.948851
-"562","Greece",2016,23.593526
-"563","Greece",2017,26.019318
-"564","Greece",2018,24.851033
-"565","Greece",2019,17.874125
-"566","Greece",2020,10.129119
-"567","Greece",2021,9.775375
-"568","Greenland",2015,0
-"569","Greenland",2016,0
-"570","Greenland",2017,0
-"571","Greenland",2018,0
-"572","Greenland",2019,0
-"573","Greenland",2020,0
-"574","Greenland",2021,0
-"575","Grenada",2015,0
-"576","Grenada",2016,0
-"577","Grenada",2017,0
-"578","Grenada",2018,0
-"579","Grenada",2019,0
-"580","Grenada",2020,0
-"581","Grenada",2021,0
-"582","Guadeloupe",2015,0.450806
-"583","Guadeloupe",2016,0.461085
-"584","Guadeloupe",2017,0.454962
-"585","Guadeloupe",2018,0.45233
-"586","Guadeloupe",2019,0.46339
-"587","Guadeloupe",2020,0.41928
-"588","Guadeloupe",2021,0.41928
-"589","Guatemala",2015,4.01208
-"590","Guatemala",2016,4.714539
-"591","Guatemala",2017,3.909488
-"592","Guatemala",2018,4.619391
-"593","Guatemala",2019,4.510384
-"594","Guatemala",2020,4.174395
-"595","Guatemala",2021,5.538529
-"596","Guinea",2015,0
-"597","Guinea",2016,0
-"598","Guinea",2017,0
-"599","Guinea",2018,0
-"600","Guinea",2019,0
-"601","Guinea",2020,0
-"602","Guinea",2021,0
-"603","Guinea-Bissau",2015,0
-"604","Guinea-Bissau",2016,0
-"605","Guinea-Bissau",2017,0
-"606","Guinea-Bissau",2018,0
-"607","Guinea-Bissau",2019,0
-"608","Guinea-Bissau",2020,0
-"609","Guinea-Bissau",2021,0
-"610","Guyana",2015,0
-"611","Guyana",2016,0
-"612","Guyana",2017,0
-"613","Guyana",2018,0
-"614","Guyana",2019,0
-"615","Guyana",2020,0
-"616","Guyana",2021,0
-"617","Haiti",2015,0
-"618","Haiti",2016,0
-"619","Haiti",2017,0
-"620","Haiti",2018,0
-"621","Haiti",2019,0
-"622","Haiti",2020,0
-"623","Haiti",2021,0
-"624","Honduras",2015,0.337208
-"625","Honduras",2016,0.150281
-"626","Honduras",2017,0.003663
-"627","Honduras",2018,0
-"628","Honduras",2019,0
-"629","Honduras",2020,0
-"630","Honduras",2021,0
-"631","Hong Kong",2015,25.37101
-"632","Hong Kong",2016,25.3732
-"633","Hong Kong",2017,23.768368
-"634","Hong Kong",2018,24.409568
-"635","Hong Kong",2019,23.379984
-"636","Hong Kong",2020,12.454231
-"637","Hong Kong",2021,13.833671
-"638","Hungary",2015,10.517019
-"639","Hungary",2016,9.769268
-"640","Hungary",2017,10.047647
-"641","Hungary",2018,9.446999
-"642","Hungary",2019,8.18614
-"643","Hungary",2020,7.440498
-"644","Hungary",2021,6.391263
-"645","Iceland",2015,0.661181
-"646","Iceland",2016,0.660089
-"647","Iceland",2017,0.693221
-"648","Iceland",2018,0.715029
-"649","Iceland",2019,0.684012
-"650","Iceland",2020,0.667573
-"651","Iceland",2021,0.667573
-"652","India",2015,1487.461399
-"653","India",2016,1529.990408
-"654","India",2017,1560.98815
-"655","India",2018,1677.600364
-"656","India",2019,1677.653708
-"657","India",2020,1588.060207
-"658","India",2021,1802.311897
-"659","Indonesia",2015,197.815239
-"660","Indonesia",2016,206.32789
-"661","Indonesia",2017,221.093265
-"662","Indonesia",2018,262.222125
-"663","Indonesia",2019,315.400701
-"664","Indonesia",2020,300.517866
-"665","Indonesia",2021,303.153575
-"666","Iraq",2015,0
-"667","Iraq",2016,0
-"668","Iraq",2017,0
-"669","Iraq",2018,0
-"670","Iraq",2019,0
-"671","Iraq",2020,0
-"672","Iraq",2021,0
-"673","Ireland",2015,9.351334
-"674","Ireland",2016,9.205271
-"675","Ireland",2017,7.869732
-"676","Ireland",2018,6.35416
-"677","Ireland",2019,4.543313
-"678","Ireland",2020,3.757762
-"679","Ireland",2021,6.292886
-"680","Iran",2015,4.301511
-"681","Iran",2016,3.451488
-"682","Iran",2017,4.70824
-"683","Iran",2018,4.920752
-"684","Iran",2019,3.729934
-"685","Iran",2020,3.740171
-"686","Iran",2021,3.729952
-"687","Israel",2015,25.088862
-"688","Israel",2016,20.832269
-"689","Israel",2017,18.834126
-"690","Israel",2018,18.130561
-"691","Israel",2019,18.012224
-"692","Israel",2020,15.701249
-"693","Israel",2021,14.043493
-"694","Italy",2015,53.062916
-"695","Italy",2016,48.558932
-"696","Italy",2017,42.039754
-"697","Italy",2018,39.424353
-"698","Italy",2019,30.657925
-"699","Italy",2020,22.269892
-"700","Italy",2021,23.999725
-"701","Jamaica",2015,0.267596
-"702","Jamaica",2016,0.25648
-"703","Jamaica",2017,0.216176
-"704","Jamaica",2018,0.230832
-"705","Jamaica",2019,0.267598
-"706","Jamaica",2020,0.364765
-"707","Jamaica",2021,0.370658
-"708","Japan",2015,465.830288
-"709","Japan",2016,456.551209
-"710","Japan",2017,458.482158
-"711","Japan",2018,441.964043
-"712","Japan",2019,432.250117
-"713","Japan",2020,399.366949
-"714","Japan",2021,418.820499
-"715","Jordan",2015,0.681504
-"716","Jordan",2016,0.853841
-"717","Jordan",2017,0.578912
-"718","Jordan",2018,0.791424
-"719","Jordan",2019,0.784096
-"720","Jordan",2020,0.617038
-"721","Jordan",2021,0.542521
-"722","Kazakhstan",2015,183.235611
-"723","Kazakhstan",2016,183.031911
-"724","Kazakhstan",2017,187.961862
-"725","Kazakhstan",2018,190.787784
-"726","Kazakhstan",2019,176.146122
-"727","Kazakhstan",2020,181.010491
-"728","Kazakhstan",2021,180.818472
-"729","Kenya",2015,1.322408
-"730","Kenya",2016,1.304384
-"731","Kenya",2017,1.227704
-"732","Kenya",2018,1.838957
-"733","Kenya",2019,1.623462
-"734","Kenya",2020,1.583859
-"735","Kenya",2021,1.702633
-"736","Kiribati",2015,0
-"737","Kiribati",2016,0
-"738","Kiribati",2017,0
-"739","Kiribati",2018,0
-"740","Kiribati",2019,0
-"741","Kiribati",2020,0
-"742","Kiribati",2021,0
-"743","Kosovo",2015,6.151856
-"744","Kosovo",2016,6.665722
-"745","Kosovo",2017,5.602256
-"746","Kosovo",2018,5.664544
-"747","Kosovo",2019,5.944109
-"748","Kosovo",2020,6.112784
-"749","Kosovo",2021,3.216723
-"750","Kuwait",2015,0
-"751","Kuwait",2016,0
-"752","Kuwait",2017,0
-"753","Kuwait",2018,0
-"754","Kuwait",2019,0
-"755","Kuwait",2020,0
-"756","Kuwait",2021,0
-"757","Kuwaiti Oil Fires",2015,NA
-"758","Kuwaiti Oil Fires",2016,NA
-"759","Kuwaiti Oil Fires",2017,NA
-"760","Kuwaiti Oil Fires",2018,NA
-"761","Kuwaiti Oil Fires",2019,NA
-"762","Kuwaiti Oil Fires",2020,NA
-"763","Kuwaiti Oil Fires",2021,NA
-"764","Kyrgyzstan",2015,4.338176
-"765","Kyrgyzstan",2016,3.4808
-"766","Kyrgyzstan",2017,3.3892
-"767","Kyrgyzstan",2018,4.041392
-"768","Kyrgyzstan",2019,3.16936
-"769","Kyrgyzstan",2020,3.125244
-"770","Kyrgyzstan",2021,3.599533
-"771","Laos",2015,5.149553
-"772","Laos",2016,12.014256
-"773","Laos",2017,14.971989
-"774","Laos",2018,15.417187
-"775","Laos",2019,14.205328
-"776","Laos",2020,14.911796
-"777","Laos",2021,15.103899
-"778","Latvia",2015,0.190231
-"779","Latvia",2016,0.165653
-"780","Latvia",2017,0.167253
-"781","Latvia",2018,0.197038
-"782","Latvia",2019,0.166208
-"783","Latvia",2020,0.098523
-"784","Latvia",2021,0.137075
-"785","Lebanon",2015,0.626544
-"786","Lebanon",2016,0.626544
-"787","Lebanon",2017,0.626544
-"788","Lebanon",2018,0.626544
-"789","Lebanon",2019,0.626544
-"790","Lebanon",2020,0.493054
-"791","Lebanon",2021,0.43351
-"792","Leeward Islands",2015,NA
-"793","Leeward Islands",2016,NA
-"794","Leeward Islands",2017,NA
-"795","Leeward Islands",2018,NA
-"796","Leeward Islands",2019,NA
-"797","Leeward Islands",2020,NA
-"798","Leeward Islands",2021,NA
-"799","Lesotho",2015,1.63048
-"800","Lesotho",2016,1.564528
-"801","Lesotho",2017,1.857648
-"802","Lesotho",2018,1.681776
-"803","Lesotho",2019,1.670784
-"804","Lesotho",2020,1.50173
-"805","Lesotho",2021,1.5822
-"806","Liberia",2015,0
-"807","Liberia",2016,0
-"808","Liberia",2017,0
-"809","Liberia",2018,0
-"810","Liberia",2019,0
-"811","Liberia",2020,0
-"812","Liberia",2021,0
-"813","Libya",2015,0
-"814","Libya",2016,0
-"815","Libya",2017,0
-"816","Libya",2018,0
-"817","Libya",2019,0
-"818","Libya",2020,0
-"819","Libya",2021,0
-"820","Liechtenstein",2015,0
-"821","Liechtenstein",2016,0
-"822","Liechtenstein",2017,0
-"823","Liechtenstein",2018,0
-"824","Liechtenstein",2019,0
-"825","Liechtenstein",2020,0
-"826","Liechtenstein",2021,0
-"827","Lithuania",2015,0.735889
-"828","Lithuania",2016,0.748809
-"829","Lithuania",2017,0.801037
-"830","Lithuania",2018,0.85889
-"831","Lithuania",2019,0.800845
-"832","Lithuania",2020,0.621598
-"833","Lithuania",2021,0.731517
-"834","Luxembourg",2015,0.28822
-"835","Luxembourg",2016,0.294294
-"836","Luxembourg",2017,0.282571
-"837","Luxembourg",2018,0.267196
-"838","Luxembourg",2019,0.274406
-"839","Luxembourg",2020,0.237493
-"840","Luxembourg",2021,0.20919
-"841","Macao",2015,0
-"842","Macao",2016,0
-"843","Macao",2017,0
-"844","Macao",2018,0
-"845","Macao",2019,0
-"846","Macao",2020,0
-"847","Macao",2021,0
-"848","North Macedonia",2015,3.746317
-"849","North Macedonia",2016,3.436832
-"850","North Macedonia",2017,3.814224
-"851","North Macedonia",2018,3.405631
-"852","North Macedonia",2019,4.04872
-"853","North Macedonia",2020,2.77899
-"854","North Macedonia",2021,2.393694
-"855","Madagascar",2015,1.051568
-"856","Madagascar",2016,1.02592
-"857","Madagascar",2017,1.458272
-"858","Madagascar",2018,1.242096
-"859","Madagascar",2019,1.400842
-"860","Madagascar",2020,1.365766
-"861","Madagascar",2021,1.468185
-"862","Malawi",2015,0.227168
-"863","Malawi",2016,0.205184
-"864","Malawi",2017,0.209412
-"865","Malawi",2018,0.234496
-"866","Malawi",2019,0.21568
-"867","Malawi",2020,0.210943
-"868","Malawi",2021,0.226761
-"869","Malaysia",2015,66.3184
-"870","Malaysia",2016,71.04496
-"871","Malaysia",2017,78.608623
-"872","Malaysia",2018,84.147424
-"873","Malaysia",2019,85.063424
-"874","Malaysia",2020,94.558656
-"875","Malaysia",2021,85.794767
-"876","Maldives",2015,0
-"877","Maldives",2016,0
-"878","Maldives",2017,0
-"879","Maldives",2018,0
-"880","Maldives",2019,0
-"881","Maldives",2020,0
-"882","Maldives",2021,0
-"883","Mali",2015,0
-"884","Mali",2016,0
-"885","Mali",2017,0
-"886","Mali",2018,0
-"887","Mali",2019,0
-"888","Mali",2020,0
-"889","Mali",2021,0
-"890","Malta",2015,2.3e-05
-"891","Malta",2016,1.2e-05
-"892","Malta",2017,1.2e-05
-"893","Malta",2018,1.2e-05
-"894","Malta",2019,1.1e-05
-"895","Malta",2020,0
-"896","Malta",2021,0
-"897","Marshall Islands",2015,0
-"898","Marshall Islands",2016,0
-"899","Marshall Islands",2017,0
-"900","Marshall Islands",2018,0
-"901","Marshall Islands",2019,0
-"902","Marshall Islands",2020,0
-"903","Marshall Islands",2021,0
-"904","Martinique",2015,0
-"905","Martinique",2016,0
-"906","Martinique",2017,0
-"907","Martinique",2018,0
-"908","Martinique",2019,0
-"909","Martinique",2020,0
-"910","Martinique",2021,0
-"911","Mauritania",2015,0
-"912","Mauritania",2016,0
-"913","Mauritania",2017,0
-"914","Mauritania",2018,0
-"915","Mauritania",2019,0
-"916","Mauritania",2020,0
-"917","Mauritania",2021,0
-"918","Mauritius",2015,1.68544
-"919","Mauritius",2016,1.714752
-"920","Mauritius",2017,1.784368
-"921","Mauritius",2018,1.696432
-"922","Mauritius",2019,1.560864
-"923","Mauritius",2020,1.523079
-"924","Mauritius",2021,1.637295
-"925","Mayotte",2015,0
-"926","Mayotte",2016,0
-"927","Mayotte",2017,0
-"928","Mayotte",2018,0
-"929","Mayotte",2019,0
-"930","Mayotte",2020,0
-"931","Mayotte",2021,0
-"932","Mexico",2015,44.114222
-"933","Mexico",2016,47.621008
-"934","Mexico",2017,48.52968
-"935","Mexico",2018,47.313232
-"936","Mexico",2019,45.26801
-"937","Mexico",2020,20.011074
-"938","Mexico",2021,19.360577
-"939","Mongolia",2015,19.697107
-"940","Mongolia",2016,22.5336
-"941","Mongolia",2017,30.070881
-"942","Mongolia",2018,40.9452
-"943","Mongolia",2019,41.76185
-"944","Mongolia",2020,43.835373
-"945","Mongolia",2021,44.400088
-"946","Montenegro",2015,1.494912
-"947","Montenegro",2016,1.183472
-"948","Montenegro",2017,1.201792
-"949","Montenegro",2018,1.421632
-"950","Montenegro",2019,1.454608
-"951","Montenegro",2020,1.495241
-"952","Montenegro",2021,0.786839
-"953","Montserrat",2015,0
-"954","Montserrat",2016,0
-"955","Montserrat",2017,0
-"956","Montserrat",2018,0
-"957","Montserrat",2019,0
-"958","Montserrat",2020,0
-"959","Montserrat",2021,0
-"960","Morocco",2015,16.843408
-"961","Morocco",2016,16.235184
-"962","Morocco",2017,16.876384
-"963","Morocco",2018,19.51926
-"964","Morocco",2019,25.259616
-"965","Morocco",2020,25.36126
-"966","Morocco",2021,27.844789
-"967","Mozambique",2015,0.428937
-"968","Mozambique",2016,0.051296
-"969","Mozambique",2017,0.025648
-"970","Mozambique",2018,0.06232
-"971","Mozambique",2019,0.047632
-"972","Mozambique",2020,0.046479
-"973","Mozambique",2021,0.049964
-"974","Myanmar",2015,0.926992
-"975","Myanmar",2016,1.124848
-"976","Myanmar",2017,1.553536
-"977","Myanmar",2018,3.25031
-"978","Myanmar",2019,3.931472
-"979","Myanmar",2020,4.126994
-"980","Myanmar",2021,4.180161
-"981","Namibia",2015,0.007328
-"982","Namibia",2016,0.069616
-"983","Namibia",2017,0.087936
-"984","Namibia",2018,0.025648
-"985","Namibia",2019,0.051296
-"986","Namibia",2020,0.046106
-"987","Namibia",2021,0.048576
-"988","Nauru",2015,0
-"989","Nauru",2016,0
-"990","Nauru",2017,0
-"991","Nauru",2018,0
-"992","Nauru",2019,0
-"993","Nauru",2020,0
-"994","Nauru",2021,0
-"995","Nepal",2015,2.200909
-"996","Nepal",2016,2.615123
-"997","Nepal",2017,2.997152
-"998","Nepal",2018,4.338176
-"999","Nepal",2019,3.42584
-"1000","Nepal",2020,3.596216
-"1001","Nepal",2021,3.642545
-"1002","Netherlands",2015,43.545755
-"1003","Netherlands",2016,40.067734
-"1004","Netherlands",2017,36.032114
-"1005","Netherlands",2018,32.532565
-"1006","Netherlands",2019,25.30793
-"1007","Netherlands",2020,16.994711
-"1008","Netherlands",2021,23.00083
-"1009","New Caledonia",2015,1.878179
-"1010","New Caledonia",2016,2.425568
-"1011","New Caledonia",2017,2.740672
-"1012","New Caledonia",2018,2.497136
-"1013","New Caledonia",2019,2.484192
-"1014","New Caledonia",2020,2.607737
-"1015","New Caledonia",2021,2.641332
-"1016","New Zealand",2015,5.469636
-"1017","New Zealand",2016,4.465043
-"1018","New Zealand",2017,4.669294
-"1019","New Zealand",2018,5.249307
-"1020","New Zealand",2019,5.985768
-"1021","New Zealand",2020,5.755663
-"1022","New Zealand",2021,6.751966
-"1023","Nicaragua",2015,0
-"1024","Nicaragua",2016,0
-"1025","Nicaragua",2017,0
-"1026","Nicaragua",2018,0
-"1027","Nicaragua",2019,0
-"1028","Nicaragua",2020,0
-"1029","Nicaragua",2021,0
-"1030","Niger",2015,0.326096
-"1031","Niger",2016,0.359072
-"1032","Niger",2017,0.337656
-"1033","Niger",2018,0.326096
-"1034","Niger",2019,0.326592
-"1035","Niger",2020,0.295738
-"1036","Niger",2021,0.341988
-"1037","Nigeria",2015,0.124576
-"1038","Nigeria",2016,0.139232
-"1039","Nigeria",2017,0.135568
-"1040","Nigeria",2018,0.12824
-"1041","Nigeria",2019,0.14656
-"1042","Nigeria",2020,0.132916
-"1043","Nigeria",2021,0.153703
-"1044","Niue",2015,0
-"1045","Niue",2016,0
-"1046","Niue",2017,0
-"1047","Niue",2018,0
-"1048","Niue",2019,0
-"1049","Niue",2020,0
-"1050","Niue",2021,0
-"1051","Norway",2015,3.4284
-"1052","Norway",2016,3.5496
-"1053","Norway",2017,3.6428
-"1054","Norway",2018,3.5268
-"1055","Norway",2019,3.5468
-"1056","Norway",2020,3.6024
-"1057","Norway",2021,4.1776
-"1058","Occupied Palestinian Territory",2015,0
-"1059","Occupied Palestinian Territory",2016,0
-"1060","Occupied Palestinian Territory",2017,0
-"1061","Occupied Palestinian Territory",2018,0
-"1062","Occupied Palestinian Territory",2019,0
-"1063","Occupied Palestinian Territory",2020,0
-"1064","Occupied Palestinian Territory",2021,0
-"1065","Oman",2015,0
-"1066","Oman",2016,0
-"1067","Oman",2017,0
-"1068","Oman",2018,0
-"1069","Oman",2019,0
-"1070","Oman",2020,0
-"1071","Oman",2021,0
-"1072","Pacific Islands (Palau)",2015,NA
-"1073","Pacific Islands (Palau)",2016,NA
-"1074","Pacific Islands (Palau)",2017,NA
-"1075","Pacific Islands (Palau)",2018,NA
-"1076","Pacific Islands (Palau)",2019,NA
-"1077","Pacific Islands (Palau)",2020,NA
-"1078","Pacific Islands (Palau)",2021,NA
-"1079","Pakistan",2015,18.02688
-"1080","Pakistan",2016,23.954783
-"1081","Pakistan",2017,40.978871
-"1082","Pakistan",2018,46.88088
-"1083","Pakistan",2019,50.30672
-"1084","Pakistan",2020,57.210218
-"1085","Pakistan",2021,59.956542
-"1086","Palau",2015,0
-"1087","Palau",2016,0
-"1088","Palau",2017,0
-"1089","Palau",2018,0
-"1090","Palau",2019,0
-"1091","Palau",2020,0
-"1092","Palau",2021,0
-"1093","Panama",2015,0.937984
-"1094","Panama",2016,0.831728
-"1095","Panama",2017,0.230908
-"1096","Panama",2018,0.582377
-"1097","Panama",2019,2.3816
-"1098","Panama",2020,2.204189
-"1099","Panama",2021,2.924487
-"1100","Papua New Guinea",2015,0
-"1101","Papua New Guinea",2016,0
-"1102","Papua New Guinea",2017,0
-"1103","Papua New Guinea",2018,0
-"1104","Papua New Guinea",2019,0
-"1105","Papua New Guinea",2020,0
-"1106","Papua New Guinea",2021,0
-"1107","Paraguay",2015,0.010985
-"1108","Paraguay",2016,0.003666
-"1109","Paraguay",2017,0.003664
-"1110","Paraguay",2018,0.010997
-"1111","Paraguay",2019,0.003666
-"1112","Paraguay",2020,0.001285
-"1113","Paraguay",2021,0.001891
-"1114","Peru",2015,3.088518
-"1115","Peru",2016,3.213102
-"1116","Peru",2017,2.810094
-"1117","Peru",2018,2.50268
-"1118","Peru",2019,2.572128
-"1119","Peru",2020,2.269338
-"1120","Peru",2021,2.479681
-"1121","Philippines",2015,46.419216
-"1122","Philippines",2016,51.486528
-"1123","Philippines",2017,61.632144
-"1124","Philippines",2018,64.904096
-"1125","Philippines",2019,69.52998
-"1126","Philippines",2020,69.125949
-"1127","Philippines",2021,74.912241
-"1128","Bolivia",2015,0.014656
-"1129","Bolivia",2016,0.014658
-"1130","Bolivia",2017,0.025652
-"1131","Bolivia",2018,0.021984
-"1132","Bolivia",2019,0.025648
-"1133","Bolivia",2020,0.008997
-"1134","Bolivia",2021,0.013237
-"1135","Poland",2015,201.647484
-"1136","Poland",2016,202.098996
-"1137","Poland",2017,203.597988
-"1138","Poland",2018,198.827006
-"1139","Poland",2019,177.935008
-"1140","Poland",2020,164.234621
-"1141","Poland",2021,179.501978
-"1142","Portugal",2015,12.57497
-"1143","Portugal",2016,10.831652
-"1144","Portugal",2017,12.406546
-"1145","Portugal",2018,10.388611
-"1146","Portugal",2019,5.039867
-"1147","Portugal",2020,2.430948
-"1148","Portugal",2021,1.101646
-"1149","Puerto Rico",2015,NA
-"1150","Puerto Rico",2016,NA
-"1151","Puerto Rico",2017,NA
-"1152","Puerto Rico",2018,NA
-"1153","Puerto Rico",2019,NA
-"1154","Puerto Rico",2020,NA
-"1155","Puerto Rico",2021,NA
-"1156","Qatar",2015,0
-"1157","Qatar",2016,0
-"1158","Qatar",2017,0
-"1159","Qatar",2018,0
-"1160","Qatar",2019,0
-"1161","Qatar",2020,0
-"1162","Qatar",2021,0
-"1163","Cameroon",2015,0
-"1164","Cameroon",2016,0
-"1165","Cameroon",2017,0
-"1166","Cameroon",2018,0
-"1167","Cameroon",2019,0
-"1168","Cameroon",2020,0
-"1169","Cameroon",2021,0
-"1170","South Korea",2015,335.411292
-"1171","South Korea",2016,320.697359
-"1172","South Korea",2017,337.668762
-"1173","South Korea",2018,340.3476
-"1174","South Korea",2019,321.60607
-"1175","South Korea",2020,282.883413
-"1176","South Korea",2021,283.908353
-"1177","Moldova",2015,0.369781
-"1178","Moldova",2016,0.278673
-"1179","Moldova",2017,0.40304
-"1180","Moldova",2018,0.307776
-"1181","Moldova",2019,0.366648
-"1182","Moldova",2020,0.3613
-"1183","Moldova",2021,0.416131
-"1184","South Sudan",2015,0
-"1185","South Sudan",2016,0
-"1186","South Sudan",2017,0
-"1187","South Sudan",2018,0
-"1188","South Sudan",2019,0
-"1189","South Sudan",2020,0
-"1190","South Sudan",2021,0
-"1191","Sudan",2015,0
-"1192","Sudan",2016,0
-"1193","Sudan",2017,0
-"1194","Sudan",2018,0
-"1195","Sudan",2019,0
-"1196","Sudan",2020,0
-"1197","Sudan",2021,0
-"1198","Réunion",2015,2.0246
-"1199","Réunion",2016,2.070764
-"1200","Réunion",2017,2.043268
-"1201","Réunion",2018,2.031445
-"1202","Réunion",2019,2.081117
-"1203","Réunion",2020,1.883018
-"1204","Réunion",2021,1.883018
-"1205","Romania",2015,24.681829
-"1206","Romania",2016,21.990651
-"1207","Romania",2017,21.839268
-"1208","Romania",2018,20.694593
-"1209","Romania",2019,18.309118
-"1210","Romania",2020,14.234452
-"1211","Romania",2021,16.450983
-"1212","Russia",2015,414.059434
-"1213","Russia",2016,402.192494
-"1214","Russia",2017,384.724075
-"1215","Russia",2018,396.392489
-"1216","Russia",2019,390.365017
-"1217","Russia",2020,366.758617
-"1218","Russia",2021,380.227147
-"1219","Rwanda",2015,0
-"1220","Rwanda",2016,0.007328
-"1221","Rwanda",2017,0.007328
-"1222","Rwanda",2018,0.014656
-"1223","Rwanda",2019,0.018357
-"1224","Rwanda",2020,0.017877
-"1225","Rwanda",2021,0.019217
-"1226","Ryukyu Islands",2015,NA
-"1227","Ryukyu Islands",2016,NA
-"1228","Ryukyu Islands",2017,NA
-"1229","Ryukyu Islands",2018,NA
-"1230","Ryukyu Islands",2019,NA
-"1231","Ryukyu Islands",2020,NA
-"1232","Ryukyu Islands",2021,NA
-"1233","Saint Helena",2015,0
-"1234","Saint Helena",2016,0
-"1235","Saint Helena",2017,0
-"1236","Saint Helena",2018,0
-"1237","Saint Helena",2019,0
-"1238","Saint Helena",2020,0
-"1239","Saint Helena",2021,0
-"1240","Saint Lucia",2015,0
-"1241","Saint Lucia",2016,0
-"1242","Saint Lucia",2017,0
-"1243","Saint Lucia",2018,0
-"1244","Saint Lucia",2019,0
-"1245","Saint Lucia",2020,0
-"1246","Saint Lucia",2021,0
-"1247","Sint Maarten (Dutch part)",2015,0
-"1248","Sint Maarten (Dutch part)",2016,0
-"1249","Sint Maarten (Dutch part)",2017,0
-"1250","Sint Maarten (Dutch part)",2018,0
-"1251","Sint Maarten (Dutch part)",2019,0
-"1252","Sint Maarten (Dutch part)",2020,0
-"1253","Sint Maarten (Dutch part)",2021,0
-"1254","Samoa",2015,0
-"1255","Samoa",2016,0
-"1256","Samoa",2017,0
-"1257","Samoa",2018,0
-"1258","Samoa",2019,0
-"1259","Samoa",2020,0
-"1260","Samoa",2021,0
-"1261","Sao Tome and Principe",2015,0
-"1262","Sao Tome and Principe",2016,0
-"1263","Sao Tome and Principe",2017,0
-"1264","Sao Tome and Principe",2018,0
-"1265","Sao Tome and Principe",2019,0
-"1266","Sao Tome and Principe",2020,0
-"1267","Sao Tome and Principe",2021,0
-"1268","Saudi Arabia",2015,0
-"1269","Saudi Arabia",2016,0
-"1270","Saudi Arabia",2017,0
-"1271","Saudi Arabia",2018,0
-"1272","Saudi Arabia",2019,0
-"1273","Saudi Arabia",2020,0
-"1274","Saudi Arabia",2021,0
-"1275","Senegal",2015,1.150496
-"1276","Senegal",2016,1.205456
-"1277","Senegal",2017,1.439952
-"1278","Senegal",2018,2.260688
-"1279","Senegal",2019,2.08788
-"1280","Senegal",2020,1.894052
-"1281","Senegal",2021,2.190262
-"1282","Serbia",2015,30.568752
-"1283","Serbia",2016,31.067056
-"1284","Serbia",2017,31.021923
-"1285","Serbia",2018,29.60512
-"1286","Serbia",2019,29.601456
-"1287","Serbia",2020,30.428334
-"1288","Serbia",2021,16.012263
-"1289","Seychelles",2015,0
-"1290","Seychelles",2016,0
-"1291","Seychelles",2017,0
-"1292","Seychelles",2018,0
-"1293","Seychelles",2019,0
-"1294","Seychelles",2020,0
-"1295","Seychelles",2021,0
-"1296","Sierra Leone",2015,0
-"1297","Sierra Leone",2016,0
-"1298","Sierra Leone",2017,0
-"1299","Sierra Leone",2018,0
-"1300","Sierra Leone",2019,0
-"1301","Sierra Leone",2020,0
-"1302","Sierra Leone",2021,0
-"1303","Singapore",2015,1.751278
-"1304","Singapore",2016,1.832
-"1305","Singapore",2017,3.86552
-"1306","Singapore",2018,2.05534
-"1307","Singapore",2019,1.971232
-"1308","Singapore",2020,1.864508
-"1309","Singapore",2021,3.348566
-"1310","Slovakia",2015,13.918411
-"1311","Slovakia",2016,13.828549
-"1312","Slovakia",2017,14.284374
-"1313","Slovakia",2018,14.206341
-"1314","Slovakia",2019,11.778465
-"1315","Slovakia",2020,9.955995
-"1316","Slovakia",2021,12.579047
-"1317","Slovenia",2015,4.615338
-"1318","Slovenia",2016,4.963894
-"1319","Slovenia",2017,4.906708
-"1320","Slovenia",2018,4.792092
-"1321","Slovenia",2019,4.530459
-"1322","Slovenia",2020,4.392651
-"1323","Slovenia",2021,3.614252
-"1324","Solomon Islands",2015,0
-"1325","Solomon Islands",2016,0
-"1326","Solomon Islands",2017,0
-"1327","Solomon Islands",2018,0
-"1328","Solomon Islands",2019,0
-"1329","Solomon Islands",2020,0
-"1330","Solomon Islands",2021,0
-"1331","Somalia",2015,0
-"1332","Somalia",2016,0
-"1333","Somalia",2017,0
-"1334","Somalia",2018,0
-"1335","Somalia",2019,0
-"1336","Somalia",2020,0
-"1337","Somalia",2021,0
-"1338","South Africa",2015,377.0256
-"1339","South Africa",2016,384.489745
-"1340","South Africa",2017,369.918017
-"1341","South Africa",2018,355.111886
-"1342","South Africa",2019,394.345328
-"1343","South Africa",2020,373.220141
-"1344","South Africa",2021,370.266547
-"1345","Spain",2015,61.840899
-"1346","Spain",2016,45.677289
-"1347","Spain",2017,53.592704
-"1348","Spain",2018,48.066131
-"1349","Spain",2019,23.622477
-"1350","Spain",2020,14.300041
-"1351","Spain",2021,18.575481
-"1352","Sri Lanka",2015,5.217536
-"1353","Sri Lanka",2016,5.524435
-"1354","Sri Lanka",2017,5.723168
-"1355","Sri Lanka",2018,5.528013
-"1356","Sri Lanka",2019,5.902704
-"1357","Sri Lanka",2020,6.335415
-"1358","Sri Lanka",2021,6.076669
-"1359","Saint Kitts and Nevis",2015,0
-"1360","Saint Kitts and Nevis",2016,0
-"1361","Saint Kitts and Nevis",2017,0
-"1362","Saint Kitts and Nevis",2018,0
-"1363","Saint Kitts and Nevis",2019,0
-"1364","Saint Kitts and Nevis",2020,0
-"1365","Saint Kitts and Nevis",2021,0
-"1366","St. Kitts-Nevis-Anguilla",2015,NA
-"1367","St. Kitts-Nevis-Anguilla",2016,NA
-"1368","St. Kitts-Nevis-Anguilla",2017,NA
-"1369","St. Kitts-Nevis-Anguilla",2018,NA
-"1370","St. Kitts-Nevis-Anguilla",2019,NA
-"1371","St. Kitts-Nevis-Anguilla",2020,NA
-"1372","St. Kitts-Nevis-Anguilla",2021,NA
-"1373","Saint Pierre and Miquelon",2015,0
-"1374","Saint Pierre and Miquelon",2016,0
-"1375","Saint Pierre and Miquelon",2017,0
-"1376","Saint Pierre and Miquelon",2018,0
-"1377","Saint Pierre and Miquelon",2019,0
-"1378","Saint Pierre and Miquelon",2020,0
-"1379","Saint Pierre and Miquelon",2021,0
-"1380","Saint Vincent and the Grenadines",2015,0
-"1381","Saint Vincent and the Grenadines",2016,0
-"1382","Saint Vincent and the Grenadines",2017,0
-"1383","Saint Vincent and the Grenadines",2018,0
-"1384","Saint Vincent and the Grenadines",2019,0
-"1385","Saint Vincent and the Grenadines",2020,0
-"1386","Saint Vincent and the Grenadines",2021,0
-"1387","Suriname",2015,0
-"1388","Suriname",2016,0
-"1389","Suriname",2017,0
-"1390","Suriname",2018,0
-"1391","Suriname",2019,0
-"1392","Suriname",2020,0
-"1393","Suriname",2021,0
-"1394","Swaziland",2015,0.135568
-"1395","Swaziland",2016,0.246343
-"1396","Swaziland",2017,0.161216
-"1397","Swaziland",2018,0.161216
-"1398","Swaziland",2019,0.20152
-"1399","Swaziland",2020,0.18113
-"1400","Swaziland",2021,0.190836
-"1401","Sweden",2015,8.152132
-"1402","Sweden",2016,8.00221
-"1403","Sweden",2017,8.473792
-"1404","Sweden",2018,8.046477
-"1405","Sweden",2019,8.092101
-"1406","Sweden",2020,6.662655
-"1407","Sweden",2021,5.553458
-"1408","Switzerland",2015,0.562525
-"1409","Switzerland",2016,0.528458
-"1410","Switzerland",2017,0.506227
-"1411","Switzerland",2018,0.478956
-"1412","Switzerland",2019,0.4316
-"1413","Switzerland",2020,0.414396
-"1414","Switzerland",2021,0.413264
-"1415","Syria",2015,0.003664
-"1416","Syria",2016,0.003664
-"1417","Syria",2017,0.003664
-"1418","Syria",2018,0.003664
-"1419","Syria",2019,0.003664
-"1420","Syria",2020,0.002883
-"1421","Syria",2021,0.002535
-"1422","Taiwan",2015,159.319575
-"1423","Taiwan",2016,159.482334
-"1424","Taiwan",2017,162.617632
-"1425","Taiwan",2018,158.806565
-"1426","Taiwan",2019,154.560547
-"1427","Taiwan",2020,144.262502
-"1428","Taiwan",2021,154.887128
-"1429","Tajikistan",2015,1.75872
-"1430","Tajikistan",2016,2.986378
-"1431","Tajikistan",2017,3.960784
-"1432","Tajikistan",2018,4.189885
-"1433","Tajikistan",2019,4.565344
-"1434","Tajikistan",2020,4.501797
-"1435","Tajikistan",2021,5.184992
-"1436","Thailand",2015,64.618304
-"1437","Thailand",2016,59.10032
-"1438","Thailand",2017,62.76351
-"1439","Thailand",2018,60.588719
-"1440","Thailand",2019,62.483006
-"1441","Thailand",2020,66.805159
-"1442","Thailand",2021,70.646945
-"1443","Timor-Leste",2015,0
-"1444","Timor-Leste",2016,0
-"1445","Timor-Leste",2017,0
-"1446","Timor-Leste",2018,0
-"1447","Timor-Leste",2019,0
-"1448","Timor-Leste",2020,0
-"1449","Timor-Leste",2021,0
-"1450","Togo",2015,0
-"1451","Togo",2016,0
-"1452","Togo",2017,0
-"1453","Togo",2018,0
-"1454","Togo",2019,0
-"1455","Togo",2020,0
-"1456","Togo",2021,0
-"1457","Tonga",2015,0
-"1458","Tonga",2016,0
-"1459","Tonga",2017,0
-"1460","Tonga",2018,0
-"1461","Tonga",2019,0
-"1462","Tonga",2020,0
-"1463","Tonga",2021,0
-"1464","Trinidad and Tobago",2015,0
-"1465","Trinidad and Tobago",2016,0
-"1466","Trinidad and Tobago",2017,0
-"1467","Trinidad and Tobago",2018,0
-"1468","Trinidad and Tobago",2019,0
-"1469","Trinidad and Tobago",2020,0
-"1470","Trinidad and Tobago",2021,0
-"1471","Tunisia",2015,0
-"1472","Tunisia",2016,0
-"1473","Tunisia",2017,0
-"1474","Tunisia",2018,0
-"1475","Tunisia",2019,0
-"1476","Tunisia",2020,0
-"1477","Tunisia",2021,0
-"1478","Turkey",2015,138.794158
-"1479","Turkey",2016,151.631064
-"1480","Turkey",2017,157.937686
-"1481","Turkey",2018,163.038903
-"1482","Turkey",2019,164.971991
-"1483","Turkey",2020,158.630595
-"1484","Turkey",2021,162.562331
-"1485","Turkmenistan",2015,0
-"1486","Turkmenistan",2016,0
-"1487","Turkmenistan",2017,0
-"1488","Turkmenistan",2018,0
-"1489","Turkmenistan",2019,0
-"1490","Turkmenistan",2020,0
-"1491","Turkmenistan",2021,0
-"1492","Turks and Caicos Islands",2015,0
-"1493","Turks and Caicos Islands",2016,0
-"1494","Turks and Caicos Islands",2017,0
-"1495","Turks and Caicos Islands",2018,0
-"1496","Turks and Caicos Islands",2019,0
-"1497","Turks and Caicos Islands",2020,0
-"1498","Turks and Caicos Islands",2021,0
-"1499","Tuvalu",2015,0
-"1500","Tuvalu",2016,0
-"1501","Tuvalu",2017,0
-"1502","Tuvalu",2018,0
-"1503","Tuvalu",2019,0
-"1504","Tuvalu",2020,0
-"1505","Tuvalu",2021,0
-"1506","Uganda",2015,0
-"1507","Uganda",2016,0
-"1508","Uganda",2017,0
-"1509","Uganda",2018,0
-"1510","Uganda",2019,0
-"1511","Uganda",2020,0
-"1512","Uganda",2021,0
-"1513","Ukraine",2015,119.392944
-"1514","Ukraine",2016,126.828013
-"1515","Ukraine",2017,112.586372
-"1516","Ukraine",2018,120.544058
-"1517","Ukraine",2019,114.045427
-"1518","Ukraine",2020,102.148412
-"1519","Ukraine",2021,101.829705
-"1520","United Arab Emirates",2015,6.50349
-"1521","United Arab Emirates",2016,6.97992
-"1522","United Arab Emirates",2017,8.073695
-"1523","United Arab Emirates",2018,7.281986
-"1524","United Arab Emirates",2019,7.498098
-"1525","United Arab Emirates",2020,7.168701
-"1526","United Arab Emirates",2021,6.695359
-"1527","United Kingdom",2015,91.548016
-"1528","United Kingdom",2016,47.824616
-"1529","United Kingdom",2017,39.128801
-"1530","United Kingdom",2018,33.280249
-"1531","United Kingdom",2019,24.512705
-"1532","United Kingdom",2020,22.809405
-"1533","United Kingdom",2021,23.689725
-"1534","Tanzania",2015,0.681504
-"1535","Tanzania",2016,0.7328
-"1536","Tanzania",2017,1.494912
-"1537","Tanzania",2018,1.666602
-"1538","Tanzania",2019,1.890624
-"1539","Tanzania",2020,1.844857
-"1540","Tanzania",2021,1.983202
-"1541","United States of America",2015,1479.001098
-"1542","United States of America",2016,1347.797519
-"1543","United States of America",2017,1308.479533
-"1544","United States of America",2018,1256.201494
-"1545","United States of America",2019,1070.723931
-"1546","United States of America",2020,878.972885
-"1547","United States of America",2021,1002.299987
-"1548","Uruguay",2015,0.003664
-"1549","Uruguay",2016,0.003666
-"1550","Uruguay",2017,0.003664
-"1551","Uruguay",2018,0.003664
-"1552","Uruguay",2019,0.003666
-"1553","Uruguay",2020,0.001285
-"1554","Uruguay",2021,0.001891
-"1555","Uzbekistan",2015,5.99064
-"1556","Uzbekistan",2016,7.093744
-"1557","Uzbekistan",2017,6.687028
-"1558","Uzbekistan",2018,9.658304
-"1559","Uzbekistan",2019,8.280383
-"1560","Uzbekistan",2020,11.347821
-"1561","Uzbekistan",2021,8.083977
-"1562","Vanuatu",2015,0
-"1563","Vanuatu",2016,0
-"1564","Vanuatu",2017,0
-"1565","Vanuatu",2018,0
-"1566","Vanuatu",2019,0
-"1567","Vanuatu",2020,0
-"1568","Vanuatu",2021,0
-"1569","Venezuela",2015,0.498314
-"1570","Venezuela",2016,0.560592
-"1571","Venezuela",2017,0.311432
-"1572","Venezuela",2018,0.124576
-"1573","Venezuela",2019,0.164886
-"1574","Venezuela",2020,0.065309
-"1575","Venezuela",2021,0.036175
-"1576","Viet Nam",2015,97.81609
-"1577","Viet Nam",2016,106.856896
-"1578","Viet Nam",2017,108.2217
-"1579","Viet Nam",2018,134.85352
-"1580","Viet Nam",2019,191.442495
-"1581","Viet Nam",2020,192.278987
-"1582","Viet Nam",2021,196.518368
-"1583","Wallis and Futuna Islands",2015,0
-"1584","Wallis and Futuna Islands",2016,0
-"1585","Wallis and Futuna Islands",2017,0
-"1586","Wallis and Futuna Islands",2018,0
-"1587","Wallis and Futuna Islands",2019,0
-"1588","Wallis and Futuna Islands",2020,0
-"1589","Wallis and Futuna Islands",2021,0
-"1590","Yemen",2015,0.414032
-"1591","Yemen",2016,0.322432
-"1592","Yemen",2017,0.307776
-"1593","Yemen",2018,0.31144
-"1594","Yemen",2019,0.355295
-"1595","Yemen",2020,0.279686
-"1596","Yemen",2021,0.245909
-"1597","Zambia",2015,0.49464
-"1598","Zambia",2016,0.853179
-"1599","Zambia",2017,1.902634
-"1600","Zambia",2018,2.744336
-"1601","Zambia",2019,2.347513
-"1602","Zambia",2020,2.29177
-"1603","Zambia",2021,2.463629
-"1604","Zimbabwe",2015,8.0608
-"1605","Zimbabwe",2016,6.932288
-"1606","Zimbabwe",2017,5.900452
-"1607","Zimbabwe",2018,7.177776
-"1608","Zimbabwe",2019,6.88832
-"1609","Zimbabwe",2020,6.721571
-"1610","Zimbabwe",2021,7.22562
+"","Country","Year","Coal","Oil","Cement"
+"1","Afghanistan",2015,2.843264,6.624512,0.041189
+"2","Afghanistan",2016,2.878736,5.794097,0.076126
+"3","Afghanistan",2017,3.447824,6.074912,0.044785
+"4","Afghanistan",2018,3.8472,6.620848,0.05688
+"5","Afghanistan",2019,3.954767,6.842956,0.038329
+"6","Afghanistan",2020,4.150072,7.219776,0.060674
+"7","Afghanistan",2021,4.203536,7.41957,0.012259
+"8","Albania",2015,0.322432,3.337904,0.954113
+"9","Albania",2016,0.190528,3.359888,0.88047
+"10","Albania",2017,0.274609,4.078863,1.011492
+"11","Albania",2018,0.472656,3.330576,1.016733
+"12","Albania",2019,0.322432,3.440496,1.048179
+"13","Albania",2020,0.331439,3.217576,1.048179
+"14","Albania",2021,0.174413,3.246273,1.048179
+"15","Algeria",2015,0.501968,55.590208,8.062014
+"16","Algeria",2016,0,54.626576,9.371843
+"17","Algeria",2017,0.795088,55.30808,11.406257
+"18","Algeria",2018,1.330002,54.922121,12.381661
+"19","Algeria",2019,1.095512,59.157648,11.028039
+"20","Algeria",2020,1.098537,54.540075,11.028039
+"21","Algeria",2021,1.095536,56.020598,11.028039
+"22","Andorra",2015,0,0.465328,0
+"23","Andorra",2016,0,0.468992,0
+"24","Andorra",2017,0,0.465328,0
+"25","Andorra",2018,0,0.49464,0
+"26","Andorra",2019,0,0.479984,0
+"27","Andorra",2020,0,0.448884,0
+"28","Andorra",2021,0,0.452888,0
+"29","Angola",2015,0,17.297744,2.030463
+"30","Angola",2016,0,15.916416,1.499598
+"31","Angola",2017,0,14.591862,0.995857
+"32","Angola",2018,0,14.873711,1.046231
+"33","Angola",2019,0,13.893888,1.12373
+"34","Angola",2020,0,13.103288,1.12373
+"35","Angola",2021,0,13.901716,1.12373
+"36","Anguilla",2015,0,0.153888,0
+"37","Anguilla",2016,0,0.153888,0
+"38","Anguilla",2017,0,0.142896,0
+"39","Anguilla",2018,0,0.142896,0
+"40","Anguilla",2019,0,0.153888,0
+"41","Anguilla",2020,0,0.13139,0
+"42","Anguilla",2021,0,0.144744,0
+"50","Antigua and Barbuda",2015,0,0.479984,0
+"51","Antigua and Barbuda",2016,0,0.490976,0
+"52","Antigua and Barbuda",2017,0,0.490976,0
+"53","Antigua and Barbuda",2018,0,0.498304,0
+"54","Antigua and Barbuda",2019,0,0.498304,0
+"55","Antigua and Barbuda",2020,0,0.425453,0
+"56","Antigua and Barbuda",2021,0,0.468695,0
+"57","Argentina",2015,5.466688,86.954048,4.571
+"58","Argentina",2016,4.191696,84.55575,4.029
+"59","Argentina",2017,4.279469,80.855575,4.36209
+"60","Argentina",2018,4.356408,74.392351,4.368692
+"61","Argentina",2019,2.14344,74.848192,4.140926
+"62","Argentina",2020,2.64246,70.912696,3.508472
+"63","Argentina",2021,4.816141,80.30911,4.670734
+"64","Armenia",2015,0.003662,0.798211,0.240676
+"65","Armenia",2016,0.003667,0.806652,0.154102
+"66","Armenia",2017,0.003666,0.868948,0.205469
+"67","Armenia",2018,0.003664,0.828064,0.31513
+"68","Armenia",2019,0.010992,1.04424,0.341102
+"69","Armenia",2020,0.010839,0.919696,0.341102
+"70","Armenia",2021,0.012484,0.991559,0.341102
+"71","Aruba",2015,0,0.89768,0
+"72","Aruba",2016,0,0.883024,0
+"73","Aruba",2017,0,0.890352,0
+"74","Aruba",2018,0,0.872032,0
+"75","Aruba",2019,0,0.912336,0
+"76","Aruba",2020,0,0.778954,0
+"77","Aruba",2021,0,0.858126,0
+"78","Australia",2015,174.188664,137.629374,3.076156
+"79","Australia",2016,179.549565,137.374951,2.930855
+"80","Australia",2017,176.906195,139.460823,3.019062
+"81","Australia",2018,169.370489,143.712379,2.941785
+"82","Australia",2019,164.471156,143.084851,3.039547
+"83","Australia",2020,156.143134,135.476298,2.820162
+"84","Australia",2021,150.958384,139.155751,2.820162
+"85","Austria",2015,14.372978,32.998847,1.701497
+"86","Austria",2016,13.334845,34.109843,1.729
+"87","Austria",2017,14.023157,34.546345,1.710389
+"88","Austria",2018,12.295195,34.08512,1.826656
+"89","Austria",2019,13.005251,34.087326,1.770523
+"90","Austria",2020,11.393343,30.712898,1.821123
+"91","Austria",2021,12.269229,31.462607,1.821123
+"92","Azerbaijan",2015,0.010993,11.531741,0.843416
+"93","Azerbaijan",2016,0.003664,12.138832,0.726161
+"94","Azerbaijan",2017,0.003664,12.497904,0.92892
+"95","Azerbaijan",2018,0.003664,11.83472,1.082954
+"96","Azerbaijan",2019,0.003664,12.097433,1.096472
+"97","Azerbaijan",2020,0.003674,10.848232,1.096472
+"98","Azerbaijan",2021,0.003664,11.110517,1.096472
+"99","Bahamas",2015,0.003664,2.132448,0
+"100","Bahamas",2016,0.003671,1.974889,0
+"101","Bahamas",2017,0.00367,2.092138,0
+"102","Bahamas",2018,0.003664,2.696704,0
+"103","Bahamas",2019,0.003664,2.531824,0
+"104","Bahamas",2020,0.004997,2.161677,0
+"105","Bahamas",2021,0.005078,2.381386,0
+"106","Bahrain",2015,0,3.777584,0.366724
+"107","Bahrain",2016,0,3.711632,0.485473
+"108","Bahrain",2017,0,4.078032,0.520399
+"109","Bahrain",2018,0,3.678656,0.558818
+"110","Bahrain",2019,0,3.748272,0.6147
+"111","Bahrain",2020,0,3.464196,0.6147
+"112","Bahrain",2021,0,3.550339,0.6147
+"113","Bangladesh",2015,8.606736,14.688976,1.062295
+"114","Bangladesh",2016,6.074912,15.436432,1.106557
+"115","Bangladesh",2017,7.151838,18.707624,1.195082
+"116","Bangladesh",2018,8.17837,19.584851,1.332295
+"117","Bangladesh",2019,15.003548,16.780525,1.473934
+"118","Bangladesh",2020,16.948182,15.923472,1.473934
+"119","Bangladesh",2021,14.852834,18.057137,1.473934
+"120","Barbados",2015,0,1.157824,0.070568
+"121","Barbados",2016,0,1.179808,0.070568
+"122","Barbados",2017,0,1.066224,0.070568
+"123","Barbados",2018,0,1.142788,0.070568
+"124","Barbados",2019,0,1.040576,0.070568
+"125","Barbados",2020,0,0.888446,0.070568
+"126","Barbados",2021,0,0.978746,0.070568
+"127","Belarus",2015,4.094111,17.178005,2.269358
+"128","Belarus",2016,3.691613,17.313199,2.206055
+"129","Belarus",2017,3.882261,17.344519,2.227168
+"130","Belarus",2018,3.962831,18.177857,2.163325
+"131","Belarus",2019,4.099648,18.036537,2.276054
+"132","Belarus",2020,3.777468,17.900204,2.302394
+"133","Belarus",2021,3.281815,16.98652,2.302394
+"134","Belgium",2015,14.438079,48.197987,2.348126
+"135","Belgium",2016,13.543486,47.093541,2.4358
+"136","Belgium",2017,13.308096,46.333138,2.291409
+"137","Belgium",2018,13.366943,45.714012,2.534383
+"138","Belgium",2019,13.192232,45.243127,2.819306
+"139","Belgium",2020,10.651276,39.498344,2.634278
+"140","Belgium",2021,11.015942,44.567181,2.634278
+"141","Belize",2015,0,0.637536,0
+"142","Belize",2016,0,0.619194,0
+"143","Belize",2017,0,0.611888,0
+"144","Belize",2018,0,0.600896,0
+"145","Belize",2019,0,0.707152,0
+"146","Belize",2020,0,0.613226,0
+"147","Belize",2021,0,0.684527,0
+"148","Benin",2015,0.109991,4.945937,0.214286
+"149","Benin",2016,0.212512,6.067584,0.210254
+"150","Benin",2017,0.201624,6.316319,0.21289
+"151","Benin",2018,0,7.005568,0.392289
+"152","Benin",2019,0.271136,6.379024,0.387637
+"153","Benin",2020,0.245894,6.516549,0.387637
+"154","Benin",2021,0.28435,6.960807,0.387637
+"155","Bermuda",2015,0,0.538608,0
+"156","Bermuda",2016,0,0.619216,0
+"157","Bermuda",2017,0,0.630208,0
+"158","Bermuda",2018,0,0.703488,0
+"159","Bermuda",2019,0,0.582576,0
+"160","Bermuda",2020,0,0.497405,0
+"161","Bermuda",2021,0,0.54796,0
+"162","Bhutan",2015,0.212512,0.450672,0.301855
+"163","Bhutan",2016,0.312419,0.481493,0.358716
+"164","Bhutan",2017,0.381056,0.516624,0.341543
+"165","Bhutan",2018,0.423885,0.566397,0.359097
+"166","Bhutan",2019,0.42136,0.571584,0.454119
+"167","Bhutan",2020,0.442315,0.603259,0.454119
+"168","Bhutan",2021,0.448014,0.619953,0.454119
+"169","Bonaire, Saint Eustatius and Saba",2015,0,0.095264,0
+"170","Bonaire, Saint Eustatius and Saba",2016,0,0.102592,0
+"171","Bonaire, Saint Eustatius and Saba",2017,0,0.102592,0
+"172","Bonaire, Saint Eustatius and Saba",2018,0,0.098928,0
+"173","Bonaire, Saint Eustatius and Saba",2019,0,0.10992,0
+"174","Bonaire, Saint Eustatius and Saba",2020,0,0.09385,0
+"175","Bonaire, Saint Eustatius and Saba",2021,0,0.103389,0
+"176","Bosnia and Herzegovina",2015,13.490848,4.253904,0.309035
+"177","Bosnia and Herzegovina",2016,16.150912,4.83648,0.321656
+"178","Bosnia and Herzegovina",2017,16.458688,4.89144,0.348046
+"179","Bosnia and Herzegovina",2018,16.600674,4.639394,0.380556
+"180","Bosnia and Herzegovina",2019,15.33384,4.682592,0.365257
+"181","Bosnia and Herzegovina",2020,15.762171,4.379193,0.365257
+"182","Bosnia and Herzegovina",2021,8.294507,4.41825,0.365257
+"183","Botswana",2015,2.896267,2.515468,0.005812
+"184","Botswana",2016,3.57034,2.772048,0.005812
+"185","Botswana",2017,4.253904,2.817616,0.005812
+"186","Botswana",2018,4.623968,2.879904,0.000387
+"187","Botswana",2019,3.860278,2.921786,0
+"188","Botswana",2020,3.467812,2.790778,0
+"189","Botswana",2021,3.653634,2.846285,0
+"190","Brazil",2015,69.451663,330.358576,25.082
+"191","Brazil",2016,63.831218,312.939113,22.415
+"192","Brazil",2017,67.321878,316.425222,19.080788
+"193","Brazil",2018,65.840737,300.605153,19.342169
+"194","Brazil",2019,61.887745,302.333585,19.86493
+"195","Brazil",2020,56.240806,281.089414,22.052686
+"196","Brazil",2021,68.229888,296.986854,23.792942
+"197","British Virgin Islands",2015,0,0.212512,0
+"198","British Virgin Islands",2016,0,0.212512,0
+"199","British Virgin Islands",2017,0,0.168544,0
+"200","British Virgin Islands",2018,0,0.161216,0
+"201","British Virgin Islands",2019,0,0.168544,0
+"202","British Virgin Islands",2020,0,0.143903,0
+"203","British Virgin Islands",2021,0,0.158529,0
+"204","Brunei Darussalam",2015,0,1.645136,0
+"205","Brunei Darussalam",2016,0,1.803499,0
+"206","Brunei Darussalam",2017,0,1.927264,0
+"207","Brunei Darussalam",2018,0,1.90599,0
+"208","Brunei Darussalam",2019,0.362736,3.576064,0
+"209","Brunei Darussalam",2020,0.380776,3.774237,0
+"210","Brunei Darussalam",2021,0.385681,3.878683,0
+"211","Bulgaria",2015,27.680239,11.662452,1.105434
+"212","Bulgaria",2016,24.1565,12.067898,1.194109
+"213","Bulgaria",2017,25.793896,12.338317,1.239304
+"214","Bulgaria",2018,22.089263,12.555814,1.223503
+"215","Bulgaria",2019,20.767134,13.091638,1.1271
+"216","Bulgaria",2020,16.597579,12.141451,1.065905
+"217","Bulgaria",2021,20.853566,12.778482,1.065905
+"218","Burkina Faso",2015,0,3.191869,0.523116
+"219","Burkina Faso",2016,0,3.264624,0.639364
+"220","Burkina Faso",2017,0,3.821552,0.697487
+"221","Burkina Faso",2018,0,4.180624,0.767236
+"222","Burkina Faso",2019,0,4.443845,0.852485
+"223","Burkina Faso",2020,0,4.536506,0.852485
+"224","Burkina Faso",2021,0,4.845777,0.852485
+"225","Burundi",2015,0.007328,0.34808,0.038749
+"226","Burundi",2016,0.040304,0.388384,0.038749
+"227","Burundi",2017,0.021984,0.490976,0.017437
+"228","Burundi",2018,0.018223,0.626856,0.038749
+"229","Burundi",2019,0.047632,0.6412,0.029062
+"230","Burundi",2020,0.046479,0.581588,0.029062
+"231","Burundi",2021,0.049964,0.613882,0.029062
+"232","Cambodia",2015,2.205728,5.506992,0.65289
+"233","Cambodia",2016,3.055776,6.444976,1.42096
+"234","Cambodia",2017,3.612704,6.591536,2.300602
+"235","Cambodia",2018,3.839872,7.232736,3.315573
+"236","Cambodia",2019,4.418784,8.28064,5.325217
+"237","Cambodia",2020,4.638542,8.739525,5.325217
+"238","Cambodia",2021,4.698298,8.981376,5.325217
+"239","Canada",2015,78.098819,258.061213,6.184772
+"240","Canada",2016,73.497136,256.234514,6.114245
+"241","Canada",2017,72.688193,260.403026,6.827239
+"242","Canada",2018,60.795568,266.964272,6.914762
+"243","Canada",2019,58.325705,269.32597,7.125179
+"244","Canada",2020,48.034995,238.378466,6.624708
+"245","Canada",2021,43.86208,241.659653,6.624708
+"246","Cape Verde",2015,0,0.490976,0
+"247","Cape Verde",2016,0,0.538608,0
+"248","Cape Verde",2017,0,0.578912,0
+"249","Cape Verde",2018,0,0.582576,0
+"250","Cape Verde",2019,0,0.611888,0
+"251","Cape Verde",2020,0,0.62508,0
+"252","Cape Verde",2021,0,0.667694,0
+"253","Central African Republic",2015,0,0.179536,0
+"254","Central African Republic",2016,0,0.197856,0
+"255","Central African Republic",2017,0,0.216176,0
+"256","Central African Republic",2018,0,0.21984,0
+"257","Central African Republic",2019,0,0.227168,0
+"258","Central African Republic",2020,0,0.214242,0
+"259","Central African Republic",2021,0,0.227296,0
+"260","Chad",2015,0,1.150496,0.085248
+"261","Chad",2016,0,1.418206,0.096873
+"262","Chad",2017,0,1.403312,0.135623
+"263","Chad",2018,0,1.454608,0.154997
+"264","Chad",2019,0,1.439952,0.162747
+"265","Chad",2020,0,1.358015,0.162747
+"266","Chad",2021,0,1.440763,0.162747
+"267","Chile",2015,27.16856,44.35272,1.0332
+"268","Chile",2016,27.007344,46.063808,1.1203
+"269","Chile",2017,27.738944,45.468272,0.8659
+"270","Chile",2018,27.048812,46.56778,0.7822
+"271","Chile",2019,31.016986,48.022282,0.825329
+"272","Chile",2020,26.051363,45.392067,0.825329
+"273","Chile",2021,26.184921,46.81935,0.825329
+"274","China",2015,7266.978828,1328.805063,721.994964
+"275","China",2016,7071.403711,1357.837577,743.044097
+"276","China",2017,7163.317856,1430.586816,758.185168
+"277","China",2018,7316.399776,1500.473952,786.74461
+"278","China",2019,7543.157408,1559.72816,826.876048
+"279","China",2020,7605.716883,1627.725238,858.232613
+"280","China",2021,7955.985419,1713.33998,852.961348
+"288","Colombia",2015,19.1444,46.133424,5.551158
+"289","Colombia",2016,19.422276,50.939049,5.316583
+"290","Colombia",2017,14.685855,36.267613,5.23295
+"291","Colombia",2018,13.714352,38.919008,5.301467
+"292","Colombia",2019,18.425648,47.765993,5.536724
+"293","Colombia",2020,15.474417,40.10649,5.041366
+"294","Colombia",2021,12.015417,49.944936,5.870597
+"295","Comoros",2015,0,0.179536,0
+"296","Comoros",2016,0,0.216176,0
+"297","Comoros",2017,0,0.267472,0
+"298","Comoros",2018,0,0.29312,0
+"299","Comoros",2019,0,0.31144,0
+"300","Comoros",2020,0,0.282485,0
+"301","Comoros",2021,0,0.298171,0
+"302","Congo",2015,0,2.1984,0.271245
+"303","Congo",2016,0,2.209392,0.368118
+"304","Congo",2017,0,1.974896,0.406868
+"305","Congo",2018,0,2.005842,0.271245
+"306","Congo",2019,0,2.024422,0.28287
+"307","Congo",2020,0,1.910896,0.28287
+"308","Congo",2021,0,2.027334,0.28287
+"309","Cook Islands",2015,0,0.076944,0
+"310","Cook Islands",2016,0,0.07328,0
+"311","Cook Islands",2017,0,0.080608,0
+"312","Cook Islands",2018,0,0.080608,0
+"313","Cook Islands",2019,0,0.084272,0
+"314","Cook Islands",2020,0,0.088942,0
+"315","Cook Islands",2021,0,0.091403,0
+"316","Costa Rica",2015,0.003664,6.782064,0.620293
+"317","Costa Rica",2016,0.003664,7.379296,0.620293
+"318","Costa Rica",2017,0.01832,7.481888,0.69783
+"319","Costa Rica",2018,0,7.49288,0.736598
+"320","Costa Rica",2019,0,7.317008,0.736598
+"321","Costa Rica",2020,0,6.345142,0.736598
+"322","Costa Rica",2021,0,7.082909,0.736598
+"323","Côte d'Ivoire",2015,0,5.547296,0
+"324","Côte d'Ivoire",2016,0,7.025837,0
+"325","Côte d'Ivoire",2017,0,7.54784,0
+"326","Côte d'Ivoire",2018,0,6.326029,0
+"327","Côte d'Ivoire",2019,0,6.184832,0
+"328","Côte d'Ivoire",2020,0,6.31817,0
+"329","Côte d'Ivoire",2021,0,6.748904,0
+"330","Croatia",2015,2.376274,9.419466,1.169235
+"331","Croatia",2016,2.561225,9.369451,1.076508
+"332","Croatia",2017,1.551263,10.012453,1.287251
+"333","Croatia",2018,1.448575,9.585512,1.210718
+"334","Croatia",2019,1.677532,9.321468,1.184111
+"335","Croatia",2020,1.423842,8.273147,1.212949
+"336","Croatia",2021,1.685619,9.05049,1.212949
+"337","Cuba",2015,0.021987,26.233866,0.669521
+"338","Cuba",2016,0.007328,25.222976,0.672
+"339","Cuba",2017,0.014656,22.5336,0.644094
+"340","Cuba",2018,0.014654,20.013171,0.71566
+"341","Cuba",2019,0.003665,20.349476,0.633291
+"342","Cuba",2020,0.004997,17.371621,0.633291
+"343","Cuba",2021,0.005078,19.137243,0.633291
+"344","Curaçao",2015,0,6.65016,0
+"345","Curaçao",2016,0,5.525312,0
+"346","Curaçao",2017,0,4.455535,0
+"347","Curaçao",2018,0,3.876417,0
+"348","Curaçao",2019,0,1.96024,0
+"349","Curaçao",2020,0,1.673657,0
+"350","Curaçao",2021,0,1.843765,0
+"351","Cyprus",2015,0.014687,6.069755,0.877127
+"352","Cyprus",2016,0.001951,6.476654,0.883247
+"353","Cyprus",2017,0.011694,6.57434,0.922877
+"354","Cyprus",2018,0.05385,6.420236,0.848164
+"355","Cyprus",2019,0.068051,6.460511,0.789212
+"356","Cyprus",2020,0.068052,6.299155,0.882317
+"357","Cyprus",2021,0.201473,6.496579,0.882317
+"358","Czech Republic",2015,64.295744,21.350403,1.558164
+"359","Czech Republic",2016,64.708775,21.391062,1.697599
+"360","Czech Republic",2017,64.285837,22.163491,1.728266
+"361","Czech Republic",2018,63.553489,22.372277,1.867543
+"362","Czech Republic",2019,57.447407,22.487223,1.977237
+"363","Czech Republic",2020,49.846815,21.129351,1.891029
+"364","Czech Republic",2021,51.777952,23.232264,1.891029
+"365","North Korea",2015,19.081272,2.986602,2.555658
+"366","North Korea",2016,21.67256,3.198672,2.700671
+"367","North Korea",2017,46.195313,2.931407,2.609084
+"368","North Korea",2018,42.495072,2.909216,2.225563
+"369","North Korea",2019,47.449195,3.176469,2.138556
+"370","North Korea",2020,49.8124,3.352729,2.171351
+"371","North Korea",2021,50.454114,3.44551,2.48048
+"372","Democratic Republic of the Congo",2015,0,2.634416,0.15461
+"373","Democratic Republic of the Congo",2016,0,1.916092,0.098036
+"374","Democratic Republic of the Congo",2017,0,2.12512,0.348744
+"375","Democratic Republic of the Congo",2018,0,2.065897,0.406093
+"376","Democratic Republic of the Congo",2019,0,2.154432,0.451042
+"377","Democratic Republic of the Congo",2020,0,2.031839,0.451042
+"378","Democratic Republic of the Congo",2021,0,2.155646,0.451042
+"379","Denmark",2015,7.242452,19.582271,0.931502
+"380","Denmark",2016,8.413077,19.862587,1.095455
+"381","Denmark",2017,6.252826,20.02929,1.193741
+"382","Denmark",2018,6.361589,20.089621,1.159742
+"383","Denmark",2019,3.588381,19.69881,1.129199
+"384","Denmark",2020,3.142834,18.591156,1.226954
+"385","Denmark",2021,4.376753,18.665928,1.226954
+"386","Djibouti",2015,0,0.377392,0.054249
+"387","Djibouti",2016,0,0.32976,0.050374
+"388","Djibouti",2017,0,0.32976,0.061999
+"389","Djibouti",2018,0,0.315104,0.069749
+"390","Djibouti",2019,0,0.315104,0.077499
+"391","Djibouti",2020,0,0.285809,0.077499
+"392","Djibouti",2021,0,0.301679,0.077499
+"393","Dominica",2015,0,0.175872,0
+"394","Dominica",2016,0,0.179536,0
+"395","Dominica",2017,0,0.161216,0
+"396","Dominica",2018,0,0.161216,0
+"397","Dominica",2019,0,0.168544,0
+"398","Dominica",2020,0,0.143903,0
+"399","Dominica",2021,0,0.158529,0
+"400","Dominican Republic",2015,2.890444,16.569682,2.008588
+"401","Dominican Republic",2016,2.872576,17.854672,2.004711
+"402","Dominican Republic",2017,3.342079,16.446547,2.036888
+"403","Dominican Republic",2018,3.286608,18.180768,2.105121
+"404","Dominican Republic",2019,3.264624,20.452448,2.171027
+"405","Dominican Republic",2020,4.452132,17.462343,2.171027
+"406","Dominican Republic",2021,4.524063,19.237185,2.171027
+"407","Ecuador",2015,0,35.442329,2.3107
+"408","Ecuador",2016,0,34.29504,2.188461
+"409","Ecuador",2017,0,34.284503,2.243666
+"410","Ecuador",2018,0,32.983328,2.271268
+"411","Ecuador",2019,0,34.85152,2.47237
+"412","Ecuador",2020,0,29.006557,2.47237
+"413","Ecuador",2021,0,35.500845,2.47237
+"414","Egypt",2015,1.344688,112.023136,21.648474
+"415","Egypt",2016,1.608496,114.870064,22.819754
+"416","Egypt",2017,6.507264,119.036032,21.769641
+"417","Egypt",2018,13.0072,102.936416,21.002251
+"418","Egypt",2019,10.123632,101.463488,19.669416
+"419","Egypt",2020,3.853963,90.365765,18.134636
+"420","Egypt",2021,6.228362,97.011732,16.155578
+"421","El Salvador",2015,0.003662,6.280304,0.383807
+"422","El Salvador",2016,0.003662,6.250971,0.341161
+"423","El Salvador",2017,0.003662,5.617124,0.348915
+"424","El Salvador",2018,0.003664,5.983312,0.422575
+"425","El Salvador",2019,0.003662,6.961819,0.457466
+"426","El Salvador",2020,0.003391,6.040118,0.457466
+"427","El Salvador",2021,0.004499,6.742418,0.457466
+"428","Equatorial Guinea",2015,0,1.30072,0
+"429","Equatorial Guinea",2016,0,1.235167,0
+"430","Equatorial Guinea",2017,0,1.139504,0
+"431","Equatorial Guinea",2018,0,1.084544,0
+"432","Equatorial Guinea",2019,0,1.11752,0
+"433","Equatorial Guinea",2020,0,1.05393,0
+"434","Equatorial Guinea",2021,0,1.11815,0
+"435","Eritrea",2015,0,0.553727,0.077499
+"436","Eritrea",2016,0,0.56792,0.077499
+"437","Eritrea",2017,0,0.62288,0.081374
+"438","Eritrea",2018,0,0.721808,0.108498
+"439","Eritrea",2019,0,0.746998,0.108498
+"440","Eritrea",2020,0,0.674642,0.108498
+"441","Eritrea",2021,0,0.712103,0.108498
+"442","Estonia",2015,11.263031,3.396913,0.205612
+"443","Estonia",2016,12.752646,3.503724,0.185181
+"444","Estonia",2017,13.87706,3.571821,0.306764
+"445","Estonia",2018,13.06273,3.503322,0.297762
+"446","Estonia",2019,7.775731,3.315348,0.295485
+"447","Estonia",2020,5.335555,3.111814,0.020121
+"448","Estonia",2021,6.221633,3.226733,0.020121
+"449","Ethiopia",2015,1.091872,8.698336,2.906198
+"450","Ethiopia",2016,1.399648,9.731584,3.216192
+"451","Ethiopia",2017,1.542544,10.51568,3.487437
+"452","Ethiopia",2018,1.114115,11.08251,3.603685
+"453","Ethiopia",2019,1.205698,13.178387,3.91368
+"454","Ethiopia",2020,1.176275,11.950797,3.91368
+"455","Ethiopia",2021,1.264484,12.614389,3.91368
+"456","Faeroe Islands",2015,0,0.608224,0
+"457","Faeroe Islands",2016,0,0.630208,0
+"458","Faeroe Islands",2017,0,0.707152,0
+"459","Faeroe Islands",2018,0,0.725472,0
+"460","Faeroe Islands",2019,0,0.740128,0
+"461","Faeroe Islands",2020,0,0.692173,0
+"462","Faeroe Islands",2021,0,0.698346,0
+"463","Micronesia (Federated States of)",2015,0,0.142896,0
+"464","Micronesia (Federated States of)",2016,0,0.142896,0
+"465","Micronesia (Federated States of)",2017,0,0.142896,0
+"466","Micronesia (Federated States of)",2018,0,0.142896,0
+"467","Micronesia (Federated States of)",2019,0,0.14656,0
+"468","Micronesia (Federated States of)",2020,0,0.154682,0
+"469","Micronesia (Federated States of)",2021,0,0.158962,0
+"470","Fiji",2015,0,1.242096,0
+"471","Fiji",2016,0,1.176144,0
+"472","Fiji",2017,0,1.308048,0
+"473","Fiji",2018,0,1.355537,0
+"474","Fiji",2019,0,1.359201,0
+"475","Fiji",2020,0,1.430807,0
+"476","Fiji",2021,0,1.470402,0
+"477","Finland",2015,16.840545,21.280789,0.462146
+"478","Finland",2016,18.658283,22.862838,0.553242
+"479","Finland",2017,17.087034,22.126732,0.603658
+"480","Finland",2018,17.922401,22.100755,0.601681
+"481","Finland",2019,15.255686,21.581214,0.583481
+"482","Finland",2020,11.871713,20.139138,0.569667
+"483","Finland",2021,12.291231,19.82569,0.569667
+"491","France",2015,37.740819,199.148404,6.408841
+"492","France",2016,35.794215,196.489679,6.438147
+"493","France",2017,39.789541,195.653951,6.291276
+"494","France",2018,34.96638,189.343208,6.495119
+"495","France",2019,29.29436,187.698122,6.588367
+"496","France",2020,23.826985,164.451417,5.994268
+"497","France",2021,28.877789,179.745984,5.994268
+"505","French Guiana",2015,0,0.700359,0
+"506","French Guiana",2016,0,0.716328,0
+"507","French Guiana",2017,0,0.706816,0
+"508","French Guiana",2018,0,0.702726,0
+"509","French Guiana",2019,0,0.719909,0
+"510","French Guiana",2020,0,0.651382,0
+"511","French Guiana",2021,0,0.651382,0
+"512","French Polynesia",2015,0,0.846384,0
+"513","French Polynesia",2016,0,0.868368,0
+"514","French Polynesia",2017,0,0.86104,0
+"515","French Polynesia",2018,0,0.875696,0
+"516","French Polynesia",2019,0,0.875696,0
+"517","French Polynesia",2020,0,0.924224,0
+"518","French Polynesia",2021,0,0.9498,0
+"526","Gabon",2015,0,2.447552,0.077499
+"527","Gabon",2016,0,2.557472,0.131748
+"528","Gabon",2017,0,2.412786,0.143372
+"529","Gabon",2018,0,2.3816,0.189872
+"530","Gabon",2019,0,1.867159,0.209246
+"531","Gabon",2020,0,1.762309,0.209246
+"532","Gabon",2021,0,1.869693,0.209246
+"533","Gambia",2015,0,0.582576,0
+"534","Gambia",2016,0,0.589904,0
+"535","Gambia",2017,0,0.593568,0
+"536","Gambia",2018,0,0.593568,0
+"537","Gambia",2019,0,0.600896,0
+"538","Gambia",2020,0,0.613851,0
+"539","Gambia",2021,0,0.655699,0
+"540","Georgia",2015,1.110606,3.218192,0.671256
+"541","Georgia",2016,1.033248,3.876512,0.690337
+"542","Georgia",2017,1.157824,3.528432,0.785358
+"543","Georgia",2018,1.20912,3.418512,0.755974
+"544","Georgia",2019,0.974624,3.587056,1.056685
+"545","Georgia",2020,1.001849,3.35464,1.056685
+"546","Georgia",2021,0.527202,3.384559,1.056685
+"547","Germany",2015,341.018336,273.407683,12.625554
+"548","Germany",2016,329.445089,277.783622,12.662714
+"549","Germany",2017,310.763015,279.180926,13.408148
+"550","Germany",2018,295.67355,265.224228,13.227901
+"551","Germany",2019,240.086494,270.910415,13.28664
+"552","Germany",2020,197.357678,251.383941,13.357491
+"553","Germany",2021,230.221049,248.200624,13.233969
+"554","Ghana",2015,0,11.856704,1.484098
+"555","Ghana",2016,0,12.373328,1.670095
+"556","Ghana",2017,0,9.449456,1.526723
+"557","Ghana",2018,0,11.441512,1.93359
+"558","Ghana",2019,0,12.02031,2.321083
+"559","Ghana",2020,0,12.277013,2.321083
+"560","Ghana",2021,0,13.113984,2.321083
+"561","Greece",2015,29.948851,34.983654,3.467281
+"562","Greece",2016,23.593526,35.577483,3.772241
+"563","Greece",2017,26.019318,35.035226,3.68521
+"564","Greece",2018,24.851033,33.840597,3.419473
+"565","Greece",2019,17.874125,33.943412,3.360215
+"566","Greece",2020,10.129119,31.071229,2.977784
+"567","Greece",2021,9.775375,31.013853,2.977784
+"568","Greenland",2015,0,0.523816,0
+"569","Greenland",2016,0,0.524924,0
+"570","Greenland",2017,0,0.542002,0
+"571","Greenland",2018,0,0.548021,0
+"572","Greenland",2019,0,0.553636,0
+"573","Greenland",2020,0,0.500478,0
+"574","Greenland",2021,0,0.510659,0
+"575","Grenada",2015,0,0.260144,0
+"576","Grenada",2016,0,0.267472,0
+"577","Grenada",2017,0,0.278464,0
+"578","Grenada",2018,0,0.307776,0
+"579","Grenada",2019,0,0.32976,0
+"580","Grenada",2020,0,0.28596,0
+"581","Grenada",2021,0,0.31921,0
+"582","Guadeloupe",2015,0.450806,2.012525,0
+"583","Guadeloupe",2016,0.461085,2.058413,0
+"584","Guadeloupe",2017,0.454962,2.031081,0
+"585","Guadeloupe",2018,0.45233,2.019329,0
+"586","Guadeloupe",2019,0.46339,2.068705,0
+"587","Guadeloupe",2020,0.41928,1.871788,0
+"588","Guadeloupe",2021,0.41928,1.871788,0
+"589","Guatemala",2015,4.01208,10.453392,1.422798
+"590","Guatemala",2016,4.714539,10.802778,1.302616
+"591","Guatemala",2017,3.909488,11.94464,1.333631
+"592","Guatemala",2018,4.619391,12.594342,1.364645
+"593","Guatemala",2019,4.510384,13.754656,1.380153
+"594","Guatemala",2020,4.174395,11.927723,1.380153
+"595","Guatemala",2021,5.538529,13.314592,1.380153
+"596","Guinea",2015,0,2.451216,0
+"597","Guinea",2016,0,2.741192,0
+"598","Guinea",2017,0,3.238976,0
+"599","Guinea",2018,0,3.685984,0
+"600","Guinea",2019,0,4.433863,0
+"601","Guinea",2020,0,4.532763,0
+"602","Guinea",2021,0,4.841779,0
+"603","Guinea-Bissau",2015,0,0.278464,0
+"604","Guinea-Bissau",2016,0,0.304112,0
+"605","Guinea-Bissau",2017,0,0.304112,0
+"606","Guinea-Bissau",2018,0,0.31144,0
+"607","Guinea-Bissau",2019,0,0.322432,0
+"608","Guinea-Bissau",2020,0,0.329383,0
+"609","Guinea-Bissau",2021,0,0.351839,0
+"610","Guyana",2015,0,1.963904,0.039432
+"611","Guyana",2016,0,2.187408,0.157727
+"612","Guyana",2017,0,2.16176,0.157727
+"613","Guyana",2018,0,2.319312,0.16167
+"614","Guyana",2019,0,2.568464,0.16167
+"615","Guyana",2020,0,2.501146,0.16167
+"616","Guyana",2021,0,2.679087,0.16167
+"617","Haiti",2015,0,2.58312,0.077537
+"618","Haiti",2016,0,2.901983,0.077537
+"619","Haiti",2017,0,3.022891,0.077537
+"620","Haiti",2018,0,3.293856,0.077537
+"621","Haiti",2019,0,2.975168,0.077537
+"622","Haiti",2020,0,2.540205,0.077537
+"623","Haiti",2021,0,2.798387,0.077537
+"624","Honduras",2015,0.337208,9.287891,0.72288
+"625","Honduras",2016,0.150281,8.789615,0.782411
+"626","Honduras",2017,0.003663,9.317845,0.909978
+"627","Honduras",2018,0,9.027821,0.833438
+"628","Honduras",2019,0,10.449728,0.782411
+"629","Honduras",2020,0,9.061765,0.782411
+"630","Honduras",2021,0,10.115401,0.782411
+"631","Hong Kong",2015,25.37101,10.210686,0.736512
+"632","Hong Kong",2016,25.3732,11.054288,0.702167
+"633","Hong Kong",2017,23.768368,11.842048,0.602948
+"634","Hong Kong",2018,24.409568,11.50496,0.625844
+"635","Hong Kong",2019,23.379984,11.622208,0.61058
+"636","Hong Kong",2020,12.454231,8.464056,0.61058
+"637","Hong Kong",2021,13.833671,7.483871,0.61058
+"638","Hungary",2015,10.517019,16.531408,0.675693
+"639","Hungary",2016,9.769268,16.572281,0.705228
+"640","Hungary",2017,10.047647,17.472752,0.783129
+"641","Hungary",2018,9.446999,18.559711,0.881792
+"642","Hungary",2019,8.18614,19.363543,1.022863
+"643","Hungary",2020,7.440498,17.372881,0.928787
+"644","Hungary",2021,6.391263,18.375345,0.928787
+"645","Iceland",2015,0.661181,2.705333,0
+"646","Iceland",2016,0.660089,2.67244,0
+"647","Iceland",2017,0.693221,2.758626,0
+"648","Iceland",2018,0.715029,2.783351,0
+"649","Iceland",2019,0.684012,2.692315,0
+"650","Iceland",2020,0.667573,2.480043,0
+"652","India",2015,1487.461399,554.788779,117.507915
+"653","India",2016,1529.990408,613.165557,123.281311
+"654","India",2017,1560.98815,631.08743,121.047241
+"655","India",2018,1677.600364,655.190293,138.964893
+"656","India",2019,1677.653708,674.011463,143.664137
+"657","India",2020,1588.060207,603.60216,122.908202
+"658","India",2021,1802.311897,622.148121,149.001244
+"659","Indonesia",2015,197.815239,217.062688,24.55791
+"660","Indonesia",2016,206.32789,221.338576,28.70984
+"661","Indonesia",2017,221.093265,228.470295,28.96566
+"662","Indonesia",2018,262.222125,222.508652,30.832
+"663","Indonesia",2019,315.400701,222.18496,30.156
+"664","Indonesia",2020,300.517866,202.578967,28.203453
+"665","Indonesia",2021,303.153575,210.249416,28.637353
+"666","Iraq",2015,0,121.072228,3.492613
+"667","Iraq",2016,0,142.536928,4.191135
+"668","Iraq",2017,0,154.40096,4.540397
+"669","Iraq",2018,0,144.651056,4.889658
+"670","Iraq",2019,0,113.972384,5.238919
+"671","Iraq",2020,0,103.114011,5.238919
+"672","Iraq",2021,0,116.833193,5.238919
+"673","Ireland",2015,9.351334,18.246563,1.652014
+"674","Ireland",2016,9.205271,18.850458,1.793524
+"675","Ireland",2017,7.869732,18.679321,1.839605
+"676","Ireland",2018,6.35416,19.503747,1.916043
+"677","Ireland",2019,4.543313,19.544584,1.892599
+"678","Ireland",2020,3.757762,18.136652,1.76964
+"679","Ireland",2021,6.292886,18.438844,1.76964
+"680","Iran",2015,4.301511,227.053111,20.900424
+"681","Iran",2016,3.451488,200.124016,19.761352
+"682","Iran",2017,4.70824,229.058624,18.909928
+"683","Iran",2018,4.920752,235.390016,19.091292
+"684","Iran",2019,3.729934,229.401917,20.892741
+"685","Iran",2020,3.740171,223.676023,23.855126
+"686","Iran",2021,3.729952,222.961835,22.524908
+"687","Israel",2015,25.088862,21.831377,2.233278
+"688","Israel",2016,20.832269,22.656832,1.983238
+"689","Israel",2017,18.834126,21.329465,1.982413
+"690","Israel",2018,18.130561,22.472662,1.775491
+"691","Israel",2019,18.012224,21.240208,1.424515
+"692","Israel",2020,15.701249,19.035631,1.424515
+"693","Israel",2021,14.043493,19.610503,1.424515
+"694","Italy",2015,53.062916,161.533251,8.196151
+"695","Italy",2016,48.558932,156.014581,7.680499
+"696","Italy",2017,42.039754,148.777563,7.711494
+"697","Italy",2018,39.424353,152.69847,7.756716
+"698","Italy",2019,30.657925,148.115767,7.911519
+"699","Italy",2020,22.269892,127.28358,7.059192
+"700","Italy",2021,23.999725,141.807282,7.059192
+"701","Jamaica",2015,0.267596,7.313078,0.418234
+"702","Jamaica",2016,0.25648,7.49288,0.395752
+"703","Jamaica",2017,0.216176,7.020224,0.359626
+"704","Jamaica",2018,0.230832,7.349984,0.318754
+"705","Jamaica",2019,0.267598,6.748606,0.334332
+"706","Jamaica",2020,0.364765,5.759257,0.380366
+"707","Jamaica",2021,0.370658,6.344618,0.402231
+"708","Japan",2015,465.830288,476.378763,25.93614
+"709","Japan",2016,456.551209,460.878576,25.969471
+"710","Japan",2017,458.482158,448.847338,26.428778
+"711","Japan",2018,441.964043,432.510939,26.182944
+"712","Japan",2019,432.250117,415.860472,25.328006
+"713","Japan",2020,399.366949,387.85735,24.490267
+"714","Japan",2021,418.820499,395.359389,23.788868
+"715","Jordan",2015,0.681504,19.298288,1.571676
+"716","Jordan",2016,0.853841,14.837771,1.582154
+"717","Jordan",2017,0.578912,15.183616,1.634543
+"718","Jordan",2018,0.791424,14.666992,1.634543
+"719","Jordan",2019,0.784096,15.92008,1.76377
+"720","Jordan",2020,0.617038,14.713522,1.76377
+"721","Jordan",2021,0.542521,15.079398,1.76377
+"722","Kazakhstan",2015,183.235611,41.434762,3.456792
+"723","Kazakhstan",2016,183.031911,43.012721,3.524569
+"724","Kazakhstan",2017,187.961862,45.136156,3.817253
+"725","Kazakhstan",2018,190.787784,48.946831,3.890766
+"726","Kazakhstan",2019,176.146122,49.060757,3.800151
+"727","Kazakhstan",2020,181.010491,40.068642,4.448138
+"728","Kazakhstan",2021,180.818472,42.767601,4.448138
+"729","Kenya",2015,1.322408,12.517083,2.456003
+"730","Kenya",2016,1.304384,13.487184,2.599005
+"731","Kenya",2017,1.227704,13.376477,2.414194
+"732","Kenya",2018,1.838957,13.993658,2.336557
+"733","Kenya",2019,1.623462,15.24149,2.312243
+"734","Kenya",2020,1.583859,13.821848,2.870128
+"735","Kenya",2021,1.702633,14.589333,3.583437
+"736","Kiribati",2015,0,0.05496,0
+"737","Kiribati",2016,0,0.05496,0
+"738","Kiribati",2017,0,0.065952,0
+"739","Kiribati",2018,0,0.065952,0
+"740","Kiribati",2019,0,0.065952,0
+"741","Kiribati",2020,0,0.069607,0
+"742","Kiribati",2021,0,0.071533,0
+"743","Kosovo",2015,6.151856,1.952912,0.230832
+"744","Kosovo",2016,6.665722,1.911817,0.278349
+"745","Kosovo",2017,5.602256,2.165424,0.326096
+"746","Kosovo",2018,5.664544,2.150768,0.333424
+"747","Kosovo",2019,5.944109,2.234077,0.318631
+"748","Kosovo",2020,6.112784,2.090225,0.318768
+"749","Kosovo",2021,3.216723,2.108867,0.318768
+"750","Kuwait",2015,0,50.623828,1.08271
+"751","Kuwait",2016,0,56.823353,1.397045
+"752","Kuwait",2017,0,50.958912,1.187488
+"753","Kuwait",2018,0,51.788924,1.152562
+"754","Kuwait",2019,0,55.498608,1.222415
+"755","Kuwait",2020,0,53.144858,1.222415
+"756","Kuwait",2021,0,53.736481,1.222415
+"764","Kyrgyzstan",2015,4.338176,4.832816,0.583937
+"765","Kyrgyzstan",2016,3.4808,5.11128,0.508212
+"766","Kyrgyzstan",2017,3.3892,4.792512,0.58745
+"767","Kyrgyzstan",2018,4.041392,5.668208,0.753731
+"768","Kyrgyzstan",2019,3.16936,4.459088,0.782616
+"769","Kyrgyzstan",2020,3.125244,3.927262,0.782616
+"770","Kyrgyzstan",2021,3.599533,4.234129,0.782616
+"771","Laos",2015,5.149553,2.897082,1.182617
+"772","Laos",2016,12.014256,3.143712,1.300153
+"773","Laos",2017,14.971989,3.209068,1.502789
+"774","Laos",2018,15.417187,3.30918,1.831739
+"775","Laos",2019,14.205328,3.341568,2.049258
+"776","Laos",2020,14.911796,3.526746,2.049258
+"777","Laos",2021,15.103899,3.624343,2.049258
+"778","Latvia",2015,0.190231,4.066391,0.470311
+"779","Latvia",2016,0.165653,4.058759,0.34634
+"780","Latvia",2017,0.167253,4.27663,0.437076
+"781","Latvia",2018,0.197038,4.362586,0.550932
+"782","Latvia",2019,0.166208,4.318617,0.561458
+"783","Latvia",2020,0.098523,4.170118,0.550832
+"784","Latvia",2021,0.137075,4.235802,0.550832
+"785","Lebanon",2015,0.626544,22.713136,2.394872
+"786","Lebanon",2016,0.626544,23.52288,2.307786
+"787","Lebanon",2017,0.626544,24.955504,2.264243
+"788","Lebanon",2018,0.626544,23.48624,2.09007
+"789","Lebanon",2019,0.626544,23.640128,2.133613
+"790","Lebanon",2020,0.493054,21.84848,2.133613
+"791","Lebanon",2021,0.43351,22.391777,2.133613
+"799","Lesotho",2015,1.63048,0.611888,0
+"800","Lesotho",2016,1.564528,0.648528,0
+"801","Lesotho",2017,1.857648,0.655856,0
+"802","Lesotho",2018,1.681776,0.688832,0
+"803","Lesotho",2019,1.670784,0.718144,0
+"804","Lesotho",2020,1.50173,0.686314,0
+"805","Lesotho",2021,1.5822,0.699965,0
+"806","Liberia",2015,0,1.087851,0.115473
+"807","Liberia",2016,0,1.260416,0.093386
+"808","Liberia",2017,0,1.11752,0.110436
+"809","Liberia",2018,0,0.959968,0.121673
+"810","Liberia",2019,0,0.974624,0.131748
+"811","Liberia",2020,0,0.995636,0.131748
+"812","Liberia",2021,0,1.063512,0.131748
+"813","Libya",2015,0,32.032336,1.937465
+"814","Libya",2016,0,25.54732,1.588721
+"815","Libya",2017,0,26.193936,1.743719
+"816","Libya",2018,0,25.933792,1.743719
+"817","Libya",2019,0,42.114016,1.627471
+"818","Libya",2020,0,37.008161,1.627471
+"819","Libya",2021,0,44.3296,1.627471
+"820","Liechtenstein",2015,0,0.108468,0
+"821","Liechtenstein",2016,0,0.098863,0
+"822","Liechtenstein",2017,0,0.102288,0
+"823","Liechtenstein",2018,0,0.093291,0
+"824","Liechtenstein",2019,0,0.098729,0
+"825","Liechtenstein",2020,0,0.093475,0
+"826","Liechtenstein",2021,0,0.095377,0
+"827","Lithuania",2015,0.735889,7.132157,0.518315
+"828","Lithuania",2016,0.748809,7.677032,0.452401
+"829","Lithuania",2017,0.801037,7.763691,0.450351
+"830","Lithuania",2018,0.85889,8.078841,0.511329
+"831","Lithuania",2019,0.800845,8.192743,0.578055
+"832","Lithuania",2020,0.621598,8.021318,0.556685
+"833","Lithuania",2021,0.731517,8.376843,0.556685
+"834","Luxembourg",2015,0.28822,6.823948,0.329477
+"835","Luxembourg",2016,0.294294,6.68528,0.351368
+"836","Luxembourg",2017,0.282571,6.874153,0.370699
+"837","Luxembourg",2018,0.267196,7.243558,0.369492
+"838","Luxembourg",2019,0.274406,7.395905,0.394793
+"839","Luxembourg",2020,0.237493,5.94124,0.399139
+"840","Luxembourg",2021,0.20919,6.125559,0.399139
+"841","Macao",2015,0,1.766048,0.228967
+"848","North Macedonia",2015,3.746317,2.779525,0.26367
+"849","North Macedonia",2016,3.436832,2.854256,0.333424
+"850","North Macedonia",2017,3.814224,2.872576,0.351744
+"851","North Macedonia",2018,3.405631,2.837415,0.359259
+"852","North Macedonia",2019,4.04872,3.092416,0.351744
+"853","North Macedonia",2020,2.77899,2.945478,0.351744
+"854","North Macedonia",2021,2.393694,3.383253,0.351744
+"855","Madagascar",2015,1.051568,2.117792,0.058124
+"856","Madagascar",2016,1.02592,2.183744,0.058124
+"857","Madagascar",2017,1.458272,2.58312,0.077499
+"858","Madagascar",2018,1.242096,2.498848,0.081374
+"859","Madagascar",2019,1.400842,2.809019,0.089123
+"860","Madagascar",2020,1.365766,2.545693,0.089123
+"861","Madagascar",2021,1.468185,2.687047,0.089123
+"862","Malawi",2015,0.227168,0.784096,0.060061
+"863","Malawi",2016,0.205184,0.930656,0.058511
+"864","Malawi",2017,0.209412,1.069106,0.081761
+"865","Malawi",2018,0.234496,1.24576,0.089898
+"866","Malawi",2019,0.21568,1.283114,0.094161
+"867","Malawi",2020,0.210943,1.166499,0.094161
+"868","Malawi",2021,0.226761,1.231271,0.094161
+"869","Malaysia",2015,66.3184,76.189216,8.98114
+"870","Malaysia",2016,71.04496,88.368352,13.41557
+"871","Malaysia",2017,78.608623,81.272391,12.581372
+"872","Malaysia",2018,84.147424,82.890672,11.772656
+"873","Malaysia",2019,85.063424,79.127744,10.797636
+"874","Malaysia",2020,94.558656,70.517073,13.368605
+"875","Malaysia",2021,85.794767,71.102631,13.385331
+"876","Maldives",2015,0,1.311712,0
+"877","Maldives",2016,0,1.436288,0
+"878","Maldives",2017,0,1.513232,0
+"879","Maldives",2018,0,1.7404,0
+"880","Maldives",2019,0,1.952912,0
+"881","Maldives",2020,0,2.061136,0
+"882","Maldives",2021,0,2.118174,0
+"883","Mali",2015,0,3.026464,0.244121
+"884","Mali",2016,0,3.085088,0.25187
+"885","Mali",2017,0,3.290272,0.25962
+"886","Mali",2018,0,3.40725,0.26737
+"887","Mali",2019,0,3.466144,0.387493
+"888","Mali",2020,0,3.54087,0.387493
+"889","Mali",2021,0,3.782265,0.387493
+"890","Malta",2015,2.3e-05,1.663359,0
+"891","Malta",2016,1.2e-05,1.355205,0
+"892","Malta",2017,1.2e-05,0.978233,0
+"893","Malta",2018,1.2e-05,0.865988,0
+"894","Malta",2019,1.1e-05,0.940833,0
+"895","Malta",2020,0,0.863125,0
+"896","Malta",2021,0,0.880683,0
+"897","Marshall Islands",2015,0,0.142896,0
+"898","Marshall Islands",2016,0,0.142896,0
+"899","Marshall Islands",2017,0,0.14656,0
+"900","Marshall Islands",2018,0,0.14656,0
+"901","Marshall Islands",2019,0,0.14656,0
+"902","Marshall Islands",2020,0,0.154682,0
+"903","Marshall Islands",2021,0,0.158962,0
+"904","Martinique",2015,0,2.258053,0
+"905","Martinique",2016,0,2.30954,0
+"906","Martinique",2017,0,2.278873,0
+"907","Martinique",2018,0,2.265687,0
+"908","Martinique",2019,0,2.321087,0
+"909","Martinique",2020,0,2.100146,0
+"910","Martinique",2021,0,2.100146,0
+"911","Mauritania",2015,0,2.923872,0
+"912","Mauritania",2016,0,2.535488,0
+"913","Mauritania",2017,0,3.345232,0
+"914","Mauritania",2018,0,3.664324,0
+"915","Mauritania",2019,0,3.77392,0
+"916","Mauritania",2020,0,3.855281,0
+"917","Mauritania",2021,0,4.118111,0
+"918","Mauritius",2015,1.68544,2.524496,0
+"919","Mauritius",2016,1.714752,2.630752,0
+"920","Mauritius",2017,1.784368,2.751664,0
+"921","Mauritius",2018,1.696432,2.817616,0
+"922","Mauritius",2019,1.560864,2.960512,0
+"923","Mauritius",2020,1.523079,2.685274,0
+"924","Mauritius",2021,1.637295,2.834379,0
+"925","Mayotte",2015,0,0.293829,0
+"926","Mayotte",2016,0,0.300528,0
+"927","Mayotte",2017,0,0.296538,0
+"928","Mayotte",2018,0,0.294822,0
+"929","Mayotte",2019,0,0.302031,0
+"930","Mayotte",2020,0,0.273281,0
+"931","Mayotte",2021,0,0.273281,0
+"932","Mexico",2015,44.114222,258.874271,19.15998
+"933","Mexico",2016,47.621008,251.592224,20.599338
+"934","Mexico",2017,48.52968,245.839744,20.876858
+"935","Mexico",2018,47.313232,233.825488,20.863843
+"936","Mexico",2019,45.26801,241.897149,19.497632
+"937","Mexico",2020,20.011074,190.678139,20.650326
+"938","Mexico",2021,19.360577,195.715517,22.339198
+"939","Mongolia",2015,19.697107,3.367747,0.181946
+"940","Mongolia",2016,22.5336,2.887232,0.191709
+"941","Mongolia",2017,30.070881,3.75886,0.299546
+"942","Mongolia",2018,40.9452,3.953456,0.414482
+"943","Mongolia",2019,41.76185,5.005413,0.487261
+"944","Mongolia",2020,43.835373,5.282386,0.487261
+"945","Mongolia",2021,44.400088,5.428566,0.487261
+"946","Montenegro",2015,1.494912,0.743792,0
+"947","Montenegro",2016,1.183472,0.831728,0
+"948","Montenegro",2017,1.201792,0.901344,0
+"949","Montenegro",2018,1.421632,0.978288,0
+"950","Montenegro",2019,1.454608,1.022256,0
+"951","Montenegro",2020,1.495241,0.956021,0
+"952","Montenegro",2021,0.786839,0.964547,0
+"953","Montserrat",2015,0,0.05496,0
+"954","Montserrat",2016,0,0.029312,0
+"955","Montserrat",2017,0,0.029312,0
+"956","Montserrat",2018,0,0.029312,0
+"957","Montserrat",2019,0,0.021984,0
+"958","Montserrat",2020,0,0.01877,0
+"959","Montserrat",2021,0,0.020678,0
+"960","Morocco",2015,16.843408,34.078864,5.249929
+"961","Morocco",2016,16.235184,34.654112,5.2049
+"962","Morocco",2017,16.876384,36.830528,5.42025
+"963","Morocco",2018,19.51926,35.792028,5.5845
+"964","Morocco",2019,25.259616,36.343216,5.0005
+"965","Morocco",2020,25.36126,32.794844,5.0005
+"966","Morocco",2021,27.844789,36.158632,5.0005
+"967","Mozambique",2015,0.428937,3.519481,0.614176
+"968","Mozambique",2016,0.051296,5.620576,0.947808
+"969","Mozambique",2017,0.025648,4.37848,0.910609
+"970","Mozambique",2018,0.06232,4.457737,0.929983
+"971","Mozambique",2019,0.047632,4.356496,1.011357
+"972","Mozambique",2020,0.046479,3.951473,1.011357
+"973","Mozambique",2021,0.049964,4.170887,1.011357
+"974","Myanmar",2015,0.926992,9.625328,0.377415
+"975","Myanmar",2016,1.124848,10.893072,0.961663
+"976","Myanmar",2017,1.553536,11.453664,2.091236
+"977","Myanmar",2018,3.25031,20.890662,2.48048
+"978","Myanmar",2019,3.931472,19.715984,2.938415
+"979","Myanmar",2020,4.126994,20.808577,2.938415
+"980","Myanmar",2021,4.180161,21.384417,2.938415
+"981","Namibia",2015,0.007328,3.513776,0.3302
+"982","Namibia",2016,0.069616,3.71896,0.26262
+"983","Namibia",2017,0.087936,3.722624,0.405593
+"984","Namibia",2018,0.025648,3.64568,0.483592
+"985","Namibia",2019,0.051296,3.53576,0.519991
+"986","Namibia",2020,0.046106,3.379047,0.519991
+"987","Namibia",2021,0.048576,3.446255,0.519991
+"988","Nauru",2015,0,0.05496,0
+"989","Nauru",2016,0,0.051296,0
+"990","Nauru",2017,0,0.05496,0
+"991","Nauru",2018,0,0.05496,0
+"992","Nauru",2019,0,0.05496,0
+"993","Nauru",2020,0,0.058006,0
+"994","Nauru",2021,0,0.059611,0
+"995","Nepal",2015,2.200909,3.211643,1.492104
+"996","Nepal",2016,2.615123,5.237571,1.908062
+"997","Nepal",2017,2.997152,6.360704,2.289674
+"998","Nepal",2018,4.338176,7.060528,3.434511
+"999","Nepal",2019,3.42584,6.239792,3.762698
+"1000","Nepal",2020,3.596216,6.58558,3.762698
+"1001","Nepal",2021,3.642545,6.767824,3.762698
+"1002","Netherlands",2015,43.545755,51.888597,0.249424
+"1003","Netherlands",2016,40.067734,53.200643,0.23898
+"1004","Netherlands",2017,36.032114,52.933151,0.297969
+"1005","Netherlands",2018,32.532565,53.609722,0.220412
+"1006","Netherlands",2019,25.30793,52.999956,0.006337
+"1007","Netherlands",2020,16.994711,48.155713,0
+"1008","Netherlands",2021,23.00083,47.937075,0.006337
+"1009","New Caledonia",2015,1.878179,2.815439,0.042741
+"1010","New Caledonia",2016,2.425568,2.846928,0.042741
+"1011","New Caledonia",2017,2.740672,2.5648,0.039688
+"1012","New Caledonia",2018,2.497136,2.815686,0.032819
+"1013","New Caledonia",2019,2.484192,2.605104,0.029384
+"1014","New Caledonia",2020,2.607737,2.74947,0.029384
+"1015","New Caledonia",2021,2.641332,2.825557,0.029384
+"1016","New Zealand",2015,5.469636,19.370571,0.620712
+"1017","New Zealand",2016,4.465043,19.489269,0.486377
+"1018","New Zealand",2017,4.669294,20.361619,0.443775
+"1019","New Zealand",2018,5.249307,20.533968,0.417966
+"1020","New Zealand",2019,5.985768,20.911832,0.41094
+"1021","New Zealand",2020,5.755663,19.124118,0.379157
+"1022","New Zealand",2021,6.751966,18.649909,0.379157
+"1023","Nicaragua",2015,0,5.144068,0.286886
+"1024","Nicaragua",2016,0,5.103753,0.302393
+"1025","Nicaragua",2017,0,5.158912,0.302393
+"1026","Nicaragua",2018,0,4.935589,0.263625
+"1027","Nicaragua",2019,0,4.986704,0.23261
+"1028","Nicaragua",2020,0,4.324356,0.23261
+"1029","Nicaragua",2021,0,4.82716,0.23261
+"1030","Niger",2015,0.326096,1.762384,0.019762
+"1031","Niger",2016,0.359072,1.681776,0.019762
+"1032","Niger",2017,0.337656,1.820409,0.019762
+"1033","Niger",2018,0.326096,1.384992,0.02015
+"1034","Niger",2019,0.326592,1.985241,0.100748
+"1035","Niger",2020,0.295738,2.024959,0.100748
+"1036","Niger",2021,0.341988,2.163008,0.100748
+"1037","Nigeria",2015,0.124576,54.124608,8.137354
+"1038","Nigeria",2016,0.139232,60.554928,8.524847
+"1039","Nigeria",2017,0.135568,58.488432,7.362368
+"1040","Nigeria",2018,0.12824,48.452736,8.137354
+"1041","Nigeria",2019,0.14656,68.707328,8.757343
+"1042","Nigeria",2020,0.132916,70.18858,8.757343
+"1043","Nigeria",2021,0.153703,74.973605,8.757343
+"1044","Niue",2015,0,0.007328,0
+"1045","Niue",2016,0,0.007328,0
+"1046","Niue",2017,0,0.007328,0
+"1047","Niue",2018,0,0.010992,0
+"1048","Niue",2019,0,0.010992,0
+"1049","Niue",2020,0,0.011601,0
+"1050","Niue",2021,0,0.011922,0
+"1051","Norway",2015,3.4284,23.8906,0.672
+"1052","Norway",2016,3.5496,23.3674,0.684
+"1053","Norway",2017,3.6428,22.6962,0.766
+"1054","Norway",2018,3.5268,23.2112,0.73
+"1055","Norway",2019,3.5468,21.9492,0.722
+"1056","Norway",2020,3.6024,21.1856,0.725
+"1057","Norway",2021,4.1776,21.477984,0.701255
+"1058","Occupied Palestinian Territory",2015,0,3.00448,0
+"1059","Occupied Palestinian Territory",2016,0,3.231648,0
+"1060","Occupied Palestinian Territory",2017,0,3.268288,0
+"1061","Occupied Palestinian Territory",2018,0,2.956848,0
+"1062","Occupied Palestinian Territory",2019,0,3.264624,0
+"1063","Occupied Palestinian Territory",2020,0,3.017203,0
+"1064","Occupied Palestinian Territory",2021,0,3.092231,0
+"1065","Oman",2015,0,12.702379,1.851085
+"1066","Oman",2016,0,10.940082,1.920937
+"1067","Oman",2017,0,12.96287,1.71138
+"1068","Oman",2018,0,13.285398,1.851085
+"1069","Oman",2019,0,12.941617,1.816159
+"1070","Oman",2020,0,11.330244,1.816159
+"1071","Oman",2021,0,12.195087,1.816159
+"1079","Pakistan",2015,18.02688,70.400096,12.681741
+"1080","Pakistan",2016,23.954783,86.597018,14.128052
+"1081","Pakistan",2017,40.978871,85.453257,14.751988
+"1082","Pakistan",2018,46.88088,66.241456,15.581232
+"1083","Pakistan",2019,50.30672,64.878448,15.436983
+"1084","Pakistan",2020,57.210218,65.651413,17.644992
+"1085","Pakistan",2021,59.956542,74.983799,18.620774
+"1086","Palau",2015,0,0.205184,0
+"1087","Palau",2016,0,0.212512,0
+"1088","Palau",2017,0,0.216176,0
+"1089","Palau",2018,0,0.212512,0
+"1090","Palau",2019,0,0.21984,0
+"1091","Palau",2020,0,0.232023,0
+"1092","Palau",2021,0,0.238444,0
+"1093","Panama",2015,0.937984,9.08672,0.763736
+"1094","Panama",2016,0.831728,8.870544,0.736598
+"1095","Panama",2017,0.230908,10.247896,0.744352
+"1096","Panama",2018,0.582377,9.036007,0.647431
+"1097","Panama",2019,2.3816,8.910848,0.569895
+"1098","Panama",2020,2.204189,7.727284,0.569895
+"1099","Panama",2021,2.924487,8.625756,0.569895
+"1100","Papua New Guinea",2015,0,5.554118,0
+"1101","Papua New Guinea",2016,0,5.778128,0
+"1102","Papua New Guinea",2017,0,5.44104,0
+"1103","Papua New Guinea",2018,0,6.661152,0
+"1104","Papua New Guinea",2019,0,7.001904,0
+"1105","Papua New Guinea",2020,0,7.389926,0
+"1106","Papua New Guinea",2021,0,7.594429,0
+"1107","Paraguay",2015,0.010985,5.686821,0.34983
+"1108","Paraguay",2016,0.003666,6.800139,0.34983
+"1109","Paraguay",2017,0.003664,7.661424,0.40365
+"1110","Paraguay",2018,0.010997,8.093534,0.40365
+"1111","Paraguay",2019,0.003666,7.837047,0.40365
+"1112","Paraguay",2020,0.001285,7.628318,0.40365
+"1113","Paraguay",2021,0.001891,8.171023,0.40365
+"1114","Peru",2015,3.088518,24.993918,4.475647
+"1115","Peru",2016,3.213102,27.943364,4.339787
+"1116","Peru",2017,2.810094,31.995506,4.290774
+"1117","Peru",2018,2.50268,33.209059,4.320439
+"1118","Peru",2019,2.572128,34.77136,4.546156
+"1119","Peru",2020,2.269338,26.903684,4.546156
+"1120","Peru",2021,2.479681,33.814579,4.546156
+"1121","Philippines",2015,46.419216,49.859712,9.205676
+"1122","Philippines",2016,51.486528,53.54936,9.569309
+"1123","Philippines",2017,61.632144,55.788064,9.952082
+"1124","Philippines",2018,64.904096,57.400224,10.909013
+"1125","Philippines",2019,69.52998,55.405615,11.674557
+"1126","Philippines",2020,69.125949,46.997341,11.674557
+"1127","Philippines",2021,74.912241,50.923127,11.674557
+"1128","Bolivia",2015,0.014656,11.526944,1.367575
+"1129","Bolivia",2016,0.014658,12.038176,1.42007
+"1130","Bolivia",2017,0.025652,12.756368,1.423875
+"1131","Bolivia",2018,0.021984,12.893616,1.481605
+"1132","Bolivia",2019,0.025648,12.754384,1.537974
+"1133","Bolivia",2020,0.008997,12.4201,1.26451
+"1134","Bolivia",2021,0.013237,13.30371,1.419773
+"1135","Poland",2015,201.647484,65.701021,6.341808
+"1136","Poland",2016,202.098996,73.97804,6.529685
+"1137","Poland",2017,203.597988,83.588319,6.996488
+"1138","Poland",2018,198.827006,86.610586,7.655328
+"1139","Poland",2019,177.935008,88.158063,7.692452
+"1140","Poland",2020,164.234621,85.531578,7.690636
+"1141","Poland",2021,179.501978,91.709086,7.496242
+"1142","Portugal",2015,12.57497,25.646109,2.921236
+"1143","Portugal",2016,10.831652,25.576533,2.297052
+"1144","Portugal",2017,12.406546,25.948,2.530625
+"1145","Portugal",2018,10.388611,25.514011,2.250869
+"1146","Portugal",2019,5.039867,26.152698,2.225102
+"1147","Portugal",2020,2.430948,23.215232,2.309659
+"1148","Portugal",2021,1.101646,23.885778,2.309659
+"1156","Qatar",2015,0,3.136257,2.402918
+"1157","Qatar",2016,0,2.586784,2.340051
+"1158","Qatar",2017,0,9.057075,2.095568
+"1159","Qatar",2018,0,4.536032,1.676454
+"1160","Qatar",2019,0,10.416752,1.571676
+"1161","Qatar",2020,0,8.140869,1.571676
+"1162","Qatar",2021,0,8.67304,1.571676
+"1163","Cameroon",2015,0,6.213389,0.658738
+"1164","Cameroon",2016,0,6.028161,0.891234
+"1165","Cameroon",2017,0,5.503328,1.007482
+"1166","Cameroon",2018,0,5.080748,1.08498
+"1167","Cameroon",2019,0,5.052656,1.162479
+"1168","Cameroon",2020,0,4.765146,1.162479
+"1169","Cameroon",2021,0,5.055503,1.162479
+"1170","South Korea",2015,335.411292,170.593973,25.77871
+"1171","South Korea",2016,320.697359,184.034149,26.67176
+"1172","South Korea",2017,337.668762,179.413376,26.35058
+"1173","South Korea",2018,340.3476,177.632938,24.70206
+"1174","South Korea",2019,321.60607,175.797343,24.9299
+"1175","South Korea",2020,282.883413,165.067876,22.865592
+"1176","South Korea",2021,283.908353,171.484229,23.704068
+"1177","Moldova",2015,0.369781,2.288247,0.443244
+"1178","Moldova",2016,0.278673,2.464057,0.433902
+"1179","Moldova",2017,0.40304,2.553808,0.537919
+"1180","Moldova",2018,0.307776,2.667392,0.594314
+"1181","Moldova",2019,0.366648,2.753524,0.636249
+"1182","Moldova",2020,0.3613,2.423479,0.636249
+"1183","Moldova",2021,0.416131,2.612844,0.636249
+"1184","South Sudan",2015,0,1.912608,0
+"1185","South Sudan",2016,0,1.70376,0
+"1186","South Sudan",2017,0,1.454608,0
+"1187","South Sudan",2018,0,1.498576,0
+"1188","South Sudan",2019,0,1.652464,0
+"1189","South Sudan",2020,0,1.498835,0
+"1190","South Sudan",2021,0,1.58206,0
+"1191","Sudan",2015,0,18.730102,1.435928
+"1192","Sudan",2016,0,17.755744,1.555589
+"1193","Sudan",2017,0,20.155947,1.555589
+"1194","Sudan",2018,0,19.624384,1.555589
+"1195","Sudan",2019,0,19.873536,1.555589
+"1196","Sudan",2020,0,18.025897,1.555589
+"1197","Sudan",2021,0,19.02682,1.555589
+"1198","Réunion",2015,2.0246,2.386855,0
+"1199","Réunion",2016,2.070764,2.441278,0
+"1200","Réunion",2017,2.043268,2.408862,0
+"1201","Réunion",2018,2.031445,2.394924,0
+"1202","Réunion",2019,2.081117,2.453484,0
+"1203","Réunion",2020,1.883018,2.21994,0
+"1204","Réunion",2021,1.883018,2.21994,0
+"1205","Romania",2015,24.681829,24.569336,3.337467
+"1206","Romania",2016,21.990651,26.422873,3.181003
+"1207","Romania",2017,21.839268,28.420121,3.310254
+"1208","Romania",2018,20.694593,28.730236,3.504827
+"1209","Romania",2019,18.309118,29.697703,3.828019
+"1210","Romania",2020,14.234452,29.22042,3.901027
+"1211","Romania",2021,16.450983,31.801002,3.901027
+"1212","Russia",2015,414.059434,405.864558,23.171307
+"1213","Russia",2016,402.192494,400.367433,20.432102
+"1214","Russia",2017,384.724075,413.496784,20.512221
+"1215","Russia",2018,396.392489,391.516179,20.090711
+"1216","Russia",2019,390.365017,398.417081,20.306193
+"1217","Russia",2020,366.758617,380.833317,20.580721
+"1218","Russia",2021,380.227147,403.080393,21.920821
+"1219","Rwanda",2015,0,0.856934,0.06544
+"1220","Rwanda",2016,0.007328,0.850048,0.127244
+"1221","Rwanda",2017,0.007328,0.93432,0.141787
+"1222","Rwanda",2018,0.014656,1.02592,0.145422
+"1223","Rwanda",2019,0.018357,1.538311,0.1636
+"1224","Rwanda",2020,0.017877,1.392487,0.1636
+"1225","Rwanda",2021,0.019217,1.469808,0.1636
+"1233","Saint Helena",2015,0,0.010992,0
+"1234","Saint Helena",2016,0,0.014656,0
+"1235","Saint Helena",2017,0,0.010992,0
+"1236","Saint Helena",2018,0,0.010992,0
+"1237","Saint Helena",2019,0,0.014656,0
+"1238","Saint Helena",2020,0,0.012513,0
+"1239","Saint Helena",2021,0,0.013785,0
+"1240","Saint Lucia",2015,0,0.479984,0
+"1241","Saint Lucia",2016,0,0.487312,0
+"1242","Saint Lucia",2017,0,0.505632,0
+"1243","Saint Lucia",2018,0,0.509296,0
+"1244","Saint Lucia",2019,0,0.516624,0
+"1245","Saint Lucia",2020,0,0.441095,0
+"1246","Saint Lucia",2021,0,0.485927,0
+"1247","Sint Maarten (Dutch part)",2015,0,0.743792,0
+"1248","Sint Maarten (Dutch part)",2016,0,0.743792,0
+"1249","Sint Maarten (Dutch part)",2017,0,0.707152,0
+"1250","Sint Maarten (Dutch part)",2018,0,0.688832,0
+"1251","Sint Maarten (Dutch part)",2019,0,0.688832,0
+"1252","Sint Maarten (Dutch part)",2020,0,0.588126,0
+"1253","Sint Maarten (Dutch part)",2021,0,0.647902,0
+"1254","Samoa",2015,0,0.227168,0
+"1255","Samoa",2016,0,0.23816,0
+"1256","Samoa",2017,0,0.245488,0
+"1257","Samoa",2018,0,0.23816,0
+"1258","Samoa",2019,0,0.271136,0
+"1259","Samoa",2020,0,0.286161,0
+"1260","Samoa",2021,0,0.29408,0
+"1261","Sao Tome and Principe",2015,0,0.120912,0
+"1262","Sao Tome and Principe",2016,0,0.124576,0
+"1263","Sao Tome and Principe",2017,0,0.12824,0
+"1264","Sao Tome and Principe",2018,0,0.131904,0
+"1265","Sao Tome and Principe",2019,0,0.131904,0
+"1266","Sao Tome and Principe",2020,0,0.124398,0
+"1267","Sao Tome and Principe",2021,0,0.131978,0
+"1268","Saudi Arabia",2015,0,415.11288,29.669752
+"1269","Saudi Arabia",2016,0,368.233524,28.879455
+"1270","Saudi Arabia",2017,0,367.662546,23.998174
+"1271","Saudi Arabia",2018,0,339.498912,25.134882
+"1272","Saudi Arabia",2019,0,371.994928,24.603584
+"1273","Saudi Arabia",2020,0,371.034522,25.592905
+"1274","Saudi Arabia",2021,0,369.721417,28.688192
+"1275","Senegal",2015,1.150496,6.859008,1.78828
+"1276","Senegal",2016,1.205456,6.771072,1.995202
+"1277","Senegal",2017,1.439952,7.258384,2.013801
+"1278","Senegal",2018,2.260688,6.950608,2.097112
+"1279","Senegal",2019,2.08788,7.970572,2.673702
+"1280","Senegal",2020,1.894052,8.14475,2.673702
+"1281","Senegal",2021,2.190262,8.700009,2.673702
+"1282","Serbia",2015,30.568752,8.489488,0.686714
+"1283","Serbia",2016,31.067056,8.888864,0.747746
+"1284","Serbia",2017,31.021923,8.871259,0.792171
+"1285","Serbia",2018,29.60512,8.965808,0.86898
+"1286","Serbia",2019,29.601456,9.222288,0.959075
+"1287","Serbia",2020,30.428334,8.624748,0.959075
+"1288","Serbia",2021,16.012263,8.70167,0.959075
+"1289","Seychelles",2015,0,0.498304,0
+"1290","Seychelles",2016,0,0.553264,0
+"1291","Seychelles",2017,0,0.575248,0
+"1292","Seychelles",2018,0,0.600896,0
+"1293","Seychelles",2019,0,0.593568,0
+"1294","Seychelles",2020,0,0.538384,0
+"1295","Seychelles",2021,0,0.568279,0
+"1296","Sierra Leone",2015,0,1.04464,0
+"1297","Sierra Leone",2016,0,1.150496,0
+"1298","Sierra Leone",2017,0,1.055232,0
+"1299","Sierra Leone",2018,0,1.036912,0
+"1300","Sierra Leone",2019,0,1.1908,0
+"1301","Sierra Leone",2020,0,1.216472,0
+"1302","Sierra Leone",2021,0,1.299404,0
+"1303","Singapore",2015,1.751278,35.161126,0
+"1304","Singapore",2016,1.832,13.77664,0
+"1305","Singapore",2017,3.86552,13.13544,0
+"1306","Singapore",2018,2.05534,23.381786,0
+"1307","Singapore",2019,1.971232,7.056864,0
+"1308","Singapore",2020,1.864508,7.073996,0
+"1309","Singapore",2021,3.348566,6.933074,0
+"1310","Slovakia",2015,13.918411,9.651327,1.30857
+"1311","Slovakia",2016,13.828549,10.024989,1.340952
+"1312","Slovakia",2017,14.284374,10.13604,1.367054
+"1313","Slovakia",2018,14.206341,10.23418,1.346682
+"1314","Slovakia",2019,11.778465,10.319318,1.404269
+"1315","Slovakia",2020,9.955995,9.610438,1.443145
+"1316","Slovakia",2021,12.579047,10.094408,1.443145
+"1317","Slovenia",2015,4.615338,6.874236,0.367208
+"1318","Slovenia",2016,4.963894,7.240179,0.34372
+"1319","Slovenia",2017,4.906708,7.310981,0.410234
+"1320","Slovenia",2018,4.792092,7.326315,0.450078
+"1321","Slovenia",2019,4.530459,7.056562,0.477618
+"1322","Slovenia",2020,4.392651,6.019196,0.474881
+"1323","Slovenia",2021,3.614252,6.3875,0.474881
+"1324","Solomon Islands",2015,0,0.29312,0
+"1325","Solomon Islands",2016,0,0.289456,0
+"1326","Solomon Islands",2017,0,0.285792,0
+"1327","Solomon Islands",2018,0,0.289456,0
+"1328","Solomon Islands",2019,0,0.29312,0
+"1329","Solomon Islands",2020,0,0.309364,0
+"1330","Solomon Islands",2021,0,0.317925,0
+"1338","South Africa",2015,377.0256,53.765536,5.419228
+"1339","South Africa",2016,384.489745,58.934967,5.69139
+"1340","South Africa",2017,369.918017,56.611992,5.481458
+"1341","South Africa",2018,355.111886,65.482456,5.466088
+"1342","South Africa",2019,394.345328,57.979136,5.452967
+"1343","South Africa",2020,373.220141,49.002001,5.070967
+"1344","South Africa",2021,370.266547,52.305232,5.070967
+"1345","Spain",2015,61.840899,137.710148,9.216019
+"1346","Spain",2016,45.677289,141.796009,9.413649
+"1347","Spain",2017,53.592704,142.571508,9.448701
+"1348","Spain",2018,48.066131,143.531398,9.667446
+"1349","Spain",2019,23.622477,141.220887,9.064168
+"1350","Spain",2020,14.300041,120.283595,8.191764
+"1351","Spain",2021,18.575481,133.112623,8.608877
+"1352","Sri Lanka",2015,5.217536,13.74,0.872747
+"1353","Sri Lanka",2016,5.524435,16.470728,1.028445
+"1354","Sri Lanka",2017,5.723168,16.23152,1.075765
+"1355","Sri Lanka",2018,5.528013,14.382359,1.084161
+"1356","Sri Lanka",2019,5.902704,14.806224,1.511185
+"1357","Sri Lanka",2020,6.335415,13.857081,1.511185
+"1358","Sri Lanka",2021,6.076669,13.193056,1.511185
+"1359","Saint Kitts and Nevis",2015,0,0.234496,0
+"1360","Saint Kitts and Nevis",2016,0,0.23816,0
+"1361","Saint Kitts and Nevis",2017,0,0.241824,0
+"1362","Saint Kitts and Nevis",2018,0,0.245488,0
+"1363","Saint Kitts and Nevis",2019,0,0.252816,0
+"1364","Saint Kitts and Nevis",2020,0,0.215855,0
+"1365","Saint Kitts and Nevis",2021,0,0.237794,0
+"1373","Saint Pierre and Miquelon",2015,0,0.065952,0
+"1374","Saint Pierre and Miquelon",2016,0,0.065952,0
+"1375","Saint Pierre and Miquelon",2017,0,0.065952,0
+"1376","Saint Pierre and Miquelon",2018,0,0.058624,0
+"1377","Saint Pierre and Miquelon",2019,0,0.065952,0
+"1378","Saint Pierre and Miquelon",2020,0,0.05631,0
+"1379","Saint Pierre and Miquelon",2021,0,0.062033,0
+"1380","Saint Vincent and the Grenadines",2015,0,0.234496,0
+"1381","Saint Vincent and the Grenadines",2016,0,0.241824,0
+"1382","Saint Vincent and the Grenadines",2017,0,0.216176,0
+"1383","Saint Vincent and the Grenadines",2018,0,0.241824,0
+"1384","Saint Vincent and the Grenadines",2019,0,0.227168,0
+"1385","Saint Vincent and the Grenadines",2020,0,0.193957,0
+"1386","Saint Vincent and the Grenadines",2021,0,0.21367,0
+"1387","Suriname",2015,0,2.370608,0.027602
+"1388","Suriname",2016,0,2.333945,0.007886
+"1389","Suriname",2017,0,2.08848,0.01183
+"1390","Suriname",2018,0,1.846656,0.01183
+"1391","Suriname",2019,0,2.660034,0.01183
+"1392","Suriname",2020,0,2.586778,0.01183
+"1393","Suriname",2021,0,2.77081,0.01183
+"1394","Swaziland",2015,0.135568,0.7328,0
+"1395","Swaziland",2016,0.246343,0.808889,0
+"1396","Swaziland",2017,0.161216,0.8244,0
+"1397","Swaziland",2018,0.161216,0.872032,0
+"1398","Swaziland",2019,0.20152,0.919664,0
+"1399","Swaziland",2020,0.18113,0.878902,0
+"1400","Swaziland",2021,0.190836,0.896383,0
+"1401","Sweden",2015,8.152132,30.67535,1.536918
+"1402","Sweden",2016,8.00221,30.369447,1.553613
+"1403","Sweden",2017,8.473792,29.50231,1.484312
+"1404","Sweden",2018,8.046477,29.172925,1.607177
+"1405","Sweden",2019,8.092101,28.705403,1.349386
+"1406","Sweden",2020,6.662655,26.157097,1.272062
+"1407","Sweden",2021,5.553458,26.562522,1.272062
+"1408","Switzerland",2015,0.562525,29.467247,1.714787
+"1409","Switzerland",2016,0.528458,29.556995,1.768989
+"1410","Switzerland",2017,0.506227,28.619567,1.759823
+"1411","Switzerland",2018,0.478956,27.769712,1.738398
+"1412","Switzerland",2019,0.4316,27.489291,1.732205
+"1413","Switzerland",2020,0.414396,25.309228,1.679247
+"1414","Switzerland",2021,0.413264,25.420495,1.679247
+"1415","Syria",2015,0.003664,18.983184,0.646133
+"1416","Syria",2016,0.003664,20.448784,0.85569
+"1417","Syria",2017,0.003664,22.768096,0.740434
+"1418","Syria",2018,0.003664,21.309824,0.750912
+"1419","Syria",2019,0.003664,18.407936,0.768375
+"1420","Syria",2020,0.002883,17.012827,0.768375
+"1421","Syria",2021,0.002535,17.435879,0.768375
+"1422","Taiwan",2015,159.319575,67.293964,6.313
+"1423","Taiwan",2016,159.482334,70.804947,5.395
+"1424","Taiwan",2017,162.617632,69.449059,5.357
+"1425","Taiwan",2018,158.806565,68.992914,5.378
+"1426","Taiwan",2019,154.560547,65.470555,5.508
+"1427","Taiwan",2020,144.262502,62.887735,5.759784
+"1428","Taiwan",2021,154.887128,65.905433,5.849852
+"1429","Tajikistan",2015,1.75872,2.843264,0.69297
+"1430","Tajikistan",2016,2.986378,2.77777,0.665115
+"1431","Tajikistan",2017,3.960784,2.370608,1.523264
+"1432","Tajikistan",2018,4.189885,2.92999,1.878546
+"1433","Tajikistan",2019,4.565344,2.934864,2.053499
+"1434","Tajikistan",2020,4.501797,2.584829,2.053499
+"1435","Tajikistan",2021,5.184992,2.786801,2.053499
+"1436","Thailand",2015,64.618304,117.585088,20.023558
+"1437","Thailand",2016,59.10032,121.109856,23.053166
+"1438","Thailand",2017,62.76351,124.808885,22.388464
+"1439","Thailand",2018,60.588719,117.168969,22.465831
+"1440","Thailand",2019,62.483006,121.008841,22.304276
+"1441","Thailand",2020,66.805159,110.907639,21.925554
+"1442","Thailand",2021,70.646945,108.752895,21.151106
+"1443","Timor-Leste",2015,0,0.427877,0
+"1444","Timor-Leste",2016,0,0.509296,0
+"1445","Timor-Leste",2017,0,0.5496,0
+"1446","Timor-Leste",2018,0,0.498304,0
+"1447","Timor-Leste",2019,0,0.60456,0
+"1448","Timor-Leste",2020,0,0.638063,0
+"1449","Timor-Leste",2021,0,0.65572,0
+"1450","Togo",2015,0,0.97609,0.814136
+"1451","Togo",2016,0,1.477636,0.819712
+"1452","Togo",2017,0,1.395984,0.76395
+"1453","Togo",2018,0,1.333696,0.786255
+"1454","Togo",2019,0,1.17248,0.842017
+"1455","Togo",2020,0,1.197757,0.842017
+"1456","Togo",2021,0,1.279413,0.842017
+"1457","Tonga",2015,0,0.117248,0
+"1458","Tonga",2016,0,0.124576,0
+"1459","Tonga",2017,0,0.135568,0
+"1460","Tonga",2018,0,0.135568,0
+"1461","Tonga",2019,0,0.161216,0
+"1462","Tonga",2020,0,0.17015,0
+"1463","Tonga",2021,0,0.174859,0
+"1464","Trinidad and Tobago",2015,0,5.133264,0.325654
+"1465","Trinidad and Tobago",2016,0,4.056048,0.27952
+"1466","Trinidad and Tobago",2017,0,5.114475,0.259748
+"1467","Trinidad and Tobago",2018,0,3.931472,0.257034
+"1468","Trinidad and Tobago",2019,0,3.740944,0.262849
+"1469","Trinidad and Tobago",2020,0,3.468628,0.262849
+"1470","Trinidad and Tobago",2021,0,3.076824,0.262849
+"1471","Tunisia",2015,0,14.000144,3.784966
+"1472","Tunisia",2016,0,13.677712,3.594265
+"1473","Tunisia",2017,0,14.313499,3.206094
+"1474","Tunisia",2018,0,13.74,3.125275
+"1475","Tunisia",2019,0,13.459554,3.223213
+"1476","Tunisia",2020,0,11.826255,3.223213
+"1477","Tunisia",2021,0,14.16588,3.223213
+"1478","Turkey",2015,138.794158,108.642691,34.440797
+"1479","Turkey",2016,151.631064,117.84743,37.527871
+"1480","Turkey",2017,157.937686,120.765446,39.468752
+"1481","Turkey",2018,163.038903,117.667026,39.413498
+"1482","Turkey",2019,164.971991,114.860007,32.348743
+"1483","Turkey",2020,158.630595,115.280894,40.812754
+"1484","Turkey",2021,162.562331,118.359993,44.394708
+"1485","Turkmenistan",2015,0,20.111696,1.259321
+"1486","Turkmenistan",2016,0,19.9688,1.335643
+"1487","Turkmenistan",2017,0,19.997071,1.373804
+"1488","Turkmenistan",2018,0,20.141008,1.450127
+"1489","Turkmenistan",2019,0,20.217952,1.522633
+"1490","Turkmenistan",2020,0,19.943643,1.522633
+"1491","Turkmenistan",2021,0,20.524557,1.522633
+"1492","Turks and Caicos Islands",2015,0,0.31144,0
+"1493","Turks and Caicos Islands",2016,0,0.32976,0
+"1494","Turks and Caicos Islands",2017,0,0.351744,0
+"1495","Turks and Caicos Islands",2018,0,0.362736,0
+"1496","Turks and Caicos Islands",2019,0,0.362736,0
+"1497","Turks and Caicos Islands",2020,0,0.309705,0
+"1498","Turks and Caicos Islands",2021,0,0.341183,0
+"1499","Tuvalu",2015,0,0.007328,0
+"1500","Tuvalu",2016,0,0.007328,0
+"1501","Tuvalu",2017,0,0.007328,0
+"1502","Tuvalu",2018,0,0.007328,0
+"1503","Tuvalu",2019,0,0.007328,0
+"1504","Tuvalu",2020,0,0.007734,0
+"1505","Tuvalu",2021,0,0.007948,0
+"1506","Uganda",2015,0,4.17696,0.34861
+"1507","Uganda",2016,0,4.415782,0.372987
+"1508","Uganda",2017,0,5.00136,0.37553
+"1509","Uganda",2018,0,5.301808,0.329018
+"1510","Uganda",2019,0,5.430048,0.581764
+"1511","Uganda",2020,0,4.925217,0.581764
+"1512","Uganda",2021,0,5.1987,0.581764
+"1513","Ukraine",2015,119.392944,30.48936,3.27752
+"1514","Ukraine",2016,126.828013,34.123592,3.622848
+"1515","Ukraine",2017,112.586372,35.342176,3.543391
+"1516","Ukraine",2018,120.544058,35.214604,3.71873
+"1517","Ukraine",2019,114.045427,38.480585,3.947163
+"1518","Ukraine",2020,102.148412,34.914376,4.026967
+"1519","Ukraine",2021,101.829705,36.453332,4.421499
+"1520","United Arab Emirates",2015,6.50349,66.756952,7.159856
+"1521","United Arab Emirates",2016,6.97992,63.083088,5.902516
+"1522","United Arab Emirates",2017,8.073695,62.469945,6.077146
+"1523","United Arab Emirates",2018,7.281986,62.043578,5.692959
+"1524","United Arab Emirates",2019,7.498098,60.495002,5.727885
+"1525","United Arab Emirates",2020,7.168701,53.970787,5.727885
+"1526","United Arab Emirates",2021,6.695359,59.84288,5.727885
+"1527","United Kingdom",2015,91.548016,170.772559,4.393361
+"1528","United Kingdom",2016,47.824616,173.93028,4.553321
+"1529","United Kingdom",2017,39.128801,174.850612,4.40979
+"1530","United Kingdom",2018,33.280249,173.087118,4.363948
+"1531","United Kingdom",2019,24.512705,168.995529,4.448499
+"1532","United Kingdom",2020,22.809405,143.980921,3.899688
+"1533","United Kingdom",2021,23.689725,154.11081,3.899688
+"1534","Tanzania",2015,0.681504,7.064192,1.214791
+"1535","Tanzania",2016,0.7328,6.968928,1.577484
+"1536","Tanzania",2017,1.494912,6.79672,1.627471
+"1537","Tanzania",2018,1.666602,6.948447,1.747206
+"1538","Tanzania",2019,1.890624,6.756416,2.52413
+"1539","Tanzania",2020,1.844857,6.128273,2.52413
+"1540","Tanzania",2021,1.983202,6.468557,2.52413
+"1541","United States of America",2015,1479.001098,2285.320769,39.907292
+"1542","United States of America",2016,1347.797519,2299.606916,39.439018
+"1543","United States of America",2017,1308.479533,2314.675386,40.323535
+"1544","United States of America",2018,1256.201494,2365.28348,38.970745
+"1545","United States of America",2019,1070.723931,2358.831137,40.895869
+"1546","United States of America",2020,878.972885,2049.3365,40.687747
+"1547","United States of America",2021,1002.299987,2233.77818,41.203135
+"1548","Uruguay",2015,0.003664,6.287424,0.355674
+"1549","Uruguay",2016,0.003666,6.118663,0.292583
+"1550","Uruguay",2017,0.003664,5.71584,0.322157
+"1551","Uruguay",2018,0.003664,6.133536,0.320186
+"1552","Uruguay",2019,0.003666,6.030691,0.290612
+"1553","Uruguay",2020,0.001285,5.869309,0.290612
+"1554","Uruguay",2021,0.001891,6.286873,0.290612
+"1555","Uzbekistan",2015,5.99064,10.237216,3.427221
+"1556","Uzbekistan",2016,7.093744,10.717562,3.476474
+"1557","Uzbekistan",2017,6.687028,11.113291,3.665279
+"1558","Uzbekistan",2018,9.658304,11.695488,3.776099
+"1559","Uzbekistan",2019,8.280383,12.277682,4.67908
+"1560","Uzbekistan",2020,11.347821,10.945809,4.67908
+"1561","Uzbekistan",2021,8.083977,11.805991,4.67908
+"1562","Vanuatu",2015,0,0.131904,0
+"1563","Vanuatu",2016,0,0.14656,0
+"1564","Vanuatu",2017,0,0.139232,0
+"1565","Vanuatu",2018,0,0.175872,0
+"1566","Vanuatu",2019,0,0.161216,0
+"1567","Vanuatu",2020,0,0.17015,0
+"1568","Vanuatu",2021,0,0.174859,0
+"1569","Venezuela",2015,0.498314,98.138574,3.237345
+"1570","Venezuela",2016,0.560592,83.359664,2.283097
+"1571","Venezuela",2017,0.311432,76.960425,2.133257
+"1572","Venezuela",2018,0.124576,43.238864,2.011018
+"1573","Venezuela",2019,0.164886,34.758049,1.774428
+"1574","Venezuela",2020,0.065309,29.418379,1.774428
+"1575","Venezuela",2021,0.036175,30.221861,1.774428
+"1576","Viet Nam",2015,97.81609,63.22121,34.297526
+"1577","Viet Nam",2016,106.856896,60.3644,36.822063
+"1578","Viet Nam",2017,108.2217,62.369643,42.73531
+"1579","Viet Nam",2018,134.85352,69.76256,49.637485
+"1580","Viet Nam",2019,191.442495,76.332973,52.854843
+"1581","Viet Nam",2020,192.278987,65.31983,53.038255
+"1582","Viet Nam",2021,196.518368,60.613903,54.120668
+"1583","Wallis and Futuna Islands",2015,0,0.021984,0
+"1584","Wallis and Futuna Islands",2016,0,0.025648,0
+"1585","Wallis and Futuna Islands",2017,0,0.025648,0
+"1586","Wallis and Futuna Islands",2018,0,0.025648,0
+"1587","Wallis and Futuna Islands",2019,0,0.025648,0
+"1588","Wallis and Futuna Islands",2020,0,0.027069,0
+"1589","Wallis and Futuna Islands",2021,0,0.027818,0
+"1590","Yemen",2015,0.414032,9.639984,0.883631
+"1591","Yemen",2016,0.322432,8.471168,0.488966
+"1592","Yemen",2017,0.307776,8.254992,0.670582
+"1593","Yemen",2018,0.31144,8.379568,0.656611
+"1594","Yemen",2019,0.355295,10.124068,0.663596
+"1595","Yemen",2020,0.279686,9.359764,0.663596
+"1596","Yemen",2021,0.245909,9.59251,0.663596
+"1597","Zambia",2015,0.49464,3.872848,0.697487
+"1598","Zambia",2016,0.853179,4.229277,0.774986
+"1599","Zambia",2017,1.902634,4.083881,0.85636
+"1600","Zambia",2018,2.744336,3.601712,1.065993
+"1601","Zambia",2019,2.347513,4.438667,0.960983
+"1602","Zambia",2020,2.29177,4.027911,0.960983
+"1603","Zambia",2021,2.463629,4.251568,0.960983
+"1604","Zimbabwe",2015,8.0608,3.60904,0.585114
+"1605","Zimbabwe",2016,6.932288,3.140048,0.461117
+"1606","Zimbabwe",2017,5.900452,3.226752,0.468867
+"1607","Zimbabwe",2018,7.177776,4.059712,0.55799
+"1608","Zimbabwe",2019,6.88832,3.656672,0.569615
+"1609","Zimbabwe",2020,6.721571,3.316712,0.569615
+"1610","Zimbabwe",2021,7.22562,3.500879,0.569615
