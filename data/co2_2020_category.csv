@@ -1,652 +1,231 @@
-"","Country","variable","value"
-"1","Afghanistan","Coal",0.106488
-"2","Albania","Coal",0.115611
-"3","Algeria","Coal",0.025282
-"4","Andorra","Coal",0
-"5","Angola","Coal",0
-"6","Anguilla","Coal",0
-"7","Antigua and Barbuda","Coal",0
-"8","Argentina","Coal",0.058674
-"9","Armenia","Coal",0.003863
-"10","Aruba","Coal",0
-"11","Australia","Coal",6.082697
-"12","Austria","Coal",1.279033
-"13","Azerbaijan","Coal",0.000357
-"14","Bahamas","Coal",0.012293
-"15","Bahrain","Coal",0
-"16","Bangladesh","Coal",0.101231
-"17","Barbados","Coal",0
-"18","Belarus","Coal",0.392108
-"19","Belgium","Coal",0.921254
-"20","Belize","Coal",0
-"21","Benin","Coal",0.019449
-"22","Bermuda","Coal",0
-"23","Bhutan","Coal",0.572572
-"24","Bonaire, Saint Eustatius and Saba","Coal",0
-"25","Bosnia and Herzegovina","Coal",4.749921
-"26","Botswana","Coal",1.361848
-"27","Brazil","Coal",0.263798
-"28","British Virgin Islands","Coal",0
-"29","Brunei Darussalam","Coal",0.86202
-"30","Bulgaria","Coal",2.378158
-"31","Burkina Faso","Coal",0
-"32","Burundi","Coal",0.003803
-"33","Cambodia","Coal",0.282892
-"34","Canada","Coal",1.267792
-"35","Cape Verde","Coal",0
-"36","Central African Republic","Coal",0
-"37","Chad","Coal",0
-"38","Chile","Coal",1.34979
-"39","China","Coal",5.337608
-"40","Colombia","Coal",0.303833
-"41","Comoros","Coal",0
-"42","Congo","Coal",0
-"43","Cook Islands","Coal",0
-"44","Costa Rica","Coal",0
-"45","Côte d'Ivoire","Coal",0
-"46","Croatia","Coal",0.347544
-"47","Cuba","Coal",0.000442
-"48","Curaçao","Coal",0
-"49","Cyprus","Coal",0.05499
-"50","Czech Republic","Coal",4.733362
-"51","North Korea","Coal",1.925678
-"52","Democratic Republic of the Congo","Coal",0
-"53","Denmark","Coal",0.539483
-"54","Djibouti","Coal",0
-"55","Dominica","Coal",0
-"56","Dominican Republic","Coal",0.404752
-"57","Ecuador","Coal",0
-"58","Egypt","Coal",0.035862
-"59","El Salvador","Coal",0.000539
-"60","Equatorial Guinea","Coal",0
-"61","Eritrea","Coal",0
-"62","Estonia","Coal",4.013374
-"63","Ethiopia","Coal",0.010037
-"64","Faeroe Islands","Coal",0
-"65","Micronesia (Federated States of)","Coal",0
-"66","Fiji","Coal",0
-"67","Finland","Coal",2.14699
-"68","France","Coal",0.369525
-"69","French Guiana","Coal",0
-"70","French Polynesia","Coal",0
-"71","Gabon","Coal",0
-"72","Gambia","Coal",0
-"73","Georgia","Coal",0.266031
-"74","Germany","Coal",2.368416
-"75","Ghana","Coal",0
-"76","Greece","Coal",0.963556
-"77","Greenland","Coal",0
-"78","Grenada","Coal",0
-"79","Guadeloupe","Coal",1.059747
-"80","Guatemala","Coal",0.240423
-"81","Guinea","Coal",0
-"82","Guinea-Bissau","Coal",0
-"83","Guyana","Coal",0
-"84","Haiti","Coal",0
-"85","Honduras","Coal",0
-"86","Hong Kong","Coal",1.660352
-"87","Hungary","Coal",0.763083
-"88","Iceland","Coal",1.820641
-"89","India","Coal",1.137264
-"90","Indonesia","Coal",1.105422
-"91","Iraq","Coal",0
-"92","Ireland","Coal",0.759739
-"93","Iran","Coal",0.042848
-"94","Israel","Coal",1.792894
-"95","Italy","Coal",0.37428
-"96","Jamaica","Coal",0.129329
-"97","Japan","Coal",3.188692
-"98","Jordan","Coal",0.05646
-"99","Kazakhstan","Coal",9.537287
-"100","Kenya","Coal",0.030467
-"101","Kiribati","Coal",0
-"102","Kosovo","Coal",3.658821
-"103","Kuwait","Coal",0
-"104","Kyrgyzstan","Coal",0.486429
-"105","Laos","Coal",2.037298
-"106","Latvia","Coal",0.051935
-"107","Lebanon","Coal",0.087067
-"108","Lesotho","Coal",0.666222
-"109","Liberia","Coal",0
-"110","Libya","Coal",0
-"111","Liechtenstein","Coal",0
-"112","Lithuania","Coal",0.220404
-"113","Luxembourg","Coal",0.376735
-"114","North Macedonia","Coal",1.316388
-"115","Madagascar","Coal",0.048388
-"116","Malawi","Coal",0.010886
-"117","Malaysia","Coal",2.848153
-"118","Maldives","Coal",0
-"119","Mali","Coal",0
-"120","Malta","Coal",0
-"121","Marshall Islands","Coal",0
-"122","Martinique","Coal",0
-"123","Mauritania","Coal",0
-"124","Mauritius","Coal",1.17356
-"125","Mayotte","Coal",0
-"126","Mexico","Coal",0.15882
-"127","Mongolia","Coal",13.306289
-"128","Montenegro","Coal",2.37699
-"129","Montserrat","Coal",0
-"130","Morocco","Coal",0.691254
-"131","Mozambique","Coal",0.001491
-"132","Myanmar","Coal",0.077251
-"133","Namibia","Coal",0.018523
-"134","Nauru","Coal",0
-"135","Nepal","Coal",0.122534
-"136","Netherlands","Coal",0.974772
-"137","New Caledonia","Coal",9.105133
-"138","New Zealand","Coal",1.137228
-"139","Nicaragua","Coal",0
-"140","Niger","Coal",0.012153
-"141","Nigeria","Coal",0.000638
-"142","Niue","Coal",0
-"143","Norway","Coal",0.669611
-"144","Occupied Palestinian Territory","Coal",0
-"145","Oman","Coal",0
-"146","Pakistan","Coal",0.251809
-"147","Palau","Coal",0
-"148","Panama","Coal",0.513271
-"149","Papua New Guinea","Coal",0
-"150","Paraguay","Coal",0.000194
-"151","Peru","Coal",0.068139
-"152","Philippines","Coal",0.616145
-"153","Bolivia","Coal",0.000754
-"154","Poland","Coal",4.273786
-"155","Portugal","Coal",0.236056
-"156","Qatar","Coal",0
-"157","Cameroon","Coal",0
-"158","South Korea","Coal",5.456362
-"159","Moldova","Coal",0.117121
-"160","South Sudan","Coal",0
-"161","Sudan","Coal",0
-"162","Réunion","Coal",1.965938
-"163","Romania","Coal",0.732148
-"164","Russia","Coal",2.518647
-"165","Rwanda","Coal",0.00136
-"166","Saint Helena","Coal",0
-"167","Saint Lucia","Coal",0
-"168","Sint Maarten (Dutch part)","Coal",0
-"169","Samoa","Coal",0
-"170","Sao Tome and Principe","Coal",0
-"171","Saudi Arabia","Coal",0
-"172","Senegal","Coal",0.115237
-"173","Serbia","Coal",4.135405
-"174","Seychelles","Coal",0
-"175","Sierra Leone","Coal",0
-"176","Singapore","Coal",0.315491
-"177","Slovakia","Coal",1.824551
-"178","Slovenia","Coal",2.074313
-"179","Solomon Islands","Coal",0
-"180","South Africa","Coal",6.347073
-"181","Spain","Coal",0.301919
-"182","Sri Lanka","Coal",0.291752
-"183","Saint Kitts and Nevis","Coal",0
-"184","Saint Pierre and Miquelon","Coal",0
-"185","Saint Vincent and the Grenadines","Coal",0
-"186","Suriname","Coal",0
-"187","Swaziland","Coal",0.153415
-"188","Sweden","Coal",0.642557
-"189","Switzerland","Coal",0.04797
-"190","Syria","Coal",0.000139
-"191","Taiwan","Coal",6.055988
-"192","Tajikistan","Coal",0.471728
-"193","Thailand","Coal",0.934656
-"194","Timor-Leste","Coal",0
-"195","Togo","Coal",0
-"196","Tonga","Coal",0
-"197","Trinidad and Tobago","Coal",0
-"198","Tunisia","Coal",0
-"199","Turkey","Coal",1.88542
-"200","Turkmenistan","Coal",0
-"201","Turks and Caicos Islands","Coal",0
-"202","Tuvalu","Coal",0
-"203","Uganda","Coal",0
-"204","Ukraine","Coal",2.326331
-"205","United Arab Emirates","Coal",0.771883
-"206","United Kingdom","Coal",0.340137
-"207","Tanzania","Coal",0.029898
-"208","United States of America","Coal",2.616442
-"209","Uruguay","Coal",0.000375
-"210","Uzbekistan","Coal",0.338472
-"211","Vanuatu","Coal",0
-"212","Venezuela","Coal",0.002292
-"213","Viet Nam","Coal",1.989463
-"214","Wallis and Futuna Islands","Coal",0
-"215","Yemen","Coal",0.008663
-"216","Zambia","Coal",0.12108
-"217","Zimbabwe","Coal",0.428954
-"218","Afghanistan","Oil",0.185254
-"219","Albania","Oil",1.122339
-"220","Algeria","Oil",1.25519
-"221","Andorra","Oil",5.777148
-"222","Angola","Oil",0.39198
-"223","Anguilla","Oil",8.430535
-"224","Antigua and Barbuda","Oil",4.591351
-"225","Argentina","Oil",1.574577
-"226","Armenia","Oil",0.327806
-"227","Aruba","Oil",7.308293
-"228","Australia","Oil",5.277601
-"229","Austria","Oil",3.447875
-"230","Azerbaijan","Oil",1.054768
-"231","Bahamas","Oil",5.318157
-"232","Bahrain","Oil",2.344683
-"233","Bangladesh","Oil",0.09511
-"234","Barbados","Oil",3.165187
-"235","Belarus","Oil",1.858074
-"236","Belgium","Oil",3.416304
-"237","Belize","Oil",1.552782
-"238","Benin","Oil",0.515422
-"239","Bermuda","Oil",7.768184
-"240","Bhutan","Oil",0.780912
-"241","Bonaire, Saint Eustatius and Saba","Oil",3.588496
-"242","Bosnia and Herzegovina","Oil",1.319667
-"243","Botswana","Oil",1.095969
-"244","Brazil","Oil",1.318454
-"245","British Virgin Islands","Oil",4.655555
-"246","Brunei Darussalam","Oil",8.544315
-"247","Bulgaria","Oil",1.739669
-"248","Burkina Faso","Oil",0.210778
-"249","Burundi","Oil",0.047592
-"250","Cambodia","Oil",0.533
-"251","Canada","Oil",6.291544
-"252","Cape Verde","Oil",1.07284
-"253","Central African Republic","Oil",0.040097
-"254","Chad","Oil",0.081588
-"255","Chile","Oil",2.351882
-"256","China","Oil",1.14232
-"257","Colombia","Oil",0.787472
-"258","Comoros","Oil",0.350406
-"259","Congo","Oil",0.335117
-"260","Cook Islands","Oil",5.222977
-"261","Costa Rica","Oil",1.238534
-"262","Côte d'Ivoire","Oil",0.235649
-"263","Croatia","Oil",2.019383
-"264","Cuba","Oil",1.537217
-"265","Curaçao","Oil",8.841855
-"266","Cyprus","Oil",5.090074
-"267","Czech Republic","Oil",2.006404
-"268","North Korea","Oil",0.129612
-"269","Democratic Republic of the Congo","Oil",0.021882
-"270","Denmark","Oil",3.191264
-"271","Djibouti","Oil",0.262172
-"272","Dominica","Oil",1.998795
-"273","Dominican Republic","Oil",1.587534
-"274","Ecuador","Oil",1.649169
-"275","Egypt","Oil",0.840884
-"276","El Salvador","Oil",0.959856
-"277","Equatorial Guinea","Oil",0.660337
-"278","Eritrea","Oil",0.189726
-"279","Estonia","Oil",2.340689
-"280","Ethiopia","Oil",0.101977
-"281","Faeroe Islands","Oil",13.205626
-"282","Micronesia (Federated States of)","Oil",1.379782
-"283","Fiji","Oil",1.554512
-"284","Finland","Oil",3.642148
-"285","France","Oil",2.550423
-"286","French Guiana","Oil",2.238665
-"287","French Polynesia","Oil",3.061156
-"288","Gabon","Oil",0.768704
-"289","Gambia","Oil",0.238482
-"290","Georgia","Oil",0.890791
-"291","Germany","Oil",3.016765
-"292","Ghana","Oil",0.381506
-"293","Greece","Oil",2.955721
-"294","Greenland","Oil",8.932951
-"295","Grenada","Oil",2.312416
-"296","Guadeloupe","Oil",4.731013
-"297","Guatemala","Oil",0.686973
-"298","Guinea","Oil",0.343257
-"299","Guinea-Bissau","Oil",0.163398
-"300","Guyana","Oil",3.137406
-"301","Haiti","Oil",0.224662
-"302","Honduras","Oil",0.895275
-"303","Hong Kong","Oil",1.128397
-"304","Hungary","Oil",1.781729
-"305","Iceland","Oil",6.76371
-"306","India","Oil",0.43226
-"307","Indonesia","Oil",0.745165
-"308","Iraq","Oil",2.422963
-"309","Ireland","Oil",3.666845
-"310","Iran","Oil",2.562442
-"311","Israel","Oil",2.17364
-"312","Italy","Oil",2.139199
-"313","Jamaica","Oil",2.041974
-"314","Japan","Oil",3.096795
-"315","Jordan","Oil",1.346317
-"316","Kazakhstan","Oil",2.111182
-"317","Kenya","Oil",0.265877
-"318","Kiribati","Oil",0.550413
-"319","Kosovo","Oil",1.251109
-"320","Kuwait","Oil",12.187947
-"321","Kyrgyzstan","Oil",0.611259
-"322","Laos","Oil",0.481836
-"323","Latvia","Oil",2.19821
-"324","Lebanon","Oil",3.858163
-"325","Lesotho","Oil",0.304474
-"326","Liberia","Oil",0.195699
-"327","Libya","Oil",5.56184
-"328","Liechtenstein","Oil",2.411888
-"329","Lithuania","Oil",2.84417
-"330","Luxembourg","Oil",9.42457
-"331","North Macedonia","Oil",1.395252
-"332","Madagascar","Oil",0.090192
-"333","Malawi","Oil",0.0602
-"334","Malaysia","Oil",2.124009
-"335","Maldives","Oil",4.006578
-"336","Mali","Oil",0.166833
-"337","Malta","Oil",1.674806
-"338","Marshall Islands","Oil",3.563031
-"339","Martinique","Oil",5.670077
-"340","Mauritania","Oil",0.856995
-"341","Mauritius","Oil",2.069052
-"342","Mayotte","Oil",0.894282
-"343","Mexico","Oil",1.513339
-"344","Mongolia","Oil",1.603476
-"345","Montenegro","Oil",1.51979
-"346","Montserrat","Oil",4.171108
-"347","Morocco","Oil",0.893866
-"348","Mozambique","Oil",0.126738
-"349","Myanmar","Oil",0.389505
-"350","Namibia","Oil",1.357539
-"351","Nauru","Oil",4.710166
-"352","Nepal","Oil",0.224391
-"353","Netherlands","Oil",2.762084
-"354","New Caledonia","Oil",9.600004
-"355","New Zealand","Oil",3.778624
-"356","Nicaragua","Oil",0.640086
-"357","Niger","Oil",0.083216
-"358","Nigeria","Oil",0.336915
-"359","Niue","Oil",5.97381
-"360","Norway","Oil",3.937962
-"361","Occupied Palestinian Territory","Oil",0.601108
-"362","Oman","Oil",2.493781
-"363","Pakistan","Oil",0.288963
-"364","Palau","Oil",12.910238
-"365","Panama","Oil",1.799388
-"366","Papua New Guinea","Oil",0.757969
-"367","Paraguay","Oil",1.152541
-"368","Peru","Oil",0.807803
-"369","Philippines","Oil",0.418905
-"370","Bolivia","Oil",1.040544
-"371","Poland","Oil",2.225741
-"372","Portugal","Oil",2.254302
-"373","Qatar","Oil",2.949179
-"374","Cameroon","Oil",0.179877
-"375","South Korea","Oil",3.183892
-"376","Moldova","Oil",0.785608
-"377","South Sudan","Oil",0.141316
-"378","Sudan","Oil",0.405619
-"379","Réunion","Oil",2.317696
-"380","Romania","Oil",1.50295
-"381","Russia","Oil",2.615302
-"382","Rwanda","Oil",0.105922
-"383","Saint Helena","Oil",2.308731
-"384","Saint Lucia","Oil",2.460958
-"385","Sint Maarten (Dutch part)","Oil",13.482639
-"386","Samoa","Oil",1.331423
-"387","Sao Tome and Principe","Oil",0.568961
-"388","Saudi Arabia","Oil",10.307343
-"389","Senegal","Oil",0.49554
-"390","Serbia","Oil",1.172159
-"391","Seychelles","Oil",5.101716
-"392","Sierra Leone","Oil",0.147738
-"393","Singapore","Oil",1.19698
-"394","Slovakia","Oil",1.761224
-"395","Slovenia","Oil",2.842406
-"396","Solomon Islands","Oil",0.447581
-"397","South Africa","Oil",0.83334
-"398","Spain","Oil",2.539568
-"399","Sri Lanka","Oil",0.638132
-"400","Saint Kitts and Nevis","Oil",4.530767
-"401","Saint Pierre and Miquelon","Oil",9.534364
-"402","Saint Vincent and the Grenadines","Oil",1.853702
-"403","Suriname","Oil",4.261121
-"404","Swaziland","Oil",0.744419
-"405","Sweden","Oil",2.522632
-"406","Switzerland","Oil",2.929779
-"407","Syria","Oil",0.819003
-"408","Taiwan","Oil",2.639961
-"409","Tajikistan","Oil",0.270855
-"410","Thailand","Oil",1.551684
-"411","Timor-Leste","Oil",0.490819
-"412","Togo","Oil",0.141871
-"413","Tonga","Oil",1.616566
-"414","Trinidad and Tobago","Oil",2.284778
-"415","Tunisia","Oil",0.972416
-"416","Turkey","Oil",1.370183
-"417","Turkmenistan","Oil",3.190759
-"418","Turks and Caicos Islands","Oil",6.994867
-"419","Tuvalu","Oil",0.698717
-"420","Uganda","Oil",0.110917
-"421","Ukraine","Oil",0.795141
-"422","United Arab Emirates","Oil",5.811253
-"423","United Kingdom","Oil",2.147063
-"424","Tanzania","Oil",0.099316
-"425","United States of America","Oil",6.100269
-"426","Uruguay","Oil",1.711625
-"427","Uzbekistan","Oil",0.326481
-"428","Vanuatu","Oil",0.545904
-"429","Venezuela","Oil",1.03257
-"430","Viet Nam","Oil",0.675848
-"431","Wallis and Futuna Islands","Oil",2.32255
-"432","Yemen","Oil",0.289919
-"433","Zambia","Oil",0.212805
-"434","Zimbabwe","Oil",0.211664
-"435","Afghanistan","Cement",0.001557
-"436","Albania","Cement",0.36562
-"437","Algeria","Cement",0.2538
-"438","Andorra","Cement",0
-"439","Angola","Cement",0.033616
-"440","Anguilla","Cement",0
-"441","Antigua and Barbuda","Cement",0
-"442","Argentina","Cement",0.077904
-"443","Armenia","Cement",0.121579
-"444","Aruba","Cement",0
-"445","Australia","Cement",0.109862
-"446","Austria","Cement",0.204442
-"447","Azerbaijan","Cement",0.106609
-"448","Bahamas","Cement",0
-"449","Bahrain","Cement",0.416049
-"450","Bangladesh","Cement",0.008804
-"451","Barbados","Cement",0.251405
-"452","Belarus","Cement",0.238993
-"453","Belgium","Cement",0.227845
-"454","Belize","Cement",0
-"455","Benin","Cement",0.03066
-"456","Bermuda","Cement",0
-"457","Bhutan","Cement",0.587851
-"458","Bonaire, Saint Eustatius and Saba","Cement",0
-"459","Bosnia and Herzegovina","Cement",0.11007
-"460","Botswana","Cement",0
-"461","Brazil","Cement",0.103438
-"462","British Virgin Islands","Cement",0
-"463","Brunei Darussalam","Cement",0
-"464","Bulgaria","Cement",0.152726
-"465","Burkina Faso","Cement",0.039609
-"466","Burundi","Cement",0.002378
-"467","Cambodia","Cement",0.324771
-"468","Canada","Cement",0.174847
-"469","Cape Verde","Cement",0
-"470","Central African Republic","Cement",0
-"471","Chad","Cement",0.009778
-"472","Chile","Cement",0.042762
-"473","China","Cement",0.602298
-"474","Colombia","Cement",0.098985
-"475","Comoros","Cement",0
-"476","Congo","Cement",0.049607
-"477","Cook Islands","Cement",0
-"478","Costa Rica","Cement",0.14378
-"479","Côte d'Ivoire","Cement",0
-"480","Croatia","Cement",0.296067
-"481","Cuba","Cement",0.05604
-"482","Curaçao","Cement",0
-"483","Cyprus","Cement",0.712962
-"484","Czech Republic","Cement",0.179569
-"485","North Korea","Cement",0.083941
-"486","Democratic Republic of the Congo","Cement",0.004858
-"487","Denmark","Cement",0.210613
-"488","Djibouti","Cement",0.071089
-"489","Dominica","Cement",0
-"490","Dominican Republic","Cement",0.197372
-"491","Ecuador","Cement",0.140567
-"492","Egypt","Cement",0.168749
-"493","El Salvador","Cement",0.072698
-"494","Equatorial Guinea","Cement",0
-"495","Eritrea","Cement",0.030512
-"496","Estonia","Cement",0.015135
-"497","Ethiopia","Cement",0.033396
-"498","Faeroe Islands","Cement",0
-"499","Micronesia (Federated States of)","Cement",0
-"500","Fiji","Cement",0
-"501","Finland","Cement",0.103024
-"502","France","Cement",0.092963
-"503","French Guiana","Cement",0
-"504","French Polynesia","Cement",0
-"505","Gabon","Cement",0.091271
-"506","Gambia","Cement",0
-"507","Georgia","Cement",0.280592
-"508","Germany","Cement",0.160298
-"509","Ghana","Cement",0.072127
-"510","Greece","Cement",0.283268
-"511","Greenland","Cement",0
-"512","Grenada","Cement",0
-"513","Guadeloupe","Cement",0
-"514","Guatemala","Cement",0.079489
-"515","Guinea","Cement",0
-"516","Guinea-Bissau","Cement",0
-"517","Guyana","Cement",0.202797
-"518","Haiti","Cement",0.006858
-"519","Honduras","Cement",0.0773
-"520","Hong Kong","Cement",0.0814
-"521","Hungary","Cement",0.095255
-"522","Iceland","Cement",0
-"523","India","Cement",0.088019
-"524","Indonesia","Cement",0.103743
-"525","Iraq","Cement",0.123104
-"526","Ireland","Cement",0.357784
-"527","Iran","Cement",0.273285
-"528","Israel","Cement",0.162663
-"529","Italy","Cement",0.118641
-"530","Jamaica","Cement",0.134861
-"531","Japan","Cement",0.195539
-"532","Jordan","Cement",0.161388
-"533","Kazakhstan","Cement",0.234369
-"534","Kenya","Cement",0.05521
-"535","Kiribati","Cement",0
-"536","Kosovo","Cement",0.190799
-"537","Kuwait","Cement",0.280342
-"538","Kyrgyzstan","Cement",0.12181
-"539","Laos","Cement",0.279976
-"540","Latvia","Cement",0.290362
-"541","Lebanon","Cement",0.376769
-"542","Lesotho","Cement",0
-"543","Liberia","Cement",0.025896
-"544","Libya","Cement",0.244587
-"545","Liechtenstein","Cement",0
-"546","Lithuania","Cement",0.197387
-"547","Luxembourg","Cement",0.633154
-"548","North Macedonia","Cement",0.166619
-"549","Madagascar","Cement",0.003158
-"550","Malawi","Cement",0.004859
-"551","Malaysia","Cement",0.402669
-"552","Maldives","Cement",0
-"553","Mali","Cement",0.018257
-"554","Malta","Cement",0
-"555","Marshall Islands","Cement",0
-"556","Martinique","Cement",0
-"557","Mauritania","Cement",0
-"558","Mauritius","Cement",0
-"559","Mayotte","Cement",0
-"560","Mexico","Cement",0.163894
-"561","Mongolia","Cement",0.147909
-"562","Montenegro","Cement",0
-"563","Montserrat","Cement",0
-"564","Morocco","Cement",0.136295
-"565","Mozambique","Cement",0.032438
-"566","Myanmar","Cement",0.055003
-"567","Namibia","Cement",0.208907
-"568","Nauru","Cement",0
-"569","Nepal","Cement",0.128207
-"570","Netherlands","Cement",0
-"571","New Caledonia","Cement",0.102597
-"572","New Zealand","Cement",0.074915
-"573","Nicaragua","Cement",0.034431
-"574","Niger","Cement",0.00414
-"575","Nigeria","Cement",0.042036
-"576","Niue","Cement",0
-"577","Norway","Cement",0.134762
-"578","Occupied Palestinian Territory","Cement",0
-"579","Oman","Cement",0.399736
-"580","Pakistan","Cement",0.077664
-"581","Palau","Cement",0
-"582","Panama","Cement",0.132707
-"583","Papua New Guinea","Cement",0
-"584","Paraguay","Cement",0.060986
-"585","Peru","Cement",0.136502
-"586","Philippines","Cement",0.10406
-"587","Bolivia","Cement",0.105939
-"588","Poland","Cement",0.200129
-"589","Portugal","Cement",0.224278
-"590","Qatar","Cement",0.569368
-"591","Cameroon","Cement",0.043882
-"592","South Korea","Cement",0.44104
-"593","Moldova","Cement",0.20625
-"594","South Sudan","Cement",0
-"595","Sudan","Cement",0.035004
-"596","Réunion","Cement",0
-"597","Romania","Cement",0.200649
-"598","Russia","Cement",0.141334
-"599","Rwanda","Cement",0.012445
-"600","Saint Helena","Cement",0
-"601","Saint Lucia","Cement",0
-"602","Sint Maarten (Dutch part)","Cement",0
-"603","Samoa","Cement",0
-"604","Sao Tome and Principe","Cement",0
-"605","Saudi Arabia","Cement",0.710971
-"606","Senegal","Cement",0.162672
-"607","Serbia","Cement",0.130344
-"608","Seychelles","Cement",0
-"609","Sierra Leone","Cement",0
-"610","Singapore","Cement",0
-"611","Slovakia","Cement",0.264473
-"612","Slovenia","Cement",0.22425
-"613","Solomon Islands","Cement",0
-"614","South Africa","Cement",0.086238
-"615","Spain","Cement",0.172954
-"616","Sri Lanka","Cement",0.069591
-"617","Saint Kitts and Nevis","Cement",0
-"618","Saint Pierre and Miquelon","Cement",0
-"619","Saint Vincent and the Grenadines","Cement",0
-"620","Suriname","Cement",0.019486
-"621","Swaziland","Cement",0
-"622","Sweden","Cement",0.12268
-"623","Switzerland","Cement",0.194388
-"624","Syria","Cement",0.03699
-"625","Taiwan","Cement",0.24179
-"626","Tajikistan","Cement",0.215179
-"627","Thailand","Cement",0.306756
-"628","Timor-Leste","Cement",0
-"629","Togo","Cement",0.099735
-"630","Tonga","Cement",0
-"631","Trinidad and Tobago","Cement",0.173138
-"632","Tunisia","Cement",0.265029
-"633","Turkey","Cement",0.485084
-"634","Turkmenistan","Cement",0.243604
-"635","Turks and Caicos Islands","Cement",0
-"636","Tuvalu","Cement",0
-"637","Uganda","Cement",0.013101
-"638","Ukraine","Cement",0.09171
-"639","United Arab Emirates","Cement",0.616745
-"640","United Kingdom","Cement",0.058153
-"641","Tanzania","Cement",0.040907
-"642","United States of America","Cement",0.121115
-"643","Uruguay","Cement",0.084749
-"644","Uzbekistan","Cement",0.139563
-"645","Vanuatu","Cement",0
-"646","Venezuela","Cement",0.062281
-"647","Viet Nam","Cement",0.548774
-"648","Wallis and Futuna Islands","Cement",0
-"649","Yemen","Cement",0.020555
-"650","Zambia","Cement",0.050771
-"651","Zimbabwe","Cement",0.036351
+"","Country","Coal_percent","Oil_percent","Cement_percent"
+"1","Afghanistan","36.30697684","63.16216557","0.530857589"
+"2","Albania","7.209601078","69.99002226","22.80037666"
+"3","Algeria","1.647817336","81.81013536","16.5420473"
+"4","Andorra","0","100","0"
+"5","Angola","0","92.10142952","7.898570475"
+"6","Anguilla","0","100","0"
+"7","Antarctica","0","0","0"
+"8","Antigua and Barbuda","0","100","0"
+"9","Argentina","3.428912051","92.01837355","4.552714395"
+"10","Armenia","0.8522927845","72.32376094","26.82394627"
+"11","Aruba","0","100","0"
+"12","Australia","53.03062032","46.01157264","0.9578070402"
+"13","Austria","25.93677188","69.91746682","4.145761303"
+"14","Azerbaijan","0.03072992613","90.79255664","9.17671343"
+"15","Bahamas","0.2306184281","99.76938157","0"
+"16","Bahrain","0","84.92975776","15.07024224"
+"17","Bangladesh","49.34607229","46.36232908","4.291598625"
+"18","Barbados","0","92.64164407","7.358355929"
+"19","Belarus","15.75252845","74.64617795","9.601293601"
+"20","Belgium","20.1790291","74.83028333","4.990687569"
+"21","Belize","0","100","0"
+"22","Benin","3.439068769","91.13947777","5.421453466"
+"23","Bermuda","0","100","0"
+"24","Bhutan","29.49372468","40.22551492","30.2807604"
+"25","Bolivia","0.06572312434","90.70000357","9.234273302"
+"26","Bonaire, Saint Eustatius and Saba","0","100","0"
+"27","Bosnia and Herzegovina","76.86381674","21.35501673","1.781166531"
+"28","Botswana","55.40884452","44.59115548","0"
+"29","Brazil","15.64925935","78.2144997","6.136240946"
+"30","British Virgin Islands","0","100","0"
+"31","Brunei Darussalam","9.164249413","90.83575059","0"
+"32","Bulgaria","55.68735478","40.73638707","3.576258157"
+"33","Burkina Faso","0","84.18088799","15.81911201"
+"34","Burundi","7.072322541","88.50538374","4.422293716"
+"35","Cambodia","24.80066418","46.7272104","28.47212542"
+"36","Cameroon","0","80.38872179","19.61127821"
+"37","Canada","16.39206106","81.34723474","2.260704201"
+"38","Cape Verde","0","100","0"
+"39","Central African Republic","0","100","0"
+"40","Chad","0","89.29798831","10.70201169"
+"41","Chile","36.0479047","62.81008024","1.142015055"
+"42","China","75.36624784","16.12939209","8.50436007"
+"43","Christmas Island","0","0","0"
+"44","Colombia","25.52596426","66.15799511","8.316040629"
+"45","Comoros","0","100","0"
+"46","Congo","0","87.10582132","12.89417868"
+"47","Cook Islands","0","100","0"
+"48","Costa Rica","0","89.59860061","10.40139939"
+"49","Côte d'Ivoire","0","100","0"
+"50","Croatia","13.05087432","75.83130116","11.11782452"
+"51","Cuba","0.02773422083","96.45591796","3.516347817"
+"52","Curaçao","0","100","0"
+"53","Cyprus","0.9387121191","86.89060103","12.17068685"
+"54","Czech Republic","68.40775884","28.99706402","2.595177138"
+"55","Democratic Republic of the Congo","0","81.83246073","18.16753927"
+"56","Denmark","13.68773723","80.96859967","5.343663101"
+"57","Djibouti","0","78.6686711","21.3313289"
+"58","Dominica","0","100","0"
+"59","Dominican Republic","18.48471314","72.50145913","9.01382773"
+"60","Ecuador","0","92.14593661","7.854063393"
+"61","Egypt","3.430145529","80.42927035","16.14058413"
+"62","El Salvador","0.05217342485","92.9108996","7.036926976"
+"63","Equatorial Guinea","0","100","0"
+"64","Eritrea","0","86.14589671","13.85410329"
+"65","Estonia","63.01223482","36.75013714","0.2376280342"
+"66","Ethiopia","6.902551406","70.13066502","22.96678358"
+"67","Faeroe Islands","0","100","0"
+"68","Fiji","0","100","0"
+"69","Finland","36.43806806","61.81343962","1.748492319"
+"70","France","12.26471675","84.6497955","3.085487756"
+"71","French Equatorial Africa","0","0","0"
+"72","French Guiana","0","100","0"
+"73","French Polynesia","0","100","0"
+"74","French West Africa","0","0","0"
+"75","Gabon","0","89.3867845","10.6132155"
+"76","Gambia","0","100","0"
+"77","Georgia","18.50761159","61.97177709","19.52061132"
+"78","Germany","42.70895264","54.40044043","2.890606925"
+"79","Ghana","0","84.10014263","15.89985737"
+"80","Greece","22.9279163","70.33169187","6.740391834"
+"81","Greenland","0","100","0"
+"82","Grenada","0","100","0"
+"83","Guadeloupe","18.30065484","81.69934516","0"
+"84","Guatemala","23.87790065","68.2275533","7.89454605"
+"85","Guinea","0","100","0"
+"86","Guinea-Bissau","0","100","0"
+"87","Guyana","0","93.92860254","6.071397457"
+"88","Haiti","0","97.0378369","2.962163096"
+"89","Honduras","0","92.05202684","7.947973164"
+"90","Hong Kong","57.84898275","39.31492755","2.836089694"
+"91","Hungary","28.90392554","67.48802208","3.608052371"
+"92","Iceland","21.20883687","78.79116313","0"
+"93","India","68.6114327","26.07835815","5.310209147"
+"94","Indonesia","56.56270947","38.12892398","5.30836655"
+"95","Iran","1.488514282","89.01772578","9.493759933"
+"96","Iraq","0","95.16493478","4.83506522"
+"97","Ireland","15.87961043","76.64220227","7.478187297"
+"98","Israel","43.41991918","52.64074347","3.939337358"
+"99","Italy","14.21971643","81.2728523","4.507431272"
+"100","Jamaica","5.607970639","88.54417986","5.847849502"
+"101","Japan","49.20041981","47.78248074","3.017099453"
+"102","Jordan","3.609593617","86.07256907","10.31783731"
+"103","Kazakhstan","80.26102014","17.766648","1.972331862"
+"104","Kenya","8.666378423","75.6290641","15.70455748"
+"105","Kiribati","0","100","0"
+"106","Kosovo","71.73133487","24.52804295","3.740622174"
+"107","Kuwait","0","97.75155998","2.248440023"
+"108","Kuwaiti Oil Fires","0","0","0"
+"109","Kyrgyzstan","39.88764229","50.12382144","9.988536267"
+"110","Laos","72.7837777","17.21390013","10.00232217"
+"111","Latvia","2.044276989","86.52642957","11.42929344"
+"112","Lebanon","2.014507639","89.26802158","8.717470781"
+"113","Leeward Islands","0","0","0"
+"114","Lesotho","68.63343415","31.36656585","0"
+"115","Liberia","0","88.31381574","11.68618426"
+"116","Libya","0","95.78765048","4.212349522"
+"117","Liechtenstein","0","100","0"
+"118","Lithuania","6.756794456","87.19202958","6.051175964"
+"119","Luxembourg","3.610489054","90.32159693","6.067914015"
+"120","Macao","0","100","0"
+"121","Madagascar","34.13904528","63.63290014","2.22805458"
+"122","Malawi","14.33405754","79.26789124","6.398051221"
+"123","Malaysia","52.99055915","39.51768902","7.491751834"
+"124","Maldives","0","100","0"
+"125","Mali","0","90.13614998","9.863850019"
+"126","Malta","0","100","0"
+"127","Marshall Islands","0","100","0"
+"128","Martinique","0","100","0"
+"129","Mauritania","0","100","0"
+"130","Mauritius","36.1918108","63.8081892","0"
+"131","Mayotte","0","100","0"
+"132","Mexico","8.650077095","82.42349213","8.926430773"
+"133","Micronesia (Federated States of)","0","100","0"
+"134","Moldova","10.5611558","70.84065614","18.59818806"
+"135","Mongolia","88.36882111","10.64889571","0.9822831866"
+"136","Montenegro","60.99882467","39.00117533","0"
+"137","Montserrat","0","100","0"
+"138","Morocco","40.15615061","51.9262351","7.917614288"
+"139","Mozambique","0.9280063734","78.88240896","20.18958467"
+"140","Myanmar","14.80587781","74.65228199","10.5418402"
+"141","Namibia","1.16866639","85.65082345","13.18051016"
+"142","Nauru","0","100","0"
+"143","Nepal","25.78946482","47.22708637","26.98344881"
+"144","Netherlands","26.08535089","73.91464911","0"
+"145","New Caledonia","48.41164278","51.0428529","0.5455043122"
+"146","New Zealand","22.78663781","75.71229032","1.501071879"
+"147","Nicaragua","0","94.89545853","5.104541472"
+"148","Niger","12.21296566","83.62660664","4.1604277"
+"149","Nigeria","0.1680765249","88.75784072","11.07408276"
+"150","Niue","0","100","0"
+"151","North Korea","90.01730061","6.058812723","3.923886668"
+"152","North Macedonia","45.73556445","48.47555415","5.788881404"
+"153","Norway","14.11985868","83.03846101","2.841680311"
+"154","Occupied Palestinian Territory","0","100","0"
+"155","Oman","0","86.18511659","13.81488341"
+"156","Pacific Islands (Palau)","0","0","0"
+"157","Pakistan","40.71706692","46.72480257","12.55813051"
+"158","Palau","0","100","0"
+"159","Panama","20.98953694","73.58358626","5.426876795"
+"160","Panama Canal Zone","0","0","0"
+"161","Papua New Guinea","0","100","0"
+"162","Paraguay","0.01598390404","94.95930284","5.024713258"
+"163","Peru","6.730150013","79.78742528","13.48242471"
+"164","Philippines","54.0900352","36.77476275","9.135202044"
+"165","Poland","63.79112599","33.22172064","2.98715337"
+"166","Portugal","8.6956778","83.04251472","8.261807476"
+"167","Puerto Rico","0","0","0"
+"168","Qatar","0","83.81809309","16.18190691"
+"169","Réunion","45.89416369","54.10583631","0"
+"170","Romania","30.05845845","61.70386333","8.237678215"
+"171","Russia","47.74430111","49.57652509","2.6791738"
+"172","Rwanda","1.135917546","88.46960168","10.39448078"
+"173","Ryukyu Islands","0","0","0"
+"174","Saint Helena","0","100","0"
+"175","Saint Kitts and Nevis","0","100","0"
+"176","Saint Lucia","0","100","0"
+"177","Saint Pierre and Miquelon","0","100","0"
+"178","Saint Vincent and the Grenadines","0","100","0"
+"179","Samoa","0","100","0"
+"180","Sao Tome and Principe","0","100","0"
+"181","Saudi Arabia","0","93.54737031","6.452629685"
+"182","Senegal","14.89910776","64.06886556","21.03202668"
+"183","Serbia","76.04771909","21.55532973","2.39695118"
+"184","Seychelles","0","100","0"
+"185","Sierra Leone","0","100","0"
+"186","Singapore","20.85930904","79.14069096","0"
+"187","Sint Maarten (Dutch part)","0","100","0"
+"188","Slovakia","47.38788255","45.74313135","6.868986102"
+"189","Slovenia","40.34867746","55.28930441","4.362018133"
+"190","Solomon Islands","0","100","0"
+"191","Somalia","0","100","0"
+"192","South Africa","87.3452296","11.46800638","1.186764027"
+"193","South Korea","60.08352995","35.05989345","4.856576607"
+"194","South Sudan","0","100","0"
+"195","Spain","10.01575416","84.24673099","5.737514849"
+"196","Sri Lanka","29.19052503","63.84671953","6.962755447"
+"197","St. Kitts-Nevis-Anguilla","0","0","0"
+"198","Sudan","0","92.05579373","7.944206272"
+"199","Suriname","0","99.54478419","0.455215814"
+"200","Swaziland","17.08723439","82.91276561","0"
+"201","Sweden","19.54326647","76.72544131","3.731292214"
+"202","Switzerland","1.512229768","92.35978774","6.127982493"
+"203","Syria","0.0162358141","95.66316876","4.320595422"
+"204","Taiwan","67.75749437","29.53723531","2.705270315"
+"205","Tajikistan","49.25315475","28.27999023","22.46685502"
+"206","Tanzania","17.57454988","58.37962391","24.04582621"
+"207","Thailand","33.46308183","55.55426666","10.98265151"
+"208","Timor-Leste","0","100","0"
+"209","Togo","0","58.71998212","41.28001788"
+"210","Tonga","0","100","0"
+"211","Trinidad and Tobago","0","92.95590248","7.04409752"
+"212","Tunisia","0","78.58256327","21.41743673"
+"213","Turkey","50.40304094","36.62918068","12.96777838"
+"214","Turkmenistan","0","92.90686512","7.093134884"
+"215","Turks and Caicos Islands","0","100","0"
+"216","Tuvalu","0","100","0"
+"217","Uganda","0","89.43621087","10.56378913"
+"218","Ukraine","72.39960264","24.7462173","2.854180062"
+"219","United Arab Emirates","10.72077441","80.71318123","8.566044355"
+"220","United Kingdom","13.36305809","84.35226862","2.284673285"
+"221","United States of America","29.60504088","69.02454291","1.370416209"
+"222","Uruguay","0.02087102873","95.26233213","4.716796837"
+"223","Uzbekistan","42.07150635","40.581045","17.34744865"
+"224","Vanuatu","0","100","0"
+"225","Venezuela","0.2089062228","94.11444087","5.676652907"
+"226","Viet Nam","61.89826965","21.02769528","17.07403507"
+"227","Wallis and Futuna Islands","0","100","0"
+"228","Yemen","2.714508189","90.84468426","6.440807553"
+"229","Zambia","31.47747598","55.32345784","13.19906618"
+"230","Zimbabwe","63.36390588","31.26642431","5.369669808"
