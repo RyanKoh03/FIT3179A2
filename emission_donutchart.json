@@ -79,7 +79,7 @@
         }
     ],
     "config": {
-        "background": "white",
+        "background": "#ddd",
         "view": {"stroke": "transparent"}
     } 
 }   

@@ -91,3 +91,16 @@ h3{
   padding: 0%;
   padding-top: 1%;
 }
+
+.h2-section{
+  font-size: 2rem;
+  padding-top: 5%;
+}
+
+.p-section{
+  font-size: 1.5rem ;
+  word-wrap: break-word;
+  margin:10%;
+  margin-top: 7%;
+  text-align: justify;
+}
