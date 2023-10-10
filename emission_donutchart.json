@@ -1,5 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width":600,
+    "height":600,
     "description": "Female",
     "data": {
         "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/co2_2020_category.csv"
@@ -58,28 +60,30 @@
     },
     "layer": [
         {
-            "mark": {"type": "arc", "outerRadius": 80, "innerRadius": 40}
+            "mark": {"type": "arc", "outerRadius": 200, "innerRadius": 100}
         },
         {
             "mark": {
                 "type": "text", 
-                "radius": 100
+                "radius": 240,
+                "size":25,
+                "fontWeight":"bold"
             },
             "encoding": {
                 "text": {"field": "value", "type": "quantitative"}
             }
         },
         {
-            "mark": {"type": "text"},
+            "mark": {"type": "text","size":25},
             "encoding": {
                 "opacity": {"value": 1},
-                "color": {"value": "#664229"},
+                "color": {"value": "black"},
                 "text": {"value": "C02 Emissions"}
             }
         }
     ],
     "config": {
-        "background": "#ddd",
+        "background": "#D3D3D3",
         "view": {"stroke": "transparent"}
     } 
 }   
