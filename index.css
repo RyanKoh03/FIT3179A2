@@ -110,6 +110,6 @@ h3{
 }
 
 div#emission_donutchart{
-  padding-top: 5%;
-  padding-left: 15%;
+  width: 50%;
+  height: 80%;
 }
