@@ -1,0 +1,85 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Female",
+    "data": {
+        "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/co2_2020_category.csv"
+    },
+    "params": [
+        {
+            "name": "Country",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "All countries",
+                    "Afghanistan",
+                    "Albania",
+                    "Algeria",
+                    "Angola",
+                    "Argentina",
+                    "Armenia",
+                    "Australia",
+                    "Austria",
+                    "Azerbaijan",
+                    "Bahamas", 
+                    "Bahrain", 
+                    "Bangladesh",
+                    "Barbados",
+                    "Malaysia",
+                    "China"
+                ]
+            }
+        }
+    ],
+    "transform": [
+        {
+            "filter": "if(Country !=null, datum.Country == Country, datum.Country == 'All countries')"
+        }
+    ],
+    "encoding": {
+        "theta": {
+            "field": "value", 
+            "type": "quantitative",
+            "stack": true
+        },
+        "color": {
+            "field": "variable", 
+            "type": "nominal",
+            "scale": {"scheme": "orangered"},
+            "title": "Emission Source",
+            "legend": {
+                "labelColor": "black",
+                "titleColor": "black"
+            }
+        },
+        "tooltip": [
+            {"field": "variable", "type": "nominal", "title": "Emission Source:"},
+            {"field": "value", "type": "quantitative", "title": "CO2 Emission in Kilotons:"}
+        ]
+    },
+    "layer": [
+        {
+            "mark": {"type": "arc", "outerRadius": 80, "innerRadius": 40}
+        },
+        {
+            "mark": {
+                "type": "text", 
+                "radius": 100
+            },
+            "encoding": {
+                "text": {"field": "value", "type": "quantitative"}
+            }
+        },
+        {
+            "mark": {"type": "text"},
+            "encoding": {
+                "opacity": {"value": 1},
+                "color": {"value": "#664229"},
+                "text": {"value": "C02 Emissions"}
+            }
+        }
+    ],
+    "config": {
+        "background": "white",
+        "view": {"stroke": "transparent"}
+    } 
+}   
