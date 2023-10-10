@@ -2,3 +2,8 @@
     width: 100vw;
     height: 50%
 }
+
+.section-child{
+    width: 50%;
+    height: auto;
+}
