@@ -109,7 +109,11 @@ h3{
   text-align: justify;
 }
 
-div#emission_donutchart{
+#emission_donutchart{
   width: 50%;
   height: 80%;
+  margin: 1%;
+  border-radius: 2%;
+  background-color: white;
+  padding-top: 5%;
 }

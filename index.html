@@ -3,11 +3,10 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width-device0-width, initial-scale = 1.0">
-        <script src="https://cdn.jsdelivr.net/npm/vega@5.25.0"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.15.1"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.22.2"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
         <script src="co2_emissions_total.js"></script>
-        <script src="emission_donutchart.js"></script>
         <link rel="stylesheet" href="index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,16 +28,21 @@
             <div class="container-child">
                 <div class="section-child">
                     <h2 class="h2-section">CO2 Emissions Worldwide</h2>
-                    <p class="p-section">CO2 emissions are a prominent problem in today's society. 
-                        <br><br>It is caused by the burning of non-renewable energy such as coal and oil. 
-                        <br><br>Construction is also at fault as cement is another cause of CO2 emissions worldwide
-                        <br><br>In the donut chart on the right, we can see the breakdown of the world's C02 emissions in kilotons.</p>
+                    <p class="p-section">CO2 emissions are a <b>prominent problem</b> in today's society. 
+                        <br><br>The purpose of this visualization is to <b>raise awareness on the importance of promoting and implementing renewable energy</b>
+                        <br><br>In the donut chart on the right, we can see the breakdown of the world's C02 emissions in kilotons.
+                        <br><br>We can see that the main source of CO2 emissions in 2020 is <b>Oil</b>, followed by <b>Coal</b> and then <b>Cement</b>.
+                        <br><br>Try selecting your country to see the breakdown of it's CO2 emissions!
+
+                    </p>
                 </div>
                 <div id="emission_donutchart"></div>
+                <script type="text/javascript">
+                    var spec1 = "emission_donutchart.json";
+                    vegaEmbed('#emission_donutchart', spec1).then(function(result) {
+                    }).catch(console.error);
+                </script>
             </div>
-        </div>
-        <div class="section-container">
-            <div id="co2_emissions_total"></div>
         </div>
     </body>
 </html>
