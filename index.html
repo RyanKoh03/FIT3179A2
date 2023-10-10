@@ -13,8 +13,9 @@
     </head>
     <body>
         <div class="topnav">
+            <a href="#about">About</a>
             <a href="#world">World Map</a>
-            <a href="#contact">Malaysia</a>
+            <a href="#malaysia">Malaysia</a>
         </div>
         <div class="parent-container">
             <h1>World C02 Emissions</h1>
@@ -22,6 +23,7 @@
             <img src ="CostofAir21_Desk_a.jpg">
         </div>
         <div class="section-container">
+            <div class="h1-section" id="about">About</div>
             <div class="container-child">
                 <div class="section-child">
                     <h2 class="h2-section">CO2 Emissions Worldwide</h2>
@@ -34,20 +36,271 @@
                     </p>
                 </div>
                 <div id="emission_donutchart"></div>
-                <script type="text/javascript">
+                <!-- <script type="text/javascript">
                     var spec1 = "emission_donutchart.json";
                     vegaEmbed('#emission_donutchart', spec1).then(function(result) {
                     }).catch(console.error);
+                </script> -->
+                <script type="text/javascript">
+                    var yourVlSpec = 
+                    {
+                        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+                        "width":600,
+                        "height":600,
+                        "description": "Female",
+                        "data": {
+                            "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/co2_2020_category.csv"
+                        },
+                        "params": [
+                            {
+                                "name": "Country",
+                                "bind": {
+                                    "input": "select",
+                                    "options": [
+                                        "All countries",
+                                        "Afghanistan",
+                                        "Albania",
+                                        "Algeria",
+                                        "Angola",
+                                        "Argentina",
+                                        "Armenia",
+                                        "Australia",
+                                        "Austria",
+                                        "Azerbaijan",
+                                        "Bahamas", 
+                                        "Bahrain", 
+                                        "Bangladesh",
+                                        "Barbados",
+                                        "Malaysia",
+                                        "China"
+                                    ]
+                                }
+                            }
+                        ],
+                        "transform": [
+                            {
+                                "filter": "if(Country !=null, datum.Country == Country, datum.Country == 'All countries')"
+                            }
+                        ],
+                        "encoding": {
+                            "theta": {
+                                "field": "value", 
+                                "type": "quantitative",
+                                "stack": true
+                            },
+                            "color": {
+                                "field": "variable", 
+                                "type": "nominal",
+                                "scale": {"scheme": "orangered"},
+                                "title": "Emission Source",
+                                "legend": {
+                                    "labelColor": "black",
+                                    "titleColor": "black",
+                                    "labelFontSize":15,
+                                    "titleFontSize":20
+                                }
+                            },
+                            "tooltip": [
+                                {"field": "variable", "type": "nominal", "title": "Emission Source:"},
+                                {"field": "value", "type": "quantitative", "title": "CO2 Emission in Kilotons:"}
+                            ]
+                        },
+                        "layer": [
+                            {
+                                "mark": {"type": "arc", "outerRadius": 200, "innerRadius": 100}
+                            },
+                            {
+                                "mark": {
+                                    "type": "text", 
+                                    "radius": 240,
+                                    "size":25,
+                                    "fontWeight":"bold"
+                                },
+                                "encoding": {
+                                    "text": {"field": "value", "type": "quantitative"}
+                                }
+                            },
+                            {
+                                "mark": {"type": "text","size":25},
+                                "encoding": {
+                                    "opacity": {"value": 1},
+                                    "color": {"value": "black"},
+                                    "text": {"value": "C02 Emissions"}
+                                }
+                            }
+                        ],
+                        "config": {
+                            "background": "white",
+                            "view": {"stroke": "transparent"}
+                        } 
+                    }    
+                    vegaEmbed('#emission_donutchart ', yourVlSpec);
                 </script>
+
             </div>
         </div>
         <div class="section-container">
-            <h1 class="h1-section" id="world">World Map of CO2 Emissions</h1>
-            <script type="text/javascript">
-                var spec1 = "co2_emissions_total.json";
-                vegaEmbed('#co2_emissions_total', spec1).then(function(result) {
-                }).catch(console.error);
-            </script>
+            <div class="h1-section" id="world">World Map of CO2 Emissions</div>
+            <div class="container-child">
+                <div id="co2_emissions_total"></div>
+                <!-- <script type="text/javascript">
+                    var spec1 = "emission_donutchart.json";
+                    vegaEmbed('#emission_donutchart', spec1).then(function(result) {
+                    }).catch(console.error);
+                </script> -->
+
+                <script type="text/javascript">
+                    var yourVlSpec = 
+                    {
+                        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+                        "width": 700,
+                        "height": 600,
+                        "projection": {
+                            "type": "equalEarth",
+                            "center": {"expr": "center_to"},
+                            "scale": {"expr": "zoom_level"}
+                        },
+                        "params": [
+                            {
+                            "name": "Year_selection",
+                            "value": 1949,
+                            "bind": {
+                                "input": "range",
+                                "min": 1949,
+                                "max": 2021,
+                                "step": 1,
+                                "name": "Year: "
+                            }
+                            },
+                            {
+                            "name": "zoom_level",
+                            "value": 100,
+                            "bind": {
+                                "input": "range",
+                                "min": 100,
+                                "max": 650,
+                                "step": 50,
+                                "name": "Zoom: "
+                            }
+                            },
+                            {
+                            "name": "center_to",
+                            "value": [0, 0],
+                            "bind": {
+                                "input": "select",
+                                "options": [
+                                [0, 0],
+                                [30, 0],
+                                [90, 20],
+                                [135, -25],
+                                [35, 55],
+                                [-95, 45],
+                                [-60, -20]
+                                ],
+                                "labels": [
+                                "World",
+                                "Africa",
+                                "Asia",
+                                "Australia",
+                                "Europe",
+                                "North America",
+                                "South America"
+                                ],
+                                "name": "Map Centre: "
+                            }
+                            }
+                        ],
+                        "layer": [
+                            {
+                            "data": {
+                                "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179hw10/main/ne_110m_admin_0_countries.json",
+                                "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+                            },
+                            "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
+                            },
+                            {
+                            "data": {
+                                "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179hw10/main/ne_110m_ocean.topojson",
+                                "format": {"type": "topojson", "feature": "oceans"}
+                            },
+                            "mark": {"type": "geoshape", "fill": "skyblue", "stroke": "null"}
+                            },
+                            {
+                            "data": {
+                                "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179hw10/main/ne_110m_graticules_30.json",
+                                "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
+                            },
+                            "mark": {"type": "geoshape", "fill": null, "stroke": "lightgrey"}
+                            },
+                            {
+                            "data": {
+                                "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/global_emissions_cleaned_time_percapita.csv"
+                            },
+                            "transform": [
+                                {
+                                "lookup": "Country",
+                                "from": {
+                                    "data": {
+                                    "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179hw10/main/ne_110m_admin_0_countries.json",
+                                    "format": {
+                                        "type": "topojson",
+                                        "feature": "ne_110m_admin_0_countries"
+                                    }
+                                    },
+                                    "key": "properties.NAME"
+                                },
+                                "as": "geo"
+                                },
+                                {"filter": "datum.Year == Year_selection"}
+                            ],
+                            "mark": {"type": "geoshape"},
+                            "encoding": {
+                                "description": {"field": "Country"},
+                                "shape": {"field": "geo", "type": "geojson"},
+                                "color": {"field":"Total", 
+                                "type":"quantitative",
+                                "scale" : {
+                                "type" : "threshold",
+                                "domain": [5,10,15,20],
+                                "scheme": "yelloworangered"
+                                }},
+                                "tooltip": [
+                                {"field": "Country", "type": "nominal", "title": "Country"},
+                                {"field": "Total", "type": "quantitative"},
+                                {"field":"Year","type":"quantitative"}
+                                ]
+                            }
+                            },
+                            {
+                            "data": {
+                                "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/continents.csv"
+                            },
+                            "mark": {
+                                "type": "text",
+                                "color": "black",
+                                "fontWeight": "bolder",
+                                "fontSize": 11
+                            },
+                            "encoding": {
+                                "text": {"field": "Continent", "type": "nominal"},
+                                "latitude": {"field": "Latitude", "type": "quantitative"},
+                                "longitude": {"field": "Longitude", "type": "quantitative"}
+                            }
+                            }
+                        ]
+                        }   
+                    vegaEmbed('#co2_emissions_total', yourVlSpec);
+                </script>
+                <div class="section-child">
+                    <h2 class="h2-section">Emissions per capita</h2>
+                    <p class="p-section"><i>Per capita : the average per person</i>
+                        <br><br>We can see that there is a gradual decrease of bla bla bla
+                        <br><br>In the donut chart on the right, we can see the breakdown of the world's C02 emissions in kilotons.
+                        <br><br>We can see that the main source of CO2 emissions in 2020 is <b>Oil</b>, followed by <b>Coal</b> and then <b>Cement</b>.
+                        <br><br>Try selecting your country to see the breakdown of it's CO2 emissions!
+                    </p>
+                </div> 
+            </div>
         </div>
     </body>
 </html>

@@ -85,7 +85,7 @@
         }
     ],
     "config": {
-        "background": "#D3D3D3",
+        "background": "white",
         "view": {"stroke": "transparent"}
     } 
 }   

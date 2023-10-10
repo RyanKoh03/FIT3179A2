@@ -2,6 +2,8 @@ body{
     background-color: white;
     font-family: 'Outfit', sans-serif;
     margin: 0%;
+    display: flex;
+    flex-direction: column;
 }
 
 img{
@@ -25,12 +27,12 @@ h3{
 
 .parent-container{
     width: 100vw;
-    height: 50vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-bottom: 1%;
+    padding-bottom: 3%;
 }   
 
 .section-container{
@@ -40,23 +42,26 @@ h3{
     display: flex;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
 }
+
 
 .section-child{
   width: 50%;
   height: 80%;
   background-color: #D3D3D3;
   border-radius: 2%;
-  margin: 1%;
+  margin: 4%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
+  padding-top: 1%;
 }
 
 .container-child{
-  width: 90%;
-  height: 100%;
+  width: 100%;
+  height: 80%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -92,6 +97,9 @@ h3{
 .h1-section{
   text-align: center;
   padding: 0%;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .h2-section{
@@ -106,11 +114,10 @@ h3{
   text-align: justify;
 }
 
-#emission_donutchart{
+#emission_donutchart,#co2_emissions_total{
   width: 50%;
   height: 80%;
-  margin: 1%;
+  margin: 4%;
   border-radius: 2%;
   background-color: white;
-  padding-top: 5%;
 }
