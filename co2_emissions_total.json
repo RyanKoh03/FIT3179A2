@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 600,
   "height": 400,
-  "title": "Adult Mortality for all the countries",
+  "title": "CO2 Emissions",
   "projection": {
     "type": "equalEarth",
     "center": {"expr": "center_to"},
@@ -15,7 +15,7 @@
       "bind": {
         "input": "range",
         "min": 1949,
-        "max": 2020,
+        "max": 2021,
         "step": 1,
         "name": "Year: "
       }
@@ -89,7 +89,7 @@
           "lookup": "Country",
           "from": {
             "data": {
-              "url": "https://raw.githubusercontent.com/KaiYuanTeh/DataVisualisation2/main/Data/ne_110m.json",
+              "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179hw10/main/ne_110m_admin_0_countries.json",
               "format": {
                 "type": "topojson",
                 "feature": "ne_110m_admin_0_countries"
@@ -105,23 +105,23 @@
       "encoding": {
         "description": {"field": "Country"},
         "shape": {"field": "geo", "type": "geojson"},
-        "color": {"field":"Coal", 
+        "color": {"field":"Total", 
         "type":"quantitative",
         "scale" : {
           "type" : "threshold",
-          "domain": [100, 200, 300, 400,500,600,700,800,900,1000],
+          "domain": [100,200,300,400,500],
           "scheme": "yelloworangered"
         }},
         "tooltip": [
           {"field": "Country", "type": "nominal", "title": "Country"},
-          {"field": "Coal", "type": "quantitative"},
+          {"field": "Total", "type": "quantitative"},
           {"field":"Year","type":"quantitative"}
         ]
       }
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/KaiYuanTeh/DataVisualisation2/main/Data/Continent_data.csv"
+        "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/continents.csv"
       },
       "mark": {
         "type": "text",
