@@ -82,7 +82,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/global_emissions_cleaned_time.csv"
+        "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/global_emissions_cleaned_time_percapita.csv"
       },
       "transform": [
         {
@@ -109,7 +109,7 @@
         "type":"quantitative",
         "scale" : {
           "type" : "threshold",
-          "domain": [100,200,300,400,500],
+          "domain": [5,10,15,20],
           "scheme": "yelloworangered"
         }},
         "tooltip": [
