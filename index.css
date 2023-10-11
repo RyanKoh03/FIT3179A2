@@ -1,71 +1,86 @@
 body{
     background-color: white;
     font-family: 'Outfit', sans-serif;
-    margin: 0%;
-    display: flex;
-    flex-direction: column;
 }
 
-img{
-    width: 100vw;
-
-}
-
-h1{
-    position: absolute;
-    padding-top: 10%;
-    padding-right: 40%;
-    font-size: 4rem;
-}
-
-h3{
-  position: absolute;
-  padding-right: 34%;
-  padding-top: 16%;
-  color: black;
+.title-container{
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3%;
 }
 
 .parent-container{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding-bottom: 3%;
-}   
-
-.section-container{
-    width: 100vw;
-    height: 100vh;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
+  padding-top: 5%;
+  padding-bottom: 5%
 }
 
+.child-container,.chart-container{
+  height: 60vh;
+}
 
-.section-child{
-  width: 50%;
-  height: 80%;
-  background-color: #D3D3D3;
+.chart-container{
+  background-color: white;
+}
+
+.child-container{
   border-radius: 2%;
-  margin: 4%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding-top: 1%;
+  width: 90%;
+  background-color: #d3d3d3;
+  margin-left: 5%;
 }
 
-.container-child{
+#emission_donutchart,#co2_emissions_total{
+  background-color: white;
   width: 100%;
-  height: 80%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  height: 95%;
 }
+
+#co2_emissions_total{
+  height: 78%;
+  margin-left: 5%;
+}
+
+/* TEXT AND FONTS */
+
+.h1-title,.h1-section,.h3-title,.h2-section{
+  color: black;
+}
+
+.h1-title{
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: black;
+  padding-left: 2.5%;
+}
+
+.h3-title{
+  color: black;
+  font-weight: lighter;
+  padding-left: 2.5%;
+}
+
+.h1-section{
+  padding-top: 2%;
+  font-weight: bolder;
+  font-size: 2.25rem;
+  text-align: center;
+}
+
+.h2-section{
+  font-size: 2rem;
+}
+
+.p-section{
+  font-size: 1.7rem ;
+  word-wrap: break-word;
+  margin:8%;
+  margin-top: 5%;
+  text-align: justify;
+}
+
+/*NAVIGATION BAR*/
 
 .topnav {
   background-color: #333;
@@ -94,30 +109,3 @@ h3{
   color: white;
 }
 
-.h1-section{
-  text-align: center;
-  padding: 0%;
-  font-weight: bold;
-  font-size: 3rem;
-  text-align: center;
-}
-
-.h2-section{
-  font-size: 2rem;
-}
-
-.p-section{
-  font-size: 1.5rem ;
-  word-wrap: break-word;
-  margin:10%;
-  margin-top: 7%;
-  text-align: justify;
-}
-
-#emission_donutchart,#co2_emissions_total{
-  width: 50%;
-  height: 80%;
-  margin: 4%;
-  border-radius: 2%;
-  background-color: white;
-}
