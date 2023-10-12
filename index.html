@@ -27,17 +27,18 @@
             <a href="#malaysia">Malaysia</a>
         </div>
         <div class="title-container">
-            <div class="h1-title">World C02 Emissions</div>
+            <div class="h1-title" id="purpose">World C02 Emissions</div>
             <div class="h3-title">A breakdown of the sources of C02 Emissions across the world</div>
         </div>
         <div class="parent-container">
+            <div class="h1-section-title" id="purpose">Purpose</div>
             <div class="row">
                 <div class="col-sm-6 text-center">
                     <div class="child-container">
                         <div class="h1-section">Sources of Global CO2 Emissions</div>
                         <p class="p-section">CO2 emissions are a <b>prominent problem</b> in today's society. 
                             <br><br>The purpose of this visualization is to <b>raise awareness on the importance of promoting and implementing renewable energy</b>
-                            <br><br>In the donut chart on the right, we can see the breakdown of the world's C02 emissions in kilotons.
+                            <br><br>In the donut chart on the right, we can see the breakdown of the world's C02 emissions.
                             <br><br>We can see that the main source of CO2 emissions in 2020 is <b>Oil</b>, followed by <b>Coal</b> and then <b>Cement</b>.
                             <br><br>Try selecting your country to see the breakdown of it's CO2 emissions!
                         </p>
@@ -107,7 +108,7 @@
                                     },
                                     "tooltip": [
                                         {"field": "variable", "type": "nominal", "title": "Emission Source:"},
-                                        {"field": "value", "type": "quantitative", "title": "CO2 Emission in Kilotons:"}
+                                        {"field": "value", "type": "quantitative", "title": "Percentage of Emission:"}
                                     ]
                                 },
                                 "layer": [
@@ -145,7 +146,8 @@
                 </div>
             </div>
         </div>
-        <div class="parent-container">
+        <div class="parent-container" >
+            <div class="h1-section-title" id="world">World Map</div>
             <div class="row">
                 <div class="col-sm-6 text-center">
                     <div class="chart-container">
@@ -164,10 +166,10 @@
                                 "params": [
                                     {
                                     "name": "Year_selection",
-                                    "value": 1949,
+                                    "value": 1950,
                                     "bind": {
                                         "input": "range",
-                                        "min": 1949,
+                                        "min": 1950,
                                         "max": 2021,
                                         "step": 1,
                                         "name": "Year: "
@@ -196,7 +198,8 @@
                                         [135, -25],
                                         [35, 55],
                                         [-95, 45],
-                                        [-60, -20]
+                                        [-60, -20],
+                                        [100,0]
                                         ],
                                         "labels": [
                                         "World",
@@ -205,7 +208,8 @@
                                         "Australia",
                                         "Europe",
                                         "North America",
-                                        "South America"
+                                        "South America",
+                                        "Malaysia"
                                         ],
                                         "name": "Map Centre: "
                                     }
@@ -304,6 +308,13 @@
                             <br><br>Try selecting your country to see the breakdown of it's CO2 emissions!
                         </p>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="parent-container">
+            <div class="row">
+                <div class="col-sm">
+
                 </div>
             </div>
         </div>
