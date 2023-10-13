@@ -3,14 +3,6 @@ body{
     font-family: 'Outfit', sans-serif;
 }
 
-.title-container{
-  width: 100vw;
-  height: 10vh;
-  display: flex;
-  flex-direction: column;
-  padding-top: 3%;
-}
-
 .parent-container{
   padding-top: 3%;
 }
@@ -19,26 +11,36 @@ body{
   height: 60vh;
 }
 
+.title-container-child{
+  height: 80%;
+  width: 100%;
+  padding-left: 3%;
+}
+
 .chart-container{
   background-color: white;
 }
 
 .child-container{
-  border-radius: 2%;
+  border-radius: 5%;
   width: 90%;
   background-color: #d3d3d3;
   margin-left: 5%;
 }
 
-#emission_donutchart,#co2_emissions_total{
+#emission_donutchart,#co2_emissions_total,#temp_change{
   background-color: white;
-  width: 100%;
+  width: 90%;
   height: 95%;
 }
 
 #co2_emissions_total{
-  height: 78%;
+  height: 75%;
   margin-left: 5%;
+}
+
+#temp_change{
+  margin-left: 4%;
 }
 
 /* TEXT AND FONTS */
@@ -48,10 +50,18 @@ body{
 }
 
 .h1-title{
+  padding-top: 2%;
   font-size: 3.5rem;
   font-weight: bold;
   color: black;
-  padding-left: 2.5%;
+  padding-left: 3%;
+}
+
+.h2-title{
+  font-size: 2rem;
+  margin: 5%;
+  font-weight: bolder;
+  padding-bottom: 2%;
 }
 
 .h1-section-title{
@@ -59,13 +69,17 @@ body{
   font-weight: bolder;
   font-size: 3rem;
   text-align: center;
-  padding-bottom: 2%;
+  padding-bottom: 4%;
+  color: black;
 }
 
 .h3-title{
   color: black;
   font-weight: lighter;
-  padding-left: 2.5%;
+  font-style: italic;
+  font-size: 1.5rem;
+  padding-bottom: 2%;
+  padding-left: 3%;
 }
 
 .h1-section{
@@ -83,8 +97,7 @@ body{
 .p-section{
   font-size: 1.7rem ;
   word-wrap: break-word;
-  margin:8%;
-  margin-top: 5%;
+  margin:5%;
   text-align: justify;
 }
 

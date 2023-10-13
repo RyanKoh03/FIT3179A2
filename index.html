@@ -22,23 +22,240 @@
     </head>
     <body>
         <div class="topnav">
-            <a href="#purpose">Purpose</a>
-            <a href="#world">World Map</a>
-            <a href="#malaysia">Malaysia</a>
+            <a href="#purpose">Sources of CO2 Emission</a>
+            <a href="#world">C02 Emissions</a>
+            <a href="#malaysia">Temperature</a>
         </div>
-        <div class="title-container">
-            <div class="h1-title" id="purpose">World C02 Emissions</div>
-            <div class="h3-title">A breakdown of the sources of C02 Emissions across the world</div>
+        <div class="row">
+            <div class="col">
+                <div class="h1-title" id="purpose">World C02 Emissions</div>
+            </div>
+            <div class="col">
+                <div class="h3-title">A breakdown of the sources of C02 Emissions across the world</div>
+            </div>
+            <div class="col-sm-4">
+                <div class="title-container-child">
+                    <div class="h2-title">About</div>
+                    <p class="p-section">
+                        The purpose of this visualization is to visualise global CO2 emissions 
+                        <br>and it's effects on global temperature. 
+                        <br><br>Firstly, this visualization will be exploring the trend of global CO2 
+                        <br>emissions over time.
+                        <br><br>We will then explore the sources of CO2 emissions. The 
+                        <br>effects on temperature will be visualised.Lastly, we will be 
+                        <br>exploring Malaysia's CO2 emissions
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="title-container-child">
+                    <div class="h2-title">What is CO2 Emission?</div>
+                    <p class="p-section">
+                        CO2 emission is defined as the release of Carbon Dioxide 
+                        <br>into the atmosphere
+                        <br><br>CO2 emission causes a variety of global problems. Most prominently, 
+                        
+                        <br>global warming, which causes the greenhouse effect, resulting in 
+                        <br>increasing global temperature.
+                        <br><br>From there, rising global temperatures causes a cascading array of problems 
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="h2-title">Keywords</div>
+                <p class="p-section">
+                    <br><b>Kilotons</b> : <i>A unit of weight, 1000 kilograms</i>
+                    <br><br><b>Celsius</b> : <i>A unit of temperature</i>
+                    <br><br><b>CO2</b> : <i>Carbon dioxide</i>
+                    <br><br><b>Emission</b> : <i>Release of a substance</i>
+                </p>
+            </div>
         </div>
-        <div class="parent-container">
-            <div class="h1-section-title" id="purpose">Purpose</div>
+        </div>
+        <div class="parent-container" >
             <div class="row">
-                <div class="col-sm-6 text-center">
+                <div class="col">
+                    <div class="h1-section-title" id="world">CO2 Emissions over time</div>
+                </div>
+                <div class="col-sm-6">
                     <div class="child-container">
-                        <div class="h1-section">Sources of Global CO2 Emissions</div>
+                        <div class="h1-section">The Trend of CO2 Emissions</div>
                         <p class="p-section">CO2 emissions are a <b>prominent problem</b> in today's society. 
                             <br><br>The purpose of this visualization is to <b>raise awareness on the importance of promoting and implementing renewable energy</b>
-                            <br><br>In the donut chart on the right, we can see the breakdown of the world's C02 emissions.
+                            <br><br>In the donut chart on the right, we can see the breakdown of the world's C02 emissions in kilotons.
+                            <br><br>We can see that the main source of CO2 emissions in 2020 is <b>Oil</b>, followed by <b>Coal</b> and then <b>Cement</b>.
+                            <br><br>Try selecting your country to see the breakdown of it's CO2 emissions!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="chart-container">
+                        <div id="co2_emissions_total"></div>
+                        <script type="text/javascript">
+                            var yourVlSpec = 
+                            {
+                                "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+                                "width": "container",
+                                "height": "container",
+                                "projection": {
+                                    "type": "equalEarth",
+                                    "center": {"expr": "center_to"},
+                                    "scale": {"expr": "zoom_level"}
+                                },
+                                "params": [
+                                    {
+                                    "name": "Year_selection",
+                                    "value": 1961,
+                                    "bind": {
+                                        "input": "range",
+                                        "min": 1961,
+                                        "max": 2019,
+                                        "step": 1,
+                                        "name": "Year: "
+                                    }
+                                    },
+                                    {
+                                    "name": "zoom_level",
+                                    "value": 100,
+                                    "bind": {
+                                        "input": "range",
+                                        "min": 100,
+                                        "max": 650,
+                                        "step": 50,
+                                        "name": "Zoom: "
+                                    }
+                                    },
+                                    {
+                                    "name": "center_to",
+                                    "value": [0, 0],
+                                    "bind": {
+                                        "input": "select",
+                                        "options": [
+                                        [0, 0],
+                                        [30, 0],
+                                        [90, 20],
+                                        [135, -25],
+                                        [35, 55],
+                                        [-95, 45],
+                                        [-60, -20],
+                                        [100,0]
+                                        ],
+                                        "labels": [
+                                        "World",
+                                        "Africa",
+                                        "Asia",
+                                        "Australia",
+                                        "Europe",
+                                        "North America",
+                                        "South America",
+                                        "Malaysia"
+                                        ],
+                                        "name": "Map Centre: "
+                                    }
+                                    }
+                                ],
+                                "layer": [
+                                    {
+                                    "data": {
+                                        "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179hw10/main/ne_110m_admin_0_countries.json",
+                                        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+                                    },
+                                    "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
+                                    },
+                                    {
+                                    "data": {
+                                        "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179hw10/main/ne_110m_ocean.topojson",
+                                        "format": {"type": "topojson", "feature": "oceans"}
+                                    },
+                                    "mark": {"type": "geoshape", "fill": "skyblue", "stroke": "null"}
+                                    },
+                                    {
+                                    "data": {
+                                        "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179hw10/main/ne_110m_graticules_30.json",
+                                        "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
+                                    },
+                                    "mark": {"type": "geoshape", "fill": null, "stroke": "lightgrey"}
+                                    },
+                                    {
+                                    "data": {
+                                        "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/global_emissions_cleaned_time_percapita.csv"
+                                    },
+                                    "transform": [
+                                        {
+                                        "lookup": "Country",
+                                        "from": {
+                                            "data": {
+                                            "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179hw10/main/ne_110m_admin_0_countries.json",
+                                            "format": {
+                                                "type": "topojson",
+                                                "feature": "ne_110m_admin_0_countries"
+                                            }
+                                            },
+                                            "key": "properties.NAME"
+                                        },
+                                        "as": "geo"
+                                        },
+                                        {"filter": "datum.Year == Year_selection"}
+                                    ],
+                                    "mark": {"type": "geoshape"},
+                                    "encoding": {
+                                        "description": {"field": "Country"},
+                                        "shape": {"field": "geo", "type": "geojson"},
+                                        "color": {"field":"Total", 
+                                        "type":"quantitative",
+                                        "scale" : {
+                                        "type" : "threshold",
+                                        "domain": [5,10,15,20],
+                                        "scheme": "yelloworangered"
+                                            },
+                                        "legend":{
+                                            "title":"CO2 Emissions per capita",
+                                            "orient":"bottom"
+                                            },
+                                        },
+                                        "tooltip": [
+                                        {"field": "Country", "type": "nominal", "title": "Country"},
+                                        {"field": "Total", "type": "quantitative","format":".2f","title":"CO2 Emissions per capita in kilotons"},
+                                        {"field":"Year","type":"quantitative"}
+                                        ]
+                                    }
+                                    },
+                                    {
+                                    "data": {
+                                        "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/continents.csv"
+                                    },
+                                    "mark": {
+                                        "type": "text",
+                                        "color": "black",
+                                        "fontWeight": "bolder",
+                                        "fontSize": 11
+                                    },
+                                    "encoding": {
+                                        "text": {"field": "Continent", "type": "nominal"},
+                                        "latitude": {"field": "Latitude", "type": "quantitative"},
+                                        "longitude": {"field": "Longitude", "type": "quantitative"}
+                                    }
+                                    }
+                                ]
+                            } 
+                            vegaEmbed('#co2_emissions_total ', yourVlSpec);
+                        </script>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="parent-container">
+            
+            <div class="row">
+                <div class="col">
+                    <div class="h1-section-title" id="purpose">Sources of CO2 Emission</div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="child-container">
+                        <div class="h1-section">Breakdown of CO2 Sources</div>
+                        <p class="p-section"><b>CO2 emissions</b> are a prominent problem in today's society. 
+                            <br><br>The purpose of this visualization is to visualise <b>the effects of CO2 emissions</b>
+                            <br><br>In the donut chart on the right, we can see the breakdown of the world's C02 emissions in 2020.
                             <br><br>We can see that the main source of CO2 emissions in 2020 is <b>Oil</b>, followed by <b>Coal</b> and then <b>Cement</b>.
                             <br><br>Try selecting your country to see the breakdown of it's CO2 emissions!
                         </p>
@@ -146,176 +363,171 @@
                 </div>
             </div>
         </div>
-        <div class="parent-container" >
-            <div class="h1-section-title" id="world">World Map</div>
-            <div class="row">
-                <div class="col-sm-6 text-center">
-                    <div class="chart-container">
-                        <div id="co2_emissions_total"></div>
-                        <script type="text/javascript">
-                            var yourVlSpec = 
-                            {
-                                "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-                                "width": "container",
-                                "height": "container",
-                                "projection": {
-                                    "type": "equalEarth",
-                                    "center": {"expr": "center_to"},
-                                    "scale": {"expr": "zoom_level"}
-                                },
-                                "params": [
-                                    {
-                                    "name": "Year_selection",
-                                    "value": 1950,
-                                    "bind": {
-                                        "input": "range",
-                                        "min": 1950,
-                                        "max": 2021,
-                                        "step": 1,
-                                        "name": "Year: "
-                                    }
-                                    },
-                                    {
-                                    "name": "zoom_level",
-                                    "value": 100,
-                                    "bind": {
-                                        "input": "range",
-                                        "min": 100,
-                                        "max": 650,
-                                        "step": 50,
-                                        "name": "Zoom: "
-                                    }
-                                    },
-                                    {
-                                    "name": "center_to",
-                                    "value": [0, 0],
-                                    "bind": {
-                                        "input": "select",
-                                        "options": [
-                                        [0, 0],
-                                        [30, 0],
-                                        [90, 20],
-                                        [135, -25],
-                                        [35, 55],
-                                        [-95, 45],
-                                        [-60, -20],
-                                        [100,0]
-                                        ],
-                                        "labels": [
-                                        "World",
-                                        "Africa",
-                                        "Asia",
-                                        "Australia",
-                                        "Europe",
-                                        "North America",
-                                        "South America",
-                                        "Malaysia"
-                                        ],
-                                        "name": "Map Centre: "
-                                    }
-                                    }
-                                ],
-                                "layer": [
-                                    {
-                                    "data": {
-                                        "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179hw10/main/ne_110m_admin_0_countries.json",
-                                        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
-                                    },
-                                    "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
-                                    },
-                                    {
-                                    "data": {
-                                        "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179hw10/main/ne_110m_ocean.topojson",
-                                        "format": {"type": "topojson", "feature": "oceans"}
-                                    },
-                                    "mark": {"type": "geoshape", "fill": "skyblue", "stroke": "null"}
-                                    },
-                                    {
-                                    "data": {
-                                        "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179hw10/main/ne_110m_graticules_30.json",
-                                        "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
-                                    },
-                                    "mark": {"type": "geoshape", "fill": null, "stroke": "lightgrey"}
-                                    },
-                                    {
-                                    "data": {
-                                        "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/global_emissions_cleaned_time_percapita.csv"
-                                    },
-                                    "transform": [
-                                        {
-                                        "lookup": "Country",
-                                        "from": {
-                                            "data": {
-                                            "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179hw10/main/ne_110m_admin_0_countries.json",
-                                            "format": {
-                                                "type": "topojson",
-                                                "feature": "ne_110m_admin_0_countries"
-                                            }
-                                            },
-                                            "key": "properties.NAME"
-                                        },
-                                        "as": "geo"
-                                        },
-                                        {"filter": "datum.Year == Year_selection"}
-                                    ],
-                                    "mark": {"type": "geoshape"},
-                                    "encoding": {
-                                        "description": {"field": "Country"},
-                                        "shape": {"field": "geo", "type": "geojson"},
-                                        "color": {"field":"Total", 
-                                        "type":"quantitative",
-                                        "scale" : {
-                                        "type" : "threshold",
-                                        "domain": [5,10,15,20],
-                                        "scheme": "yelloworangered"
-                                        }},
-                                        "tooltip": [
-                                        {"field": "Country", "type": "nominal", "title": "Country"},
-                                        {"field": "Total", "type": "quantitative"},
-                                        {"field":"Year","type":"quantitative"}
-                                        ]
-                                    }
-                                    },
-                                    {
-                                    "data": {
-                                        "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/continents.csv"
-                                    },
-                                    "mark": {
-                                        "type": "text",
-                                        "color": "black",
-                                        "fontWeight": "bolder",
-                                        "fontSize": 11
-                                    },
-                                    "encoding": {
-                                        "text": {"field": "Continent", "type": "nominal"},
-                                        "latitude": {"field": "Latitude", "type": "quantitative"},
-                                        "longitude": {"field": "Longitude", "type": "quantitative"}
-                                    }
-                                    }
-                                ]
-                            } 
-                            vegaEmbed('#co2_emissions_total ', yourVlSpec);
-                        </script>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="child-container">
-                        <div class="h1-section">Sources of Global CO2 Emissions</div>
-                        <p class="p-section">CO2 emissions are a <b>prominent problem</b> in today's society. 
-                            <br><br>The purpose of this visualization is to <b>raise awareness on the importance of promoting and implementing renewable energy</b>
-                            <br><br>In the donut chart on the right, we can see the breakdown of the world's C02 emissions in kilotons.
-                            <br><br>We can see that the main source of CO2 emissions in 2020 is <b>Oil</b>, followed by <b>Coal</b> and then <b>Cement</b>.
-                            <br><br>Try selecting your country to see the breakdown of it's CO2 emissions!
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="parent-container">
             <div class="row">
-                <div class="col-sm">
-
+            <div class="col">
+                <div class="h1-section-title">Our World is <b style="color: red;">Heating up</b></div>
+            </div>
+            <div class="col-sm-6">
+                <div class="p-section">
+                    Below, we can see the yearly average temperature change for each country. 
+                    <br><br>For simplification, <b style="color: #2596be;">blue</b> means there was a <b>decrease in temperature</b> and <b style="color: #e08424;">orange</b> means that there was an<b> increase in temperature</b> for that year
                 </div>
+            </div>
+            </div>
+            <div class="chart-container">
+                <div id="temp_change"></div>
+                <script type="text/javascript">
+                    var yourVlSpec = 
+                    {
+                        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+                        "width": "container",
+                        "height": "container",
+                        "projection": {
+                        "type": "equalEarth",
+                        "center": {"expr": "center_to"},
+                        "scale": {"expr": "zoom_level"}
+                        },
+                        "params": [
+                        {
+                            "name": "Year_selection",
+                            "value": 1961,
+                            "bind": {
+                            "input": "range",
+                            "min": 1961,
+                            "max": 2019,
+                            "step": 1,
+                            "name": "Year: "
+                            }
+                        },
+                        {
+                            "name": "zoom_level",
+                            "value": 200,
+                            "bind": {
+                            "input": "range",
+                            "min": 200,
+                            "max": 650,
+                            "step": 50,
+                            "name": "Zoom: "
+                            }
+                        },
+                        {
+                            "name": "center_to",
+                            "value": [0, 0],
+                            "bind": {
+                            "input": "select",
+                            "options": [
+                                [0, 0],
+                                [30, 0],
+                                [90, 20],
+                                [135, -25],
+                                [35, 55],
+                                [-95, 45],
+                                [-60, -20],
+                                [100,0]
+                            ],
+                            "labels": [
+                                "World",
+                                "Africa",
+                                "Asia",
+                                "Australia",
+                                "Europe",
+                                "North America",
+                                "South America",
+                                "Malaysia"
+                            ],
+                            "name": "Map Centre: "
+                            }
+                        }
+                        ],
+                        "layer": [
+                        {
+                            "data": {
+                            "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179hw10/main/ne_110m_admin_0_countries.json",
+                            "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+                            },
+                            "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
+                        },
+                        {
+                            "data": {
+                            "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179hw10/main/ne_110m_ocean.topojson",
+                            "format": {"type": "topojson", "feature": "oceans"}
+                            },
+                            "mark": {"type": "geoshape", "fill": "skyblue", "stroke": "null"}
+                        },
+                        {
+                            "data": {
+                            "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179hw10/main/ne_110m_graticules_30.json",
+                            "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
+                            },
+                            "mark": {"type": "geoshape", "fill": null, "stroke": "lightgrey"}
+                        },
+                        {
+                            "data": {
+                            "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/temp_change_clean.csv"
+                            },
+                            "transform": [
+                            {
+                                "lookup": "Country",
+                                "from": {
+                                "data": {
+                                    "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179hw10/main/ne_110m_admin_0_countries.json",
+                                    "format": {
+                                    "type": "topojson",
+                                    "feature": "ne_110m_admin_0_countries"
+                                    }
+                                },
+                                "key": "properties.NAME"
+                                },
+                                "as": "geo"
+                            },
+                            {"filter": "datum.variable == Year_selection"}
+                            ],
+                            "mark": {"type": "geoshape"},
+                            "encoding": {
+                            "description": {"field": "Area"},
+                            "shape": {"field": "geo", "type": "geojson"},
+                            "color": {
+                                "field": "val",
+                                "type": "quantitative",
+                                "scale": {
+                                "scheme": "blueorange",
+                                "type": "threshold",
+                                "domain":[-0.5,0,0.5,1]
+                                },
+                                "legend":{
+                                    "title":"Temperature change in Celsius",
+                                    "orient":"bottom"
+                                }
+                            },
+                            "tooltip": [
+                                {"field": "Country", "type": "nominal", "title": "Country"},
+                                {"field": "val", "type": "quantitative","title":"Temperature Change","format":".2f"},
+                                {"field": "variable", "type": "quantitative","title":"Year"}
+                            ]
+                            }
+                        },
+                        {
+                            "data": {
+                            "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/continents.csv"
+                            },
+                            "mark": {
+                            "type": "text",
+                            "color": "black",
+                            "fontWeight": "bolder",
+                            "fontSize": 11
+                            },
+                            "encoding": {
+                            "text": {"field": "Continent", "type": "nominal"},
+                            "latitude": {"field": "Latitude", "type": "quantitative"},
+                            "longitude": {"field": "Longitude", "type": "quantitative"}
+                            }
+                        }
+                        ]
+                    }
+                    vegaEmbed('#temp_change', yourVlSpec);
+                </script>
+                
             </div>
         </div>
         
