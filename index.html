@@ -210,7 +210,7 @@
                                             },
                                         "legend":{
                                             "title":"CO2 Emissions per capita",
-                                            "orient":"bottom"
+                                            "orient":"top"
                                             },
                                         },
                                         "tooltip": [
@@ -271,7 +271,7 @@
                                 "width":"container",
                                 "height":"container",
                                 "data": {
-                                    "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/co2_2020_category.csv"
+                                    "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/emission_source_cleaned.csv"
                                 },
                                 "params": [
                                     {
@@ -297,11 +297,23 @@
                                                 "China"
                                             ]
                                         }
+                                    },
+                                    {
+                                        "name": "Year_selection",
+                                        "value": 1961,
+                                        "bind": {
+                                        "input": "range",
+                                        "min": 1961,
+                                        "max": 2019,
+                                        "step": 1,
+                                        "name": "Year"
+                                        }
                                     }
+                        
                                 ],
                                 "transform": [
                                     {
-                                        "filter": "if(Country !=null, datum.Country == Country, datum.Country == 'All countries')"
+                                        "filter": "if(Country !=null, datum.Country == Country, datum.Country == 'All countries') & datum.Year == Year_selection"
                                     }
                                 ],
                                 "encoding": {
@@ -325,7 +337,7 @@
                                     },
                                     "tooltip": [
                                         {"field": "variable", "type": "nominal", "title": "Emission Source:"},
-                                        {"field": "value", "type": "quantitative", "title": "Percentage of Emission:"}
+                                        {"field": "value", "type": "quantitative", "title": "Percentage of Emission:","format":".2f"}
                                     ]
                                 },
                                 "layer": [
@@ -340,7 +352,7 @@
                                             "fontWeight":"bold"
                                         },
                                         "encoding": {
-                                            "text": {"field": "value", "type": "quantitative"}
+                                            "text": {"field": "value", "type": "quantitative","format":".2f"}
                                         }
                                     },
                                     {
@@ -365,15 +377,14 @@
         </div>
         <div class="parent-container">
             <div class="row">
-            <div class="col">
-                <div class="h1-section-title">Our World is <b style="color: red;">Heating up</b></div>
-            </div>
-            <div class="col-sm-6">
-                <div class="p-section">
-                    Below, we can see the yearly average temperature change for each country. 
-                    <br><br>For simplification, <b style="color: #2596be;">blue</b> means there was a <b>decrease in temperature</b> and <b style="color: #e08424;">orange</b> means that there was an<b> increase in temperature</b> for that year
+                <div class="col">
+                    <div class="h1-section-title">Our World is <b style="color: red;">Heating up!!!</b></div>
                 </div>
-            </div>
+                <div class="col text-center">
+                    <div class="h1-section">
+                        Yearly Average Global Temperature Change
+                    </div>
+                </div>
             </div>
             <div class="chart-container">
                 <div id="temp_change"></div>
@@ -385,8 +396,6 @@
                         "height": "container",
                         "projection": {
                         "type": "equalEarth",
-                        "center": {"expr": "center_to"},
-                        "scale": {"expr": "zoom_level"}
                         },
                         "params": [
                         {
@@ -398,45 +407,6 @@
                             "max": 2019,
                             "step": 1,
                             "name": "Year: "
-                            }
-                        },
-                        {
-                            "name": "zoom_level",
-                            "value": 200,
-                            "bind": {
-                            "input": "range",
-                            "min": 200,
-                            "max": 650,
-                            "step": 50,
-                            "name": "Zoom: "
-                            }
-                        },
-                        {
-                            "name": "center_to",
-                            "value": [0, 0],
-                            "bind": {
-                            "input": "select",
-                            "options": [
-                                [0, 0],
-                                [30, 0],
-                                [90, 20],
-                                [135, -25],
-                                [35, 55],
-                                [-95, 45],
-                                [-60, -20],
-                                [100,0]
-                            ],
-                            "labels": [
-                                "World",
-                                "Africa",
-                                "Asia",
-                                "Australia",
-                                "Europe",
-                                "North America",
-                                "South America",
-                                "Malaysia"
-                            ],
-                            "name": "Map Centre: "
                             }
                         }
                         ],
@@ -497,7 +467,7 @@
                                 },
                                 "legend":{
                                     "title":"Temperature change in Celsius",
-                                    "orient":"bottom"
+                                    "orient":"top"
                                 }
                             },
                             "tooltip": [
@@ -528,6 +498,29 @@
                     vegaEmbed('#temp_change', yourVlSpec);
                 </script>
                 
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="p-section">
+                        Above, we can see the <b>yearly average temperature change</b> for each country. 
+                        <br><br>For simplification, 
+                        <b style="color: #2596be;">blue</b> means there was a <b>decrease in temperature</b> for that year, 
+                        <b style="color: #e08424;">orange</b> means that there was an<b> increase in temperature</b> for that year
+                        and <b>white</b> means <b>little to no change in temperature</b> for that year.
+                        <br><br>Try moving the Year Slider to observe the change in temperature over time
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="p-section">
+                        When you move the slider to increase the years, 
+                        We can see a definite trend of temperature change increasing. 
+                        This is most evident during the turn of the century, as more and more countries
+                        report an increase in temperature
+                
+                        <br><br>In 2019, we can see almost all countries are reporting an increase in temperature for that year,
+                        with no countries reporting a decrease and only 2 countries reporting little to no change 
+                    </div>
+                </div>
             </div>
         </div>
         

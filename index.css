@@ -30,17 +30,22 @@ body{
 
 #emission_donutchart,#co2_emissions_total,#temp_change{
   background-color: white;
+  height: 100%;
   width: 90%;
-  height: 95%;
 }
 
 #co2_emissions_total{
   height: 75%;
-  margin-left: 5%;
+}
+
+#emission_donutchart{
+  height: 85%;
 }
 
 #temp_change{
-  margin-left: 4%;
+  margin: 5%;
+  margin-top: 0%;
+  height: 90%;
 }
 
 /* TEXT AND FONTS */
