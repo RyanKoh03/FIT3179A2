@@ -28,7 +28,7 @@ body{
   margin-left: 5%;
 }
 
-#emission_donutchart,#co2_emissions_total,#temp_change{
+#emission_donutchart,#co2_emissions_total,#temp_change,#correlation_line{
   background-color: white;
   height: 100%;
   width: 90%;
@@ -46,6 +46,10 @@ body{
   margin: 5%;
   margin-top: 0%;
   height: 90%;
+}
+
+#correlation_line{
+  margin-left: 5%;
 }
 
 /* TEXT AND FONTS */
