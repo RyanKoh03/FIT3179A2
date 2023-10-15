@@ -1,10 +1,14 @@
 body{
     background-color: white;
     font-family: 'Outfit', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: solid;
 }
 
 .parent-container{
   padding-top: 3%;
+  padding-bottom: 2%;
 }
 
 .child-container,.chart-container{
@@ -36,6 +40,7 @@ body{
 
 #co2_emissions_total{
   height: 75%;
+  margin-left: 5%;
 }
 
 #emission_donutchart{
@@ -94,10 +99,11 @@ body{
 .h1-section{
   padding-top: 2%;
   font-weight: bolder;
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   text-align: center;
   padding-bottom: 1%;
 }
+
 
 .h2-section{
   font-size: 2rem;
@@ -106,7 +112,14 @@ body{
 .p-section{
   font-size: 1.7rem ;
   word-wrap: break-word;
-  margin:5%;
+  margin:2% 5% 2% 5%;
+  text-align: center;
+}
+
+.p-section-title{
+  font-size: 1.7rem ;
+  word-wrap: break-word;
+  margin:2% 5% 2% 5%;
   text-align: justify;
 }
 
