@@ -1272,9 +1272,9 @@
                             "mark": {"type":"line","color":"#e08424"},
                             "encoding": {
                                 "x": {"field": "Year", "type": "temporal", "axis": {"title":"Year","grid": false}},
-                                "y": {"field": "temp_change", "type": "quantitative", "axis": {"title":"Temperature Fluctuation"}},
+                                "y": {"field": "temp_change", "type": "quantitative", "axis": {"title":"Temperature Fluctuation in Celsius"}},
                                 "tooltip":[
-                                    {"field":"temp_change","type": "quantitative","format":".2f","title":"Fluctuation in Temperature"},
+                                    {"field":"temp_change","type": "quantitative","format":".2f","title":"Fluctuation in Temperature in Celsius"},
                                     {"field":"Year","type": "temporal","timeUnit":"binnedutcyear","title":"Year"}
                                 ]
                             }
@@ -1296,7 +1296,7 @@
         <hr style="border-width: 0.2rem;border-color: black; margin: 2% 5% 0% 5%;">
         <div class="footer">
             <div class="p-section" style="text-align: left;">
-                This visualisation is created by <a href="https://github.com/RyanKoh03/FIT3179A2">Ryan Koh</a>. 
+                This visualisation was created by <a href="https://github.com/RyanKoh03/FIT3179A2">Ryan Koh</a>. 
                 The data sources are obtained from <a href="https://www.kaggle.com/datasets/sevgisarac/temperature-change">Temperature change</a>
                 and <a href="https://www.kaggle.com/datasets/thedevastator/global-fossil-co2-emissions-by-country-2002-2022?rvi=1">CO2 Emissions</a>
                 and <a href="https://www.worldometers.info/gdp/gdp-per-capita/#:~:text=Gross%20Domestic%20Product%20(GDP)%20per,the%20Nominal%20GDP%20per%20capita.">GDP</a>
