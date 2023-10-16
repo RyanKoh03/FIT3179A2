@@ -915,35 +915,56 @@
                             {
                                 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
                                 "width": "container",
-                                "height": "container",
-                                "data": {"url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/global_emissions_temperature.csv"},
-                                "transform": [
-                                    {"fold": ["temp_change", "co2_emissions"]}
+                                "height": "620",
+                                "data": {
+                                    "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/global_emissions_temperature.csv"
+                                },
+                                "transform": [{"calculate":"datum.co2_emissions/4","as": "co2_emission"},
+                                    {"fold": ["temp_change", "co2_emission"]}
                                 ],
                                 "mark": "line",
                                 "encoding": {
-                                    "x": {"field": "year", "type": "temporal","axis":{
-                                    "domain": false,
-                                    "grid": false,
-                                    "ticks": false
-                                    }},
-                                    "y": {"field": "value", "type": "quantitative","title":"Change in Emission and Temperature","axis":{
-                                    "domain": false,
-                                    "grid": false,
-                                    "ticks": false
-                                    }},
-                                    "color": {"field": "key", "type": "nominal","legend":{
-                                    "title":"Type",
-                                    "labelExpr": "datum.label == 'co2_emissions' ? 'CO2 Emissions' : datum.label == 'temp_change' ? 'Temperature Change' :''" ,
-                                    "orient":"left",
-                                    "labelFontSize":14,
-                                    "titleFontSize":16,
-                                    "orient":"top"
-                                    }},
-                                    "tooltip":[
-                                    {"field":"co2_emissions","type": "quantitative","title":"CO2 Emission in kilotons ","format":".2f"},
-                                    {"field":"temp_change","type": "quantitative","title":"Temperature change in Celsius","format":".2f"},
-                                    {"field":"year","type": "temporal","title":"Year","timeUnit":"binnedutcyear"}
+                                    "x": {
+                                    "field": "year",
+                                    "type": "temporal",
+                                    "axis": {"domain": false, "grid": false, "ticks": false}
+                                    },
+                                    "y": {
+                                    "field": "value",
+                                    "type": "quantitative",
+                                    "title": "Change in Emission and Temperature",
+                                    "axis": {"domain": false, "grid": false, "ticks": false}
+                                    },
+                                    "color": {
+                                    "field": "key",
+                                    "type": "nominal",
+                                    "legend": {
+                                        "title": "Type",
+                                        "labelExpr": "datum.label == 'co2_emission' ? 'CO2 Emissions' : datum.label == 'temp_change' ? 'Temperature Change' :''",
+                                        "orient": "bottom",
+                                        "labelFontSize": 14,
+                                        "titleFontSize": 16
+                                    }
+                                    },
+                                    "tooltip": [
+                                    {
+                                        "field": "co2_emission",
+                                        "type": "quantitative",
+                                        "title": "Change in CO2 Emission in kilotons ",
+                                        "format": ".2f"
+                                    },
+                                    {
+                                        "field": "temp_change",
+                                        "type": "quantitative",
+                                        "title": "Temperature change in Celsius",
+                                        "format": ".2f"
+                                    },
+                                    {
+                                        "field": "year",
+                                        "type": "temporal",
+                                        "title": "Year",
+                                        "timeUnit": "binnedutcyear"
+                                    }
                                     ]
                                 }
                                 }
@@ -1018,17 +1039,6 @@
                                         "name": "Minimum Area: "
                                     }
                                     },
-                                    {
-                                    "name": "Area_Below",
-                                    "value": 10000000,
-                                    "bind": {
-                                        "input": "range",
-                                        "min": 0,
-                                        "max": 10000000,
-                                        "step": 10000,
-                                        "name": "Maximum Area: "
-                                    }
-                                    }
                                 ],
                                 "transform": [
                                     {"filter": "datum.co2_emissions > 0"},
@@ -1038,7 +1048,6 @@
                                     "filter": "Continent_selection == null || datum.Continent == Continent_selection"
                                     },
                                     {"filter": "datum.Area > Area_Above"},
-                                    {"filter": "datum.Area < Area_Below"},
                                     {
                                     "calculate": "datum.co2_emissions/100000",
                                     "as": "CO2 Emissions (in 100,000s)"
