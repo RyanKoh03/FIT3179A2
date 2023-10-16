@@ -1,79 +1,104 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Female",
-    "width":"container",
-    "height":"container",
+    "width":650,
+    "height":450,
     "data": {
-        "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/co2_2020_category.csv"
+        "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/emission_source_cleaned.csv"
     },
     "params": [
         {
-        "name": "Country",
-        "bind": {
-            "input": "select",
-            "options": [
-            "All countries",
-            "Afghanistan",
-            "Albania",
-            "Algeria",
-            "Angola",
-            "Argentina",
-            "Armenia",
-            "Australia",
-            "Austria",
-            "Azerbaijan",
-            "Bahamas",
-            "Bahrain",
-            "Bangladesh",
-            "Barbados",
-            "Malaysia",
-            "China"
-            ]
+            "name": "Country",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "All countries",
+                    "Cambodia",
+                    "Indonesia",
+                    "Australia",
+                    "Brunei Darussalam",
+                    "Malaysia",
+                    "Myanmar",
+                    "China",
+                    "Singapore",
+                    "Thailand",
+                    "Viet Nam"
+                ]
+            }
+        },
+        {
+            "name": "Year_selection",
+            "value": 1961,
+            "bind": {
+            "input": "range",
+            "min": 1961,
+            "max": 2019,
+            "step": 1,
+            "name": "Year"
+            }
         }
-        }
+
     ],
     "transform": [
         {
-        "filter": "if(Country !=null, datum.Country == Country, datum.Country == 'All countries')"
+            "filter": "if(Country !=null, datum.Country == Country, datum.Country == 'All countries') & datum.Year == Year_selection"
         }
     ],
     "encoding": {
-        "theta": {"field": "value", "type": "quantitative", "stack": true},
+        "theta": {
+            "field": "value", 
+            "type": "quantitative",
+            "stack": true
+        },
         "color": {
-        "field": "variable",
-        "type": "ordinal",
-        "title": "Emission Source",
-        "legend": {
-            "labelColor": "black",
-            "titleColor": "black",
-            "labelFontSize": 15,
-            "titleFontSize": 20,
-            "orient": "top"
-        }
+            "field": "variable", 
+            "type": "ordinal",
+            "scale": {
+                "type": "ordinal",
+                "range": [
+                    "#EF798A",
+                    "#BADEFC",
+                    "#82C09A"
+                ]},
+            "title": "Emission Source",
+            "legend": {
+                "labelColor": "black",
+                "titleColor": "black",
+                "labelFontSize":15,
+                "titleFontSize":20,
+                "orient":"top"
+            }
         },
         "tooltip": [
-        {"field": "variable", "type": "nominal", "title": "Emission Source:"},
-        {
-            "field": "value",
-            "type": "quantitative",
-            "title": "Percentage contributed to CO2 Emissions:"
-        }
+            {"field": "variable", "type": "nominal", "title": "Emission Source:"},
+            {"field": "value", "type": "quantitative", "title": "Percentage of Emission:","format":".2f"}
         ]
     },
     "layer": [
-        {"mark": {"type": "arc", "outerRadius": 200, "innerRadius": 100}},
         {
-        "mark": {"type": "text", "radius": 240, "size": 25, "fontWeight": "bold"},
-        "encoding": {"text": {"field": "value", "type": "quantitative"}}
+            "mark": {"type": "arc", "outerRadius": 150, "innerRadius": 100}
         },
         {
-        "mark": {"type": "text", "size": 25},
-        "encoding": {
-            "opacity": {"value": 1},
-            "color": {"value": "black"},
-            "text": {"value": "C02 Emissions"}
-        }
+            "mark": {
+                "type": "text", 
+                "radius": 190,
+                "size":20,
+                "fontWeight":"bold"
+            },
+            "encoding": {
+                "text": {"field": "value", "type": "quantitative","format":".2f"}
+            }
+        },
+        {
+            "mark": {"type": "text","size":25},
+            "encoding": {
+                "opacity": {"value": 1},
+                "color": {"value": "black"},
+                "text": {"value": "C02 Emissions"}
+            }
         }
     ],
-    "config": {"background": "white", "view": {"stroke": "transparent"}}
-    }  
+    "config": {
+        "background": "white",
+        "view": {"stroke": "transparent"}
+    } 
+}

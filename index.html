@@ -11,6 +11,14 @@
 
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="co2_emissions_total.js" type="text/javascript"></script>
+        <script src="emission_donutchart.js" type="text/javascript"></script>
+        <script src="correlation_gdp.js"type="text/javascript"></script>
+        <script src="correlation_line.js"type="text/javascript"></script>
+        <script src="malaysia_co2.js"type="text/javascript"></script>
+        <script src="malaysia_temp.js"type="text/javascript"></script>
+        <script src="sources_total.js"type="text/javascript"></script>
+        <script src="temp_change.js"type="text/javascript"></script>
 
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -80,7 +88,7 @@
                     </div>
                     <div class="chart-container">
                         <div id="co2_emissions_total"></div>
-                        <script type="text/javascript">
+                        <!-- <script type="text/javascript">
                             var yourVlSpec = 
                             {
                                 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
@@ -194,7 +202,7 @@
                                 ]
                             } 
                             vegaEmbed('#co2_emissions_total ', yourVlSpec);
-                        </script>
+                        </script> -->
                     </div>
                 </div> 
                 <div class="col-sm-6">
@@ -205,10 +213,9 @@
                             Majority of <b>Malaysia's</b> emissions are from <b>Coal</b>
                         </div>
                     </div>
-                    <!-- donut chart -->
                     <div class="chart-container">
                         <div id="emission_donutchart"></div>
-                        <script type="text/javascript">
+                        <!-- <script type="text/javascript">
                             var yourVlSpec = 
                             {
                                 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
@@ -315,7 +322,7 @@
                                 } 
                             }    
                             vegaEmbed('#emission_donutchart ', yourVlSpec);
-                        </script>
+                        </script> -->
                     </div>
                 </div>
             </div>
@@ -332,7 +339,7 @@
                     </div>
                     <div class="chart-container">
                         <div id="sources_total"></div>
-                        <script type="text/javascript">
+                        <!-- <script type="text/javascript">
                             var yourVlSpec = 
                             {
                                 "$schema": "https://vega.github.io/schema/vega/v5.0.json",
@@ -772,7 +779,7 @@
                                 ]
                                 }    
                             vegaEmbed('#sources_total', yourVlSpec);
-                        </script>
+                        </script> -->
                     </div>
                 </div>
                 <div class="col-sm-6">
@@ -785,7 +792,7 @@
                     </div>
                     <div class="chart-container">
                         <div id="temp_change"></div>
-                        <script type="text/javascript">
+                        <!-- <script type="text/javascript">
                             var yourVlSpec = 
                             {
                                 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
@@ -900,10 +907,8 @@
                                 ]
                             }
                             vegaEmbed('#temp_change', yourVlSpec);
-                        </script>
-                        
+                        </script> -->
                     </div>
-
                 </div>
             </div>
         </div>
@@ -922,7 +927,7 @@
                     </div>
                     <div class="chart-container">
                         <div id="correlation_line"></div>
-                        <script type="text/javascript">
+                        <!-- <script type="text/javascript">
                             var yourVlSpec = 
                             {
                                 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
@@ -982,7 +987,7 @@
                                 }
                                 }
                             vegaEmbed('#correlation_line', yourVlSpec);
-                        </script>
+                        </script> -->
                     </div>
                 </div> 
                 <div class="col-sm-6">
@@ -998,7 +1003,7 @@
                     </div>
                     <div class="chart-container">
                         <div id="correlation_gdp"></div>
-                        <script type="text/javascript">
+                        <!-- <script type="text/javascript">
                             var yourVlSpec = 
                             {
                                 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
@@ -1220,10 +1225,9 @@
                                     }
                                     }
                                 ]
-                                }
-                            
+                            }
                             vegaEmbed('#correlation_gdp', yourVlSpec);
-                        </script>
+                        </script> -->
                     </div>
                 </div>
             </div>
@@ -1236,7 +1240,7 @@
                         </div>
                     </div>
                     <div id="malaysia_co2"></div>
-                    <script type="text/javascript">
+                    <!-- <script type="text/javascript">
                         var yourVlSpec = 
                         {
                             "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
@@ -1254,7 +1258,7 @@
                             }
                         }
                         vegaEmbed('#malaysia_co2', yourVlSpec);
-                    </script>
+                    </script> -->
                 </div>
                 <div class="col-sm-6">
                     <div class="col">
@@ -1262,7 +1266,7 @@
                         </div>
                     </div>
                     <div id="malaysia_temp"></div>
-                    <script type="text/javascript">
+                    <!-- <script type="text/javascript">
                         var yourVlSpec = 
                         {
                             "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
@@ -1280,7 +1284,7 @@
                             }
                         }
                         vegaEmbed('#malaysia_temp', yourVlSpec);
-                    </script>
+                    </script> -->
                 </div>
             </div>
             <div class="row">
@@ -1288,7 +1292,7 @@
                     <div class="p-section">
                         Looking at the above charts, we can see that the <b style="color:#2596be;">CO2 Emissions</b>
                         for Malaysia has been <b>rising steadily since 1961</b>. A similar trend can be observed for the fluctuation in <b style="color: #e08424;">Temperature</b>.
-                        <br>This proves that CO2 Emissions play a hand in rising temperatures in Malaysia
+                        <br>This indicates that CO2 Emissions play a hand in rising temperatures in Malaysia
                     </div>
                 </div>
             </div>

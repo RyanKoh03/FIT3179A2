@@ -1,0 +1,15 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width":650,
+    "height":450,
+    "data": {"url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/malaysia_emission_temp.csv"},
+    "mark": {"type":"line","color":"#e08424"},
+    "encoding": {
+        "x": {"field": "Year", "type": "temporal", "axis": {"title":"Year","grid": false}},
+        "y": {"field": "temp_change", "type": "quantitative", "axis": {"title":"Temperature Fluctuation in Celsius"}},
+        "tooltip":[
+            {"field":"temp_change","type": "quantitative","format":".2f","title":"Fluctuation in Temperature in Celsius"},
+            {"field":"Year","type": "temporal","timeUnit":"binnedutcyear","title":"Year"}
+        ]
+    }
+}

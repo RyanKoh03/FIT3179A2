@@ -1,0 +1,57 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 650,
+    "height": 450,
+    "data": {
+        "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/global_emissions_temperature.csv"
+    },
+    "transform": [{"calculate":"datum.co2_emissions/4","as": "co2_emission"},
+        {"fold": ["temp_change", "co2_emission"]}
+    ],
+    "mark": "line",
+    "encoding": {
+        "x": {
+        "field": "Year",
+        "type": "temporal",
+        "axis": {"domain": false, "grid": true, "ticks": false}
+        },
+        "y": {
+        "field": "value",
+        "type": "quantitative",
+        "title": "Change in Emission and Temperature",
+        "axis": {"domain": false, "grid": false, "ticks": false},
+        "scale":{"domain":[0.75,1.5]}
+        },
+        "color": {
+        "field": "key",
+        "type": "nominal",
+        "legend": {
+            "title": "Type",
+            "labelExpr": "datum.label == 'co2_emission' ? 'CO2 Emissions' : datum.label == 'temp_change' ? 'Temperature Change' :''",
+            "orient": "bottom",
+            "labelFontSize": 14,
+            "titleFontSize": 16
+        }
+        },
+        "tooltip": [
+        {
+            "field": "co2_emission",
+            "type": "quantitative",
+            "title": "CO2 Emission per capita in 4000 tons",
+            "format": ".2f"
+        },
+        {
+            "field": "temp_change",
+            "type": "quantitative",
+            "title": "Temperature change in Celsius",
+            "format": ".2f"
+        },
+        {
+            "field": "year",
+            "type": "temporal",
+            "title": "Year",
+            "timeUnit": "binnedutcyear"
+        }
+        ]
+    }
+}

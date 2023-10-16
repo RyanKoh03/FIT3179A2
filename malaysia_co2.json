@@ -1,0 +1,15 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width":650,
+    "height":450,
+    "data": {"url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/malaysia_emission_temp.csv"},
+    "mark": {"type":"bar"},
+    "encoding": {
+        "x": {"field": "Year", "type": "temporal", "axis": {"title":"Year","grid": false}},
+        "y": {"field": "co2_emission", "type": "quantitative", "axis": {"title":"CO2 Emission per capita (kilotons)"}},
+        "tooltip":[
+            {"field":"co2_emission","type": "quantitative","format":".2f","title":"Change in CO2 Emissions per capita"},
+            {"field":"Year","type": "temporal","timeUnit":"binnedutcyear","title":"Year"}
+        ]
+    }
+}
