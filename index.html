@@ -262,14 +262,20 @@
                                     "color": {
                                         "field": "variable", 
                                         "type": "ordinal",
-                                        "scale": {"scheme": "blues"},
+                                        "scale": {
+                                            "type": "ordinal",
+                                            "range": [
+                                                "#0F0F0F",
+                                                "#82C09A",
+                                                "#EF798A"
+                                            ]},
                                         "title": "Emission Source",
                                         "legend": {
                                             "labelColor": "black",
                                             "titleColor": "black",
                                             "labelFontSize":15,
                                             "titleFontSize":20,
-                                            "orient":"top-left"
+                                            "orient":"top"
                                         }
                                     },
                                     "tooltip": [
@@ -314,19 +320,20 @@
         </div>  
         <div class="parent-container">     
             <div class="row">
-                <div class="col">
-                    <div class="h1-section" id="source"><b style="font-size: 2.95rem;">3.</b><br>Sources of CO2 Emission by Continent in 2019</div>
-                    <div class="p-section"><b>Europe</b> has the highest CO2 emissions in 2019 followed closely by North America.<b> Oil</b> is the biggest 
-                        contributor of CO2 emissions followed by Coal and Cement
+                <div class="col-sm-6">
+                    <div class="col">
+                        <div class="h1-section" id="source"><b style="font-size: 2.95rem;">3.</b><br>Sources of CO2 Emission by Continent in 2019</div>
+                        <div class="p-section"><b style="color: #F9BF6E;">Europe</b> has the highest CO2 emissions in 2019 followed closely by <b style="color: #4392F1;">North America</b>.
+                            <b style="color: #82C09A;">Oil</b> is the biggest contributor of CO2 emissions followed by <b style="color: #0F0F0F;">Coal</b> and <b style="color: #EF798A;">Cement</b>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-1"></div>
-                <div class="col" id="sources_total">
+                    <div class="chart-container">
+                        <div id="sources_total"></div>
                         <script type="text/javascript">
                             var yourVlSpec = 
                             {
                                 "$schema": "https://vega.github.io/schema/vega/v5.0.json",
-                                "width": 1300,
+                                "width": 800,
                                 "height": 580,
                                 "data": [
                                     {
@@ -763,16 +770,14 @@
                                 }    
                             vegaEmbed('#sources_total', yourVlSpec);
                         </script>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="parent-container">
-            <div class="row">
                 <div class="col-sm-6">
                     <div class="col">
                         <div class="h1-section"><b style="font-size: 2.95rem;">4.</b><br>Yearly Average Global Temperature Change</div>
                         <div class="p-section">
-                            There has been a significant increase
+                            There has been a significant increase in global temperature since the turn of the century. 
+                            Particularly, <b>Belarus</b> reported an <b>increase of 2.98 degree Celsius</b> in temperature in 2019
                         </div>
                     </div>
                     <div class="chart-container">
@@ -890,9 +895,18 @@
                     </div>
 
                 </div>
+            </div>
+        </div>
+        <div class="parent-container">
+            <div class="row">
                 <div class="col-sm-6">
                     <div class="col">
-                        <div class="h1-section" id="temp"><b style="font-size: 2.95rem;">5.</b><br>Correlation between Temperature and CO2 Emissions</div>
+                        <div class="h1-section" id="temp"><b style="font-size: 2.95rem;">5.</b><br>Correlation between <b style="color: 
+                            #2596be;">Temperature</b> and <b style="color: #e08424;">CO2 Emissions</b>
+                        </div>
+                        <div class="p-section">
+                            We can see that there is a positive correlation between CO2 Emissions and Temperature Change 
+                        </div>
                     </div>
                     <div class="chart-container">
                         <div id="correlation_line"></div>

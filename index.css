@@ -7,6 +7,7 @@ body{
 .parent-container{
   padding-top: 3%;
   padding-bottom: 2%;
+  margin: 0% 2% 0% 2%;
 }
 
 .child-container,.chart-container{
@@ -33,12 +34,12 @@ body{
 #emission_donutchart,#co2_emissions_total,#temp_change,#correlation_line{
   background-color: white;
   height: 100%;
-  width: 90%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 #co2_emissions_total{
   height: 90%;
-  margin-left: 5%;
 }
 
 #emission_donutchart{
@@ -46,19 +47,17 @@ body{
 }
 
 #temp_change{
-  margin: 5%;
-  margin-top: 0%;
-  height: 90%;
+  height: 91%;
 }
 
 #sources_total{
-  margin-left: 8%;
+  margin-left:5.5%;
 }
-
 
 #correlation_line{
-  margin-left: 5%;
+  width: 85%;
 }
+
 
 /* TEXT AND FONTS */
 
