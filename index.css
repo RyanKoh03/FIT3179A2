@@ -14,18 +14,15 @@ body{
   height: 20vh;
 }
 
-.child-container,.chart-container{
-  height: 40vh;
+.chart-container{
+  height: 500px;
+  background-color: white;
 }
 
 .title-container-child{
   height: 80%;
   width: 100%;
   padding-left: 3%;
-}
-
-.chart-container{
-  background-color: white;
 }
 
 #emission_donutchart,#co2_emissions_total,#temp_change,#correlation_line,#correlation_gdp,#malaysia_co2,#malaysia_temp{
@@ -45,10 +42,11 @@ body{
 
 #temp_change{
   height: 91%;
+  margin-left: 13%
 }
 
 #sources_total{
-  margin-left:5.5%;
+  margin-left:14%;
 }
 
 #correlation_line{
