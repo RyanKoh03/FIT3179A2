@@ -51,6 +51,10 @@ body{
   height: 90%;
 }
 
+#sources_total{
+  margin-left: 8%;
+}
+
 
 #correlation_line{
   margin-left: 5%;
