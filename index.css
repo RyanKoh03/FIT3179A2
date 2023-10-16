@@ -31,7 +31,7 @@ body{
   margin-left: 5%;
 }
 
-#emission_donutchart,#co2_emissions_total,#temp_change,#correlation_line{
+#emission_donutchart,#co2_emissions_total,#temp_change,#correlation_line,#correlation_gdp{
   background-color: white;
   height: 100%;
   width: 80%;
@@ -56,6 +56,7 @@ body{
 
 #correlation_line{
   width: 85%;
+  margin-left: 7%;
 }
 
 

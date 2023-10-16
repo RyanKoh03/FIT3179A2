@@ -324,7 +324,7 @@
                     <div class="col">
                         <div class="h1-section" id="source"><b style="font-size: 2.95rem;">3.</b><br>Sources of CO2 Emission by Continent in 2019</div>
                         <div class="p-section"><b style="color: #F9BF6E;">Europe</b> has the highest CO2 emissions in 2019 followed closely by <b style="color: #4392F1;">North America</b>.
-                            <b style="color: #82C09A;">Oil</b> is the biggest contributor of CO2 emissions followed by <b style="color: #0F0F0F;">Coal</b> and <b style="color: #EF798A;">Cement</b>
+                            <b style="color: #82C09A;">Oil</b> is the biggest contributor of CO2 emissions followed by <b style="color: #BADEFC;">Coal</b> and <b style="color: #EF798A;">Cement</b>
                         </div>
                     </div>
                     <div class="chart-container">
@@ -592,7 +592,7 @@
                                     "name": "color",
                                     "type": "ordinal",
                                     "range": [
-                                        "#0F0F0F",
+                                        "#BADEFC",
                                         "#82C09A",
                                         "#EF798A",
                                         "#F9BF6E",
@@ -951,6 +951,256 @@
                         </script>
                     </div>
                 </div> 
+                <div class="col-sm-6">
+                    <div class="col">
+                        <div class="h1-section"><b style="font-size: 2.95rem;">6.</b><br>Correlation between GDP and CO2 Emissions</b>
+                        </div>
+                        <div class="p-section">
+                            We can see that there is a positive correlation between CO2 Emissions and Temperature Change 
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <div id="correlation_gdp"></div>
+                        <script type="text/javascript">
+                            var yourVlSpec = 
+                            {
+                                "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+                                "data": {
+                                    "url": "https://raw.githubusercontent.com/RyanKoh03/FIT3179A2/main/data/gdp_area.csv"
+                                },
+                                "width": "container",
+                                "height": "container",
+                                "params": [
+                                    {
+                                    "name": "Continent_selection",
+                                    "bind": {
+                                        "input": "select",
+                                        "options": [
+                                        null,
+                                        "North America",
+                                        "South America",
+                                        "Europe",
+                                        "Africa",
+                                        "Asia",
+                                        "Australia"
+                                        ],
+                                        "labels": [
+                                        "Show All",
+                                        "North America",
+                                        "South America",
+                                        "Europe",
+                                        "Africa",
+                                        "Asia",
+                                        "Australia"
+                                        ],
+                                        "name": "Continent Selection: "
+                                    }
+                                    },
+                                    {
+                                    "name": "Year",
+                                    "value": 2010,
+                                    "bind": {
+                                        "input": "range",
+                                        "min": 2010,
+                                        "max": 2020,
+                                        "step": 1,
+                                        "name": "Year:"
+                                    }
+                                    },
+                                    {
+                                    "name": "Area_Above",
+                                    "value": 0,
+                                    "bind": {
+                                        "input": "range",
+                                        "min": 0,
+                                        "max": 10000000,
+                                        "step": 10000,
+                                        "name": "Minimum Area: "
+                                    }
+                                    },
+                                    {
+                                    "name": "Area_Below",
+                                    "value": 10000000,
+                                    "bind": {
+                                        "input": "range",
+                                        "min": 0,
+                                        "max": 10000000,
+                                        "step": 10000,
+                                        "name": "Maximum Area: "
+                                    }
+                                    }
+                                ],
+                                "transform": [
+                                    {"filter": "datum.co2_emissions > 0"},
+                                    {"filter" :"datum.GDP > 0"},
+                                    {"filter": "datum.Year == Year"},
+                                    {
+                                    "filter": "Continent_selection == null || datum.Continent == Continent_selection"
+                                    },
+                                    {"filter": "datum.Area > Area_Above"},
+                                    {"filter": "datum.Area < Area_Below"},
+                                    {
+                                    "calculate": "datum.co2_emissions/100000",
+                                    "as": "CO2 Emissions (in 100,000s)"
+                                    }
+                                ],
+                                "encoding": {
+                                    "x": {
+                                    "field": "GDP",
+                                    "type": "quantitative",
+                                    "scale": {"type": "log", "domain": [100, 1000000]},
+                                    "axis": {"tickCount": 3, "title": "GDP"}
+                                    },
+                                    "y": {
+                                    "field": "CO2 Emissions (in 100,000s)",
+                                    "type": "quantitative",
+                                    "scale": {"type": "log", "domain": [1, 10000000]},
+                                    "axis": {"tickCount": 6, "title": "CO2 Emissions (in 100,000s) Tons"}
+                                    }
+                                },
+                                "layer": [
+                                    {
+                                    "mark": {"type": "circle", "tooltip": true},
+                                    "encoding": {
+                                        "color": {
+                                        "field": "Continent",
+                                        "type": "nominal",
+                                        "scale": {
+                                            "domain": [
+                                            "North America",
+                                            "South America",
+                                            "Europe",
+                                            "Africa",
+                                            "Asia",
+                                            "Australia"
+                                            ],
+                                            "range": [
+                                            "#4392F1",
+                                            "#724E91",
+                                            "#F9BF6E",
+                                            "#BADEFC",
+                                            "#82C09A",
+                                            "#EF798A"
+                                            
+                                            ]
+                                        }
+                                        },
+                                        "opacity": {"value": 0.8},
+                                        "size": {
+                                        "field": "Area",
+                                        "type": "quantitative",
+                                        "scale": {
+                                            "type": "threshold",
+                                            "domain": [1000, 100000, 500000, 1000000, 5000000],
+                                            "range": [20, 40, 80, 160, 360, 720]
+                                        },
+                                        "legend": {"format": ".1s"}
+                                        },
+                                        "tooltip": [
+                                        {"field": "Country", "type": "nominal"},
+                                        {"field": "Continent", "type": "nominal"},
+                                        {"field": "Year", "type": "ordinal"},
+                                        {"field": "Area", "type": "quantitative", "format": ".0f"},
+                                        {
+                                            "field": "GDP",
+                                            "type": "quantitative",
+                                            "format": ".0f",
+                                            "title": "GDP"
+                                        },
+                                        {
+                                            "field": "CO2 Emissions (in 100,000s)",
+                                            "type": "quantitative",
+                                            "format": ".0f",
+                                            "title": "CO2 Emissions in 100,000s"
+                                        }
+                                        ]
+                                    }
+                                    },
+                                    {
+                                    "mark": {
+                                        "type": "text",
+                                        "align": "right",
+                                        "baseline": "middle",
+                                        "dx": -8,
+                                        "fontSize": 10,
+                                        "fontStyle": "italic"
+                                    },
+                                    "encoding": {
+                                        "text": {"field": "Country", "type": "nominal"},
+                                        "color": {"value": "black"},
+                                        "opacity": {
+                                        "condition": {
+                                            "test": "datum['Country'] == 'Malaysia' || datum['Country'] == 'Indonesia' || datum['Country'] == 'Brunei' || datum['Country'] == 'Vietnam' || datum['Country'] == 'Cambodia' ",
+                                            "value": 1
+                                        },
+                                        "value": 0
+                                        },
+                                        "tooltip": [
+                                        {"field": "Country", "type": "nominal"},
+                                        {"field": "Continent", "type": "nominal"},
+                                        {"field": "Year", "type": "ordinal"},
+                                        {"field": "Area", "type": "quantitative", "format": ".0f"},
+                                        {
+                                            "field": "GDP",
+                                            "type": "quantitative",
+                                            "format": ".0f",
+                                            "title": "GDP"
+                                        },
+                                        {
+                                            "field": "CO2 Emissions (in 100,000s)",
+                                            "type": "quantitative",
+                                            "format": ".0f",
+                                            "title": "CO2 Emissions in 100,000s"
+                                        }
+                                        ]
+                                    }
+                                    },
+                                    {
+                                    "mark": {
+                                        "type": "text",
+                                        "align": "right",
+                                        "baseline": "middle",
+                                        "dx": -18,
+                                        "fontSize": 10,
+                                        "fontStyle": "italic"
+                                    },
+                                    "encoding": {
+                                        "text": {"field": "Country", "type": "nominal"},
+                                        "color": {"value": "black"},
+                                        "opacity": {
+                                        "condition": {
+                                            "test": "datum['Country'] == 'China' || datum['Country'] == 'Thailand' || datum['Country'] == 'Australia' || datum['Country'] == 'Canada' || datum['Country'] == 'Brazil'",
+                                            "value": 1
+                                        },
+                                        "value": 0
+                                        },
+                                        "tooltip": [
+                                        {"field": "Country", "type": "nominal"},
+                                        {"field": "Continent", "type": "nominal"},
+                                        {"field": "Year", "type": "ordinal"},
+                                        {"field": "Area", "type": "quantitative", "format": ".0f"},
+                                        {
+                                            "field": "GDP",
+                                            "type": "quantitative",
+                                            "format": ".0f",
+                                            "title": "GDP"
+                                        },
+                                        {
+                                            "field": "CO2 Emissions (in 100,000s)",
+                                            "type": "quantitative",
+                                            "format": ".0f",
+                                            "title": "CO2 Emissions in 100,000s"
+                                        }
+                                        ]
+                                    }
+                                    }
+                                ]
+                                }
+                            
+                            vegaEmbed('#correlation_gdp', yourVlSpec);
+                        </script>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
