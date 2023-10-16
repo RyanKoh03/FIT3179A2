@@ -903,10 +903,11 @@
                 <div class="col-sm-6">
                     <div class="col">
                         <div class="h1-section" id="temp"><b style="font-size: 2.95rem;">5.</b><br>Correlation between <b style="color: 
-                            #2596be;">Temperature</b> and <b style="color: #e08424;">CO2 Emissions</b>
+                            #e08424;">Temperature</b> and <b style="color: #2596be;">CO2 Emissions</b>
                         </div>
                         <div class="p-section">
-                            We can see that there is a positive correlation between CO2 Emissions and Temperature Change 
+                            In the line chart below, we can see that the CO2 emission per capita stays stagnant. However, the global average fluctuation temperature still increases.
+                            This may due to the CO2 emissions causing the greenhouse effect 
                         </div>
                     </div>
                     <div class="chart-container">
@@ -926,15 +927,16 @@
                                 "mark": "line",
                                 "encoding": {
                                     "x": {
-                                    "field": "year",
+                                    "field": "Year",
                                     "type": "temporal",
-                                    "axis": {"domain": false, "grid": false, "ticks": false}
+                                    "axis": {"domain": false, "grid": true, "ticks": false}
                                     },
                                     "y": {
                                     "field": "value",
                                     "type": "quantitative",
                                     "title": "Change in Emission and Temperature",
-                                    "axis": {"domain": false, "grid": false, "ticks": false}
+                                    "axis": {"domain": false, "grid": false, "ticks": false},
+                                    "scale":{"domain":[0.75,1.5]}
                                     },
                                     "color": {
                                     "field": "key",
@@ -951,7 +953,7 @@
                                     {
                                         "field": "co2_emission",
                                         "type": "quantitative",
-                                        "title": "Change in CO2 Emission in kilotons ",
+                                        "title": "CO2 Emission per capita in 4000 tons",
                                         "format": ".2f"
                                     },
                                     {
@@ -978,7 +980,9 @@
                         <div class="h1-section"><b style="font-size: 2.95rem;">6.</b><br>Correlation between GDP and CO2 Emissions</b>
                         </div>
                         <div class="p-section">
-                            We can see that there is a positive correlation between CO2 Emissions and Temperature Change 
+                            We can see that there is a positive correlation between CO2 Emissions and GDP per capita.
+                             <br>For example, <b>China's</b> GDP and CO2 Emissions both <b>increase</b> as time passes
+                             <br>
                         </div>
                     </div>
                     <div class="chart-container">
