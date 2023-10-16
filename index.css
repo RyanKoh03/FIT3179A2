@@ -1,11 +1,11 @@
 body{
     background-color: white;
     font-family: 'Outfit', sans-serif;
-    width: 1200px;
+    width: 1250px;
     border-width: 1px;
     border-color: black;
     border-style:solid;
-    margin-left: 19%;
+    margin-left: 18%;
 }
 
 .parent-container{
