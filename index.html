@@ -92,9 +92,7 @@
                                 "width": "container",
                                 "height": "container",
                                 "projection": {
-                                    "type": "equalEarth",
-                                    "center": {"expr": "center_to"},
-                                    "scale": {"expr": "zoom_level"}
+                                    "type": "equalEarth"
                                 },
                                 "params": [
                                     {
@@ -108,45 +106,6 @@
                                         "name": "Year: "
                                     }
                                     },
-                                    {
-                                    "name": "zoom_level",
-                                    "value": 80,
-                                    "bind": {
-                                        "input": "range",
-                                        "min": 100,
-                                        "max": 650,
-                                        "step": 50,
-                                        "name": "Zoom: "
-                                    }
-                                    },
-                                    {
-                                    "name": "center_to",
-                                    "value": [0, 0],
-                                    "bind": {
-                                        "input": "select",
-                                        "options": [
-                                        [0, 0],
-                                        [30, 0],
-                                        [90, 20],
-                                        [135, -25],
-                                        [35, 55],
-                                        [-95, 45],
-                                        [-60, -20],
-                                        [100,0]
-                                        ],
-                                        "labels": [
-                                        "World",
-                                        "Africa",
-                                        "Asia",
-                                        "Australia",
-                                        "Europe",
-                                        "North America",
-                                        "South America",
-                                        "Malaysia"
-                                        ],
-                                        "name": "Map Centre: "
-                                    }
-                                    }
                                 ],
                                 "layer": [
                                     {

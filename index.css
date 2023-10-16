@@ -5,6 +5,7 @@ body{
     margin-right: 5%;
     border-style: solid;
     border-width: 1px;
+    width: 1725px;
 }
 
 .parent-container{
@@ -40,7 +41,7 @@ body{
 }
 
 #co2_emissions_total{
-  height: 75%;
+  height: 90%;
   margin-left: 5%;
 }
 
