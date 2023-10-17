@@ -1,4 +1,4 @@
-"","Country","Year","col","GDP","id","co2_emissions","Population.2022.","Area","Continent"
+"","Country","Year","col","GDP","id","co2_emissions","Population","Area","Continent"
 "1","Afghanistan",2010,6901,"631.49",1,100148964,41128771,652230,"Asia"
 "2","Afghanistan",2011,7131,"714.7",2,112254752,41128771,652230,"Asia"
 "3","Afghanistan",2012,7361,"784.611",3,122473266,41128771,652230,"Asia"
